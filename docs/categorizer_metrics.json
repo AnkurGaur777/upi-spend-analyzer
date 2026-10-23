@@ -93,5 +93,68 @@
       }
     },
     "error_count": 0
+  },
+  "test": {
+    "n": 150,
+    "accuracy": 1.0,
+    "coverage": 0.9467,
+    "per_category": {
+      "Bills & Utilities": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 4
+      },
+      "Entertainment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 6
+      },
+      "Food & Dining": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 32
+      },
+      "Groceries": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 27
+      },
+      "Health": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 15
+      },
+      "Other": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 8
+      },
+      "Rent": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 1
+      },
+      "Shopping": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 20
+      },
+      "Subscriptions": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 10
+      },
+      "Transfers": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 15
+      },
+      "Transport": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 12
+      }
+    },
+    "error_count": 0
   }
 }
