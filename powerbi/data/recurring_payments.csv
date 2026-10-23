@@ -1,0 +1,7 @@
+merchant,category,frequency,typical_amount,n_payments,first_seen,last_seen,annual_cost
+CULT FIT,Health,monthly,1500.00,12,2025-10-03,2026-09-03,18000.00
+HDFC MUTUAL FUND,Investments,monthly,5000.00,12,2025-10-07,2026-09-07,60000.00
+JIO PREPAID,Bills & Utilities,monthly,299.00,12,2025-10-18,2026-09-18,3588.00
+MR SHARMA HOUSE,Rent,monthly,18000.00,12,2025-10-05,2026-09-05,216000.00
+NETFLIX,Subscriptions,monthly,649.00,12,2025-10-12,2026-09-12,7788.00
+SPOTIFY,Subscriptions,monthly,119.00,12,2025-10-15,2026-09-15,1428.00

@@ -1,0 +1,705 @@
+txn_id,txn_date,txn_month,weekday,narration,merchant,amount,direction,balance,category,cat_method,is_transfer,is_refund,is_reversal,source_bank
+561d0462dba6d5ea,2025-10-01,2025-10,Wednesday,UPI-BIGBASKET-bigbasket@icici-ICIC0000218-825905374918-Payment,BIGBASKET,589.00,debit,104140.00,Groceries,rule,0,0,0,hdfc_like
+8b5ad00ce7a1d2c8,2025-10-01,2025-10,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000441-762754008958-Payment,SWIGGY,271.00,debit,104729.00,Food & Dining,rule,0,0,0,hdfc_like
+bfa232f42bdf1527,2025-10-01,2025-10,Wednesday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,105000.00,Income,rule,0,0,0,hdfc_like
+cf222f8bd671cb50,2025-10-01,2025-10,Wednesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000460-238857784243-Payment,DELHI METRO,372.00,debit,103768.00,Transport,rule,0,0,0,hdfc_like
+0cb091625fd4a5aa,2025-10-02,2025-10,Thursday,UPI-BIGBASKET-bigbasket@icici-ICIC0000825-458697149966-Payment,BIGBASKET,455.00,debit,103313.00,Groceries,rule,0,0,0,hdfc_like
+857427bbcd188a16,2025-10-02,2025-10,Thursday,ATW-553014-NEW DELHI,ATM CASH,3000.00,debit,99858.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+b5b9ec7bd72a8ef4,2025-10-02,2025-10,Thursday,UPI-TATA 1MG-1mg@icici-ICIC0000337-228022758112-Payment,TATA 1MG,455.00,debit,102858.00,Health,rule,0,0,0,hdfc_like
+0f9fce83005edcc0,2025-10-03,2025-10,Friday,UPI-CULT FIT-cultfit@icici-ICIC0000754-172117550026-Gym,CULT FIT,1500.00,debit,98358.00,Health,rule,0,0,0,hdfc_like
+1dba8eb096b9d0d0,2025-10-03,2025-10,Friday,UPI-BIGBASKET-bigbasket@icici-ICIC0000938-923810967485-Payment,BIGBASKET,1671.00,debit,95642.00,Groceries,rule,0,0,0,hdfc_like
+403bc45f7d23debd,2025-10-03,2025-10,Friday,UPI-STARBUCKS-starbucks@icici-ICIC0000791-849550065326-Payment,STARBUCKS,441.00,debit,97313.00,Food & Dining,rule,0,0,0,hdfc_like
+8c6b5b3c1f68b510,2025-10-03,2025-10,Friday,UPI-SWIGGY-swiggy@icici-ICIC0000824-629802621954-Payment,SWIGGY,604.00,debit,97754.00,Food & Dining,rule,0,0,0,hdfc_like
+8cfa7b1022c87c50,2025-10-03,2025-10,Friday,ATW-340044-NEW DELHI,ATM CASH,1000.00,debit,94642.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+4f1c54aa92ffcbcf,2025-10-04,2025-10,Saturday,UPI-STARBUCKS-starbucks@icici-ICIC0000991-685131999541-Payment,STARBUCKS,491.00,debit,94151.00,Food & Dining,rule,0,0,0,hdfc_like
+e1b27fa2206557be,2025-10-04,2025-10,Saturday,UPI-SWIGGY-swiggy@icici-ICIC0000860-526726249804-Payment,SWIGGY,403.00,debit,93748.00,Food & Dining,rule,0,0,0,hdfc_like
+6d70d804995d689b,2025-10-05,2025-10,Sunday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,75748.00,Rent,rule,0,0,0,hdfc_like
+95699e78c1ed0975,2025-10-05,2025-10,Sunday,UPI-AMAZON-amazon@icici-ICIC0000252-890254567392-Payment,AMAZON,3812.00,debit,71385.00,Shopping,rule,0,0,0,hdfc_like
+cfd4a5c99ad32cb6,2025-10-05,2025-10,Sunday,UPI-DELHI METRO-delhimetro@icici-ICIC0000920-455374884941-Payment,DELHI METRO,273.00,debit,75197.00,Transport,rule,0,0,0,hdfc_like
+edc9b52cdc5fcac3,2025-10-05,2025-10,Sunday,UPI-DOMINOS-dominos@icici-ICIC0000142-387882217846-Payment,DOMINOS,278.00,debit,75470.00,Food & Dining,rule,0,0,0,hdfc_like
+0c4ff66a7a524691,2025-10-07,2025-10,Tuesday,UPI-DOMINOS-dominos@icici-ICIC0000196-044476904382-Payment,DOMINOS,314.00,debit,66071.00,Food & Dining,rule,0,0,0,hdfc_like
+874d57873e7efa89,2025-10-07,2025-10,Tuesday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,66385.00,Investments,rule,0,0,0,hdfc_like
+8f2189e0e38d2697,2025-10-07,2025-10,Tuesday,UPI-BIGBASKET-bigbasket@icici-ICIC0000540-763465797626-Payment,BIGBASKET,1468.00,debit,64413.00,Groceries,rule,0,0,0,hdfc_like
+9aebebe5bec97575,2025-10-07,2025-10,Tuesday,UPI-OLA-ola@icici-ICIC0000856-479521121052-Payment,OLA,57.00,debit,64356.00,Transport,rule,0,0,0,hdfc_like
+c4a56efb65899f00,2025-10-07,2025-10,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000403-207030495058-Payment,ZOMATO,190.00,debit,65881.00,Food & Dining,rule,0,0,0,hdfc_like
+71de6001e87793a0,2025-10-08,2025-10,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000159-250789516915-Payment,CAFE COFFEE DAY,553.00,debit,63803.00,Food & Dining,rule,0,0,0,hdfc_like
+a5b5def45c24e473,2025-10-08,2025-10,Wednesday,UPI-DMART-dmart@icici-ICIC0000304-843720138926-Payment,DMART,1018.00,debit,62395.00,Groceries,rule,0,0,0,hdfc_like
+e8a03ed0490fde0a,2025-10-08,2025-10,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000478-245398565918-Payment,SWIGGY,390.00,debit,63413.00,Food & Dining,rule,0,0,0,hdfc_like
+0667d08ce0f838f1,2025-10-09,2025-10,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000869-267562022351-Payment,DELHI METRO,148.00,debit,61212.00,Transport,rule,0,0,0,hdfc_like
+735a4bf86b4ce5f2,2025-10-09,2025-10,Thursday,UPI-ZOMATO-zomato@icici-ICIC0000505-164990650551-Payment,ZOMATO,477.00,debit,61360.00,Food & Dining,rule,0,0,0,hdfc_like
+99403a4daf33aa2d,2025-10-09,2025-10,Thursday,UPI-DOMINOS-dominos@icici-ICIC0000167-298363942252-Payment,DOMINOS,558.00,debit,61837.00,Food & Dining,rule,0,0,0,hdfc_like
+a1d4bb90a1b51ec4,2025-10-10,2025-10,Friday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1940.00,debit,59272.00,Bills & Utilities,rule,0,0,0,hdfc_like
+7437f5942bdaa3f8,2025-10-11,2025-10,Saturday,UPI-AMAZON REFUND-amazon@icici-ICIC0000437-446470021788-Refund,AMAZON REFUND,302.00,credit,59574.00,Shopping,rule,0,1,0,hdfc_like
+3a327a408f3aa009,2025-10-12,2025-10,Sunday,UPI-NETFLIX-netflix@icici-ICIC0000674-165258086319-Subscription,NETFLIX,649.00,debit,58925.00,Subscriptions,rule,0,0,0,hdfc_like
+84a0908e31c18466,2025-10-13,2025-10,Monday,UPI-DELHI METRO-delhimetro@icici-ICIC0000349-168887286459-Payment,DELHI METRO,92.00,debit,58456.00,Transport,rule,0,0,0,hdfc_like
+88bb41aedd526b18,2025-10-13,2025-10,Monday,UPI-STARBUCKS-starbucks@icici-ICIC0000470-295001674039-Payment,STARBUCKS,377.00,debit,58548.00,Food & Dining,rule,0,0,0,hdfc_like
+b44683b02a908a39,2025-10-14,2025-10,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000597-489103972677-Payment,ZOMATO,618.00,debit,57838.00,Food & Dining,rule,0,0,0,hdfc_like
+260271679f5e77c9,2025-10-15,2025-10,Wednesday,UPI-STARBUCKS-starbucks@icici-ICIC0000243-422948509899-Payment,STARBUCKS,362.00,debit,57357.00,Food & Dining,rule,0,0,0,hdfc_like
+ae1633edb7a5d069,2025-10-15,2025-10,Wednesday,UPI-RAPIDO-rapido@icici-ICIC0000349-756343432258-Payment,RAPIDO,314.00,debit,56680.00,Transport,rule,0,0,0,hdfc_like
+b842eda699695d5c,2025-10-15,2025-10,Wednesday,UPI-OLA-ola@icici-ICIC0000434-382948470920-Payment,OLA,363.00,debit,56994.00,Transport,rule,0,0,0,hdfc_like
+e9e170722c30e0d5,2025-10-15,2025-10,Wednesday,UPI-SPOTIFY-spotify@icici-ICIC0000444-133320419026-Subscription,SPOTIFY,119.00,debit,57719.00,Subscriptions,rule,0,0,0,hdfc_like
+10fadcc67817a8bf,2025-10-16,2025-10,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000666-547372211157-Payment,RAPIDO,124.00,debit,56556.00,Transport,rule,0,0,0,hdfc_like
+256a8beeb6b3c560,2025-10-17,2025-10,Friday,UPI-UBER-uber@icici-ICIC0000295-074766470263-Payment,UBER,327.00,debit,55407.00,Transport,rule,0,0,0,hdfc_like
+c2d70a725c113789,2025-10-17,2025-10,Friday,UPI-BIGBASKET-bigbasket@icici-ICIC0000416-636516371548-Payment,BIGBASKET,822.00,debit,55734.00,Groceries,rule,0,0,0,hdfc_like
+27e3d329a8229354,2025-10-18,2025-10,Saturday,UPI-ZOMATO-zomato@icici-ICIC0000873-723964512352-Payment,ZOMATO,345.00,debit,54763.00,Food & Dining,rule,0,0,0,hdfc_like
+e0744d2e4c67d52e,2025-10-18,2025-10,Saturday,UPI-JIO PREPAID-jio@icici-ICIC0000691-106798834813-Recharge,JIO PREPAID,299.00,debit,55108.00,Bills & Utilities,rule,0,0,0,hdfc_like
+00ffc3d506e3d8ec,2025-10-19,2025-10,Sunday,UPI-MYNTRA-myntra@icici-ICIC0000735-090762025146-Payment,MYNTRA,4149.00,debit,50614.00,Shopping,rule,0,0,0,hdfc_like
+2d12155dc3d7231b,2025-10-20,2025-10,Monday,UPI-SWIGGY-swiggy@icici-ICIC0000750-171396568720-Payment,SWIGGY,443.00,debit,50171.00,Food & Dining,rule,0,0,0,hdfc_like
+fbfdf13aace4c61e,2025-10-20,2025-10,Monday,ATW-362529-NEW DELHI,ATM CASH,1000.00,debit,49171.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+35bfc2d95a45255d,2025-10-23,2025-10,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000256-479285447288-Payment,DELHI METRO,74.00,debit,48873.00,Transport,rule,0,0,0,hdfc_like
+63b2a8ac940a94ae,2025-10-23,2025-10,Thursday,UPI-RAHUL-rahul@icici-ICIC0000573-413767259461-Dinner split,RAHUL,945.00,credit,44537.00,Transfers,p2p,1,0,0,hdfc_like
+7247046adb730202,2025-10-23,2025-10,Thursday,UPI-PAPA-papa@icici-ICIC0000690-074691564033-Family,PAPA,5000.00,debit,43592.00,Transfers,rule,1,0,0,hdfc_like
+7e78e3b7a63ef92a,2025-10-23,2025-10,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000229-671024392810-Payment,RAPIDO,281.00,debit,48592.00,Transport,rule,0,0,0,hdfc_like
+e34d1c06975caca5,2025-10-23,2025-10,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000256-704542495687-Payment,DELHI METRO,224.00,debit,48947.00,Transport,rule,0,0,0,hdfc_like
+f3c9515b985eef58,2025-10-24,2025-10,Friday,UPI-DELHI METRO-delhimetro@icici-ICIC0000269-899595604812-Payment,DELHI METRO,197.00,debit,44340.00,Transport,rule,0,0,0,hdfc_like
+0c09ea0ccb6868a2,2025-10-25,2025-10,Saturday,UPI-UBER-uber@icici-ICIC0000938-135959391582-Payment,UBER,386.00,debit,43542.00,Transport,rule,0,0,0,hdfc_like
+e51f049fa551ced3,2025-10-25,2025-10,Saturday,UPI-UBER-uber@icici-ICIC0000131-910116526716-Payment,UBER,412.00,debit,43928.00,Transport,rule,0,0,0,hdfc_like
+289ff644cfc5e3d7,2025-10-26,2025-10,Sunday,UPI-ZEPTO-zepto@icici-ICIC0000930-141974672173-Payment,ZEPTO,279.00,debit,43263.00,Groceries,rule,0,0,0,hdfc_like
+1583f9edd9493286,2025-10-27,2025-10,Monday,UPI-BOOKMYSHOW-bms@icici-ICIC0000245-013752166954-Payment,BOOKMYSHOW,332.00,debit,42931.00,Entertainment,rule,0,0,0,hdfc_like
+644f77855a536dba,2025-10-28,2025-10,Tuesday,UPI-RAPIDO-rapido@icici-ICIC0000800-619734353881-Payment,RAPIDO,215.00,debit,42414.00,Transport,rule,0,0,0,hdfc_like
+db9c5698c6f820d5,2025-10-28,2025-10,Tuesday,UPI-STARBUCKS-starbucks@icici-ICIC0000111-618773210779-Payment,STARBUCKS,302.00,debit,42629.00,Food & Dining,rule,0,0,0,hdfc_like
+85cc7903eef6d644,2025-11-01,2025-11,Saturday,UPI-BIGBASKET-bigbasket@icici-ICIC0000284-279311607905-Payment,BIGBASKET,970.00,debit,106444.00,Groceries,rule,0,0,0,hdfc_like
+ad8e0245aff1225f,2025-11-01,2025-11,Saturday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,107414.00,Income,rule,0,0,0,hdfc_like
+c5587b8faf18284b,2025-11-02,2025-11,Sunday,UPI-DMART-dmart@icici-ICIC0000158-326905359709-Payment,DMART,1370.00,debit,105074.00,Groceries,rule,0,0,0,hdfc_like
+0c9f296afc13a5b0,2025-11-03,2025-11,Monday,UPI-CULT FIT-cultfit@icici-ICIC0000723-773042819619-Gym,CULT FIT,1500.00,debit,103574.00,Health,rule,0,0,0,hdfc_like
+8e3bb2d03bfb5c2e,2025-11-03,2025-11,Monday,UPI-STARBUCKS-starbucks@icici-ICIC0000340-699740684690-Payment,STARBUCKS,177.00,debit,103241.00,Food & Dining,rule,0,0,0,hdfc_like
+ae257979cbd4ab51,2025-11-03,2025-11,Monday,UPI-BOOKMYSHOW-bms@icici-ICIC0000167-397578096463-Payment,BOOKMYSHOW,814.00,debit,102427.00,Entertainment,rule,0,0,0,hdfc_like
+c2d28732f7f1b3ce,2025-11-03,2025-11,Monday,UPI-ZOMATO-zomato@icici-ICIC0000580-726303659684-Payment,ZOMATO,156.00,debit,103418.00,Food & Dining,rule,0,0,0,hdfc_like
+b08e0420c75d0924,2025-11-04,2025-11,Tuesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000894-230474195052-Payment,DELHI METRO,103.00,debit,102324.00,Transport,rule,0,0,0,hdfc_like
+60b1657a46531067,2025-11-05,2025-11,Wednesday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,84324.00,Rent,rule,0,0,0,hdfc_like
+806adad196a3ca0e,2025-11-05,2025-11,Wednesday,UPI-AMAZON-amazon@icici-ICIC0000969-670073356693-Payment,AMAZON,929.00,debit,82813.00,Shopping,rule,0,0,0,hdfc_like
+902ef411ac051f0c,2025-11-05,2025-11,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000115-375021410435-Payment,SWIGGY,582.00,debit,83742.00,Food & Dining,rule,0,0,0,hdfc_like
+85c769852d3d308f,2025-11-06,2025-11,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000936-168043975101-Payment,DELHI METRO,260.00,debit,82553.00,Transport,rule,0,0,0,hdfc_like
+c3d0f2483a15f924,2025-11-06,2025-11,Thursday,UPI-AJIO-ajio@icici-ICIC0000806-447964670645-Payment,AJIO,1610.00,debit,80943.00,Shopping,rule,0,0,0,hdfc_like
+8b4c21c0e4f12eeb,2025-11-07,2025-11,Friday,UPI-RAHUL-rahul@icici-ICIC0000261-442637789135-Dinner split,RAHUL,626.00,credit,76569.00,Transfers,p2p,1,0,0,hdfc_like
+b3385bb3335c8737,2025-11-07,2025-11,Friday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,75943.00,Investments,rule,0,0,0,hdfc_like
+6804c170ba16cd1a,2025-11-08,2025-11,Saturday,UPI-STARBUCKS-starbucks@icici-ICIC0000729-078549044649-Payment,STARBUCKS,195.00,debit,76374.00,Food & Dining,rule,0,0,0,hdfc_like
+1851f17b3df323cb,2025-11-09,2025-11,Sunday,UPI-AJIO-ajio@icici-ICIC0000137-713783138783-Payment,AJIO,1830.00,debit,74221.00,Shopping,rule,0,0,0,hdfc_like
+35b03293cf3fdf50,2025-11-09,2025-11,Sunday,UPI-DOMINOS-dominos@icici-ICIC0000782-089614356428-Payment,DOMINOS,323.00,debit,76051.00,Food & Dining,rule,0,0,0,hdfc_like
+b2f3e05de9c36032,2025-11-09,2025-11,Sunday,ATW-305837-NEW DELHI,ATM CASH,3000.00,debit,71221.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+659cf5d4d97ce92f,2025-11-10,2025-11,Monday,UPI-STARBUCKS-starbucks@icici-ICIC0000460-151483512245-Payment,STARBUCKS,146.00,debit,69195.00,Food & Dining,rule,0,0,0,hdfc_like
+8ffd9b5c137cb926,2025-11-10,2025-11,Monday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1880.00,debit,69341.00,Bills & Utilities,rule,0,0,0,hdfc_like
+2d0f96c25d44bbd1,2025-11-11,2025-11,Tuesday,UPI-OLA-ola@icici-ICIC0000183-513963593378-Payment,OLA,373.00,debit,67212.00,Transport,rule,0,0,0,hdfc_like
+d6a6cab02c406455,2025-11-11,2025-11,Tuesday,UPI-SWIGGY-swiggy@icici-ICIC0000722-116573525471-Payment,SWIGGY,340.00,debit,68855.00,Food & Dining,rule,0,0,0,hdfc_like
+ecd6ea82e0f14083,2025-11-11,2025-11,Tuesday,UPI-ZEPTO-zepto@icici-ICIC0000719-410183751244-Payment,ZEPTO,1270.00,debit,67585.00,Groceries,rule,0,0,0,hdfc_like
+9020359b2636e780,2025-11-12,2025-11,Wednesday,UPI-NETFLIX-netflix@icici-ICIC0000398-528925395882-Subscription,NETFLIX,649.00,debit,66563.00,Subscriptions,rule,0,0,0,hdfc_like
+ae5f998cbffe26f1,2025-11-12,2025-11,Wednesday,UPI-RAPIDO-rapido@icici-ICIC0000389-376063353289-Payment,RAPIDO,338.00,debit,65845.00,Transport,rule,0,0,0,hdfc_like
+b7ec016df1e4818b,2025-11-12,2025-11,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000483-424611636452-Payment,CAFE COFFEE DAY,380.00,debit,66183.00,Food & Dining,rule,0,0,0,hdfc_like
+165205f25ca1ae70,2025-11-14,2025-11,Friday,UPI-DMART-dmart@icici-ICIC0000379-253165532902-Payment,DMART,632.00,debit,65213.00,Groceries,rule,0,0,0,hdfc_like
+7e3a20a60224343e,2025-11-14,2025-11,Friday,UPI-RAPIDO-rapido@icici-ICIC0000101-624609055953-Payment,RAPIDO,270.00,debit,64943.00,Transport,rule,0,0,0,hdfc_like
+12f84e1b7f0007c6,2025-11-15,2025-11,Saturday,UPI-SPOTIFY-spotify@icici-ICIC0000908-837207856844-Subscription,SPOTIFY,119.00,debit,64824.00,Subscriptions,rule,0,0,0,hdfc_like
+299445035783eee9,2025-11-15,2025-11,Saturday,UPI-DMART-dmart@icici-ICIC0000449-133958170044-Payment,DMART,1443.00,debit,62819.00,Groceries,rule,0,0,0,hdfc_like
+49d5d1e04acb20f1,2025-11-15,2025-11,Saturday,UPI-DOMINOS-dominos@icici-ICIC0000333-483733296400-Payment,DOMINOS,562.00,debit,64262.00,Food & Dining,rule,0,0,0,hdfc_like
+cff0c11d66dadf9a,2025-11-15,2025-11,Saturday,UPI-BLINKIT-blinkit@icici-ICIC0000179-855741038689-Payment,BLINKIT,380.00,debit,62439.00,Groceries,rule,0,0,0,hdfc_like
+67462be2eb2be8bf,2025-11-16,2025-11,Sunday,UPI-TATA 1MG-1mg@icici-ICIC0000304-184840683305-Payment,TATA 1MG,764.00,debit,61675.00,Health,rule,0,0,0,hdfc_like
+1eefcf179afba181,2025-11-17,2025-11,Monday,UPI-FLIPKART-flipkart@icici-ICIC0000475-362174352249-Payment,FLIPKART,2639.00,debit,59036.00,Shopping,rule,0,0,0,hdfc_like
+3ace4169702c1f00,2025-11-18,2025-11,Tuesday,UPI-JIO PREPAID-jio@icici-ICIC0000665-739892384349-Recharge,JIO PREPAID,299.00,debit,58737.00,Bills & Utilities,rule,0,0,0,hdfc_like
+dcdaaca792435d31,2025-11-18,2025-11,Tuesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000226-466589120859-Payment,CAFE COFFEE DAY,346.00,debit,58391.00,Food & Dining,rule,0,0,0,hdfc_like
+c2efa67bfe3c19a7,2025-11-19,2025-11,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000473-702711595982-Payment,SWIGGY,613.00,debit,57778.00,Food & Dining,rule,0,0,0,hdfc_like
+2d8361d0b0ddd66f,2025-11-21,2025-11,Friday,UPI-SWIGGY-swiggy@icici-ICIC0000943-476100912533-Payment,SWIGGY,549.00,debit,57229.00,Food & Dining,rule,0,0,0,hdfc_like
+56cec4856883162d,2025-11-21,2025-11,Friday,UPI-PAPA-papa@icici-ICIC0000740-355191676858-Family,PAPA,2000.00,debit,53694.00,Transfers,rule,1,0,0,hdfc_like
+9296caa59b735171,2025-11-21,2025-11,Friday,UPI-UBER-uber@icici-ICIC0000786-433129421081-Payment,UBER,306.00,debit,56593.00,Transport,rule,0,0,0,hdfc_like
+c87680065fc494fe,2025-11-21,2025-11,Friday,UPI-UBER-uber@icici-ICIC0000496-920737677305-Payment,UBER,359.00,debit,56234.00,Transport,rule,0,0,0,hdfc_like
+e2893a749f945c5f,2025-11-21,2025-11,Friday,UPI-BOOKMYSHOW-bms@icici-ICIC0000701-194901113739-Payment,BOOKMYSHOW,540.00,debit,55694.00,Entertainment,rule,0,0,0,hdfc_like
+fc234ea8b063c782,2025-11-21,2025-11,Friday,UPI-STARBUCKS-starbucks@icici-ICIC0000467-029980269039-Payment,STARBUCKS,330.00,debit,56899.00,Food & Dining,rule,0,0,0,hdfc_like
+5b0c345d9348cc5e,2025-11-22,2025-11,Saturday,UPI-DOMINOS-dominos@icici-ICIC0000911-894055884547-Payment,DOMINOS,539.00,debit,53155.00,Food & Dining,rule,0,0,0,hdfc_like
+5c5f004cd40e9a78,2025-11-22,2025-11,Saturday,UPI-UBER-uber@icici-ICIC0000444-865116697037-Payment,UBER,257.00,debit,51753.00,Transport,rule,0,0,0,hdfc_like
+d64bcf86019aa5f8,2025-11-22,2025-11,Saturday,UPI-DMART-dmart@icici-ICIC0000678-693934467530-Payment,DMART,1145.00,debit,52010.00,Groceries,rule,0,0,0,hdfc_like
+e63f3dd9250b8daa,2025-11-23,2025-11,Sunday,UPI-AJIO-ajio@icici-ICIC0000609-372044912132-Payment,AJIO,3952.00,debit,47801.00,Shopping,rule,0,0,0,hdfc_like
+59c3908e949f3e8d,2025-11-24,2025-11,Monday,UPI-STARBUCKS-starbucks@icici-ICIC0000844-140449034980-Payment,STARBUCKS,496.00,debit,47171.00,Food & Dining,rule,0,0,0,hdfc_like
+6e6512e5039bc545,2025-11-24,2025-11,Monday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000991-319198799837-Payment,CAFE COFFEE DAY,134.00,debit,47667.00,Food & Dining,rule,0,0,0,hdfc_like
+d5d03e55c807175b,2025-11-24,2025-11,Monday,UPI-SWIGGY-swiggy@icici-ICIC0000856-310956489490-Payment,SWIGGY,414.00,debit,46757.00,Food & Dining,rule,0,0,0,hdfc_like
+fb38b351cf328827,2025-11-24,2025-11,Monday,UPI-BIGBASKET-bigbasket@icici-ICIC0000938-611211709645-Payment,BIGBASKET,1386.00,debit,45371.00,Groceries,rule,0,0,0,hdfc_like
+a390198783768ba3,2025-11-25,2025-11,Tuesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000918-282127761060-Payment,CAFE COFFEE DAY,571.00,debit,44800.00,Food & Dining,rule,0,0,0,hdfc_like
+d03fd3c284db5543,2025-11-25,2025-11,Tuesday,UPI-RAPIDO-rapido@icici-ICIC0000866-722979165477-Payment,RAPIDO,287.00,debit,43420.00,Transport,rule,0,0,0,hdfc_like
+d7b3d5c7e42b52ad,2025-11-25,2025-11,Tuesday,UPI-ZEPTO-zepto@icici-ICIC0000361-214415256337-Payment,ZEPTO,1093.00,debit,43707.00,Groceries,rule,0,0,0,hdfc_like
+23fa6e5e0207c26c,2025-11-26,2025-11,Wednesday,UPI-AMAZON REFUND-amazon@icici-ICIC0000889-567464629486-Refund,AMAZON REFUND,909.00,credit,43927.00,Shopping,rule,0,1,0,hdfc_like
+be02714b0f962e64,2025-11-26,2025-11,Wednesday,UPI-RAPIDO-rapido@icici-ICIC0000249-128617400285-Payment,RAPIDO,402.00,debit,43018.00,Transport,rule,0,0,0,hdfc_like
+1995fea9a53911a0,2025-11-27,2025-11,Thursday,UPI-OLA-ola@icici-ICIC0000897-694117902783-Payment,OLA,188.00,debit,43427.00,Transport,rule,0,0,0,hdfc_like
+538b69e02a1052fe,2025-11-27,2025-11,Thursday,UPI-OLA-ola@icici-ICIC0000547-098894333023-Payment,OLA,80.00,debit,43615.00,Transport,rule,0,0,0,hdfc_like
+8406982a80b8f655,2025-11-27,2025-11,Thursday,UPI-SWIGGY-swiggy@icici-ICIC0000883-558277529957-Payment,SWIGGY,232.00,debit,43695.00,Food & Dining,rule,0,0,0,hdfc_like
+3be31cc3b4617afb,2025-11-28,2025-11,Friday,UPI-DOMINOS-dominos@icici-ICIC0000594-133260830879-Payment,DOMINOS,628.00,debit,42799.00,Food & Dining,rule,0,0,0,hdfc_like
+51bdb09f1c33e1e8,2025-11-28,2025-11,Friday,UPI-DMART-dmart@icici-ICIC0000208-255333315159-Payment,DMART,915.00,debit,41884.00,Groceries,rule,0,0,0,hdfc_like
+661c25733762234f,2025-11-28,2025-11,Friday,UPI-TATA 1MG-1mg@icici-ICIC0000261-796751217053-Payment,TATA 1MG,415.00,debit,41469.00,Health,rule,0,0,0,hdfc_like
+8e1d946fc84cae8a,2025-12-01,2025-12,Monday,UPI-AMAZON-amazon@icici-ICIC0000200-255554375530-Payment,AMAZON,1156.00,debit,105313.00,Shopping,rule,0,0,0,hdfc_like
+f4c60f12d9de33da,2025-12-01,2025-12,Monday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,106469.00,Income,rule,0,0,0,hdfc_like
+d21ea985ee7ee732,2025-12-02,2025-12,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000785-922134619916-Payment,ZOMATO,607.00,debit,104706.00,Food & Dining,rule,0,0,0,hdfc_like
+06a57511c9caba23,2025-12-03,2025-12,Wednesday,UPI-CULT FIT-cultfit@icici-ICIC0000347-422023628135-Gym,CULT FIT,1500.00,debit,103206.00,Health,rule,0,0,0,hdfc_like
+89ebc656ed7de2e1,2025-12-03,2025-12,Wednesday,UPI-OLA-ola@icici-ICIC0000824-124069960540-Payment,OLA,399.00,debit,102128.00,Transport,rule,0,0,0,hdfc_like
+f88a7b93233a0ca5,2025-12-03,2025-12,Wednesday,UPI-UBER-uber@icici-ICIC0000800-985093957730-Payment,UBER,113.00,debit,102015.00,Transport,rule,0,0,0,hdfc_like
+fa5a8da1c30410db,2025-12-03,2025-12,Wednesday,UPI-ZEPTO-zepto@icici-ICIC0000203-546820457719-Payment,ZEPTO,679.00,debit,102527.00,Groceries,rule,0,0,0,hdfc_like
+c7958f1324f69dbc,2025-12-04,2025-12,Thursday,UPI-DMART-dmart@icici-ICIC0000922-948934521295-Payment,DMART,1055.00,debit,100960.00,Groceries,rule,0,0,0,hdfc_like
+f7a4297cbde399a5,2025-12-04,2025-12,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000235-045510557804-Payment,RAPIDO,73.00,debit,100887.00,Transport,rule,0,0,0,hdfc_like
+5e3476368d008bd6,2025-12-05,2025-12,Friday,UPI-AJIO-ajio@icici-ICIC0000748-321434555984-Payment,AJIO,601.00,debit,81731.00,Shopping,rule,0,0,0,hdfc_like
+9cb9e86a51ffe682,2025-12-05,2025-12,Friday,UPI-ZOMATO-zomato@icici-ICIC0000589-176454562278-Payment,ZOMATO,203.00,debit,82684.00,Food & Dining,rule,0,0,0,hdfc_like
+e6a14653d7ba6418,2025-12-05,2025-12,Friday,UPI-OLA-ola@icici-ICIC0000837-518995808001-Payment,OLA,352.00,debit,82332.00,Transport,rule,0,0,0,hdfc_like
+fba088fc079aa8db,2025-12-05,2025-12,Friday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,82887.00,Rent,rule,0,0,0,hdfc_like
+35c5b6a353c1b1e2,2025-12-07,2025-12,Sunday,UPI-OLA-ola@icici-ICIC0000437-252593747747-Payment,OLA,210.00,debit,76521.00,Transport,rule,0,0,0,hdfc_like
+6e0456db428caa4c,2025-12-07,2025-12,Sunday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,76731.00,Investments,rule,0,0,0,hdfc_like
+c9dbce3cda4f2210,2025-12-09,2025-12,Tuesday,UPI-BLINKIT-blinkit@icici-ICIC0000486-668177548390-Payment,BLINKIT,589.00,debit,75932.00,Groceries,rule,0,0,0,hdfc_like
+02ce74fa25576206,2025-12-10,2025-12,Wednesday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,2367.00,debit,73565.00,Bills & Utilities,rule,0,0,0,hdfc_like
+4324f50c579abfcf,2025-12-10,2025-12,Wednesday,UPI-ZOMATO-zomato@icici-ICIC0000143-273424259616-Payment,ZOMATO,365.00,debit,72727.00,Food & Dining,rule,0,0,0,hdfc_like
+e8c3c29d890410fc,2025-12-10,2025-12,Wednesday,UPI-ZOMATO-zomato@icici-ICIC0000889-227339721639-Payment,ZOMATO,473.00,debit,73092.00,Food & Dining,rule,0,0,0,hdfc_like
+c66fca836379c349,2025-12-11,2025-12,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000717-923992645238-Payment,RAPIDO,231.00,debit,72496.00,Transport,rule,0,0,0,hdfc_like
+7426489c6b35ec0b,2025-12-12,2025-12,Friday,UPI-UBER-uber@icici-ICIC0000515-426280960434-Payment,UBER,356.00,debit,70534.00,Transport,rule,0,0,0,hdfc_like
+8a4cf20ec49c01d4,2025-12-12,2025-12,Friday,UPI-DOMINOS-dominos@icici-ICIC0000817-099090477964-Payment,DOMINOS,511.00,debit,70890.00,Food & Dining,rule,0,0,0,hdfc_like
+aab24df79fd245ad,2025-12-12,2025-12,Friday,UPI-STARBUCKS-starbucks@icici-ICIC0000873-164007851819-Payment,STARBUCKS,446.00,debit,71401.00,Food & Dining,rule,0,0,0,hdfc_like
+cfb66bb1ef3d3735,2025-12-12,2025-12,Friday,UPI-NETFLIX-netflix@icici-ICIC0000420-119484034250-Subscription,NETFLIX,649.00,debit,71847.00,Subscriptions,rule,0,0,0,hdfc_like
+cf8ade7c687fca31,2025-12-13,2025-12,Saturday,UPI-ZOMATO-zomato@icici-ICIC0000731-723857283695-Payment,ZOMATO,147.00,debit,70387.00,Food & Dining,rule,0,0,0,hdfc_like
+51bc6b3e5f22cecc,2025-12-14,2025-12,Sunday,UPI-TATA 1MG-1mg@icici-ICIC0000187-191342444633-Payment,TATA 1MG,385.00,debit,70002.00,Health,rule,0,0,0,hdfc_like
+cf45a939d89a1b08,2025-12-14,2025-12,Sunday,UPI-AMAZON REFUND-amazon@icici-ICIC0000870-775753116493-Refund,AMAZON REFUND,1095.00,credit,71097.00,Shopping,rule,0,1,0,hdfc_like
+2596833864367b89,2025-12-15,2025-12,Monday,UPI-SPOTIFY-spotify@icici-ICIC0000388-486458487734-Subscription,SPOTIFY,119.00,debit,70978.00,Subscriptions,rule,0,0,0,hdfc_like
+82326b13600b2580,2025-12-15,2025-12,Monday,UPI-STARBUCKS-starbucks@icici-ICIC0000640-705055513512-Payment,STARBUCKS,620.00,debit,70358.00,Food & Dining,rule,0,0,0,hdfc_like
+878c6b2a0bc11c79,2025-12-15,2025-12,Monday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000789-743241187066-Payment,CAFE COFFEE DAY,136.00,debit,70222.00,Food & Dining,rule,0,0,0,hdfc_like
+0c7fe3c9d49ced90,2025-12-16,2025-12,Tuesday,UPI-STARBUCKS-starbucks@icici-ICIC0000371-977575166816-Payment,STARBUCKS,152.00,debit,70070.00,Food & Dining,rule,0,0,0,hdfc_like
+0b17c9544a5a3a87,2025-12-17,2025-12,Wednesday,UPI-DOMINOS-dominos@icici-ICIC0000485-319337766612-Payment,DOMINOS,425.00,debit,69645.00,Food & Dining,rule,0,0,0,hdfc_like
+17101a4540d0c9ff,2025-12-17,2025-12,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000556-845404873875-Payment,SWIGGY,166.00,debit,69348.00,Food & Dining,rule,0,0,0,hdfc_like
+e5266ef9c45761e7,2025-12-17,2025-12,Wednesday,UPI-DOMINOS-dominos@icici-ICIC0000435-061132227937-Payment,DOMINOS,131.00,debit,69514.00,Food & Dining,rule,0,0,0,hdfc_like
+10033d7443269a4f,2025-12-18,2025-12,Thursday,UPI-DMART-dmart@icici-ICIC0000607-036356421522-Payment,DMART,1649.00,debit,67400.00,Groceries,rule,0,0,0,hdfc_like
+1a764f2b4f400b03,2025-12-18,2025-12,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000393-086891011582-Payment,RAPIDO,233.00,debit,67167.00,Transport,rule,0,0,0,hdfc_like
+e481f3143dd20166,2025-12-18,2025-12,Thursday,UPI-JIO PREPAID-jio@icici-ICIC0000675-150572961937-Recharge,JIO PREPAID,299.00,debit,69049.00,Bills & Utilities,rule,0,0,0,hdfc_like
+063418be5369b768,2025-12-19,2025-12,Friday,UPI-OLA-ola@icici-ICIC0000954-865377607302-Payment,OLA,68.00,debit,65509.00,Transport,rule,0,0,0,hdfc_like
+28fd44f49afa2f9d,2025-12-19,2025-12,Friday,UPI-AMAZON-amazon@icici-ICIC0000304-556594742687-Payment,AMAZON,3651.00,debit,61508.00,Shopping,rule,0,0,0,hdfc_like
+535dc270b64a107e,2025-12-19,2025-12,Friday,UPI-BIGBASKET-bigbasket@icici-ICIC0000712-782895425571-Payment,BIGBASKET,1590.00,debit,65577.00,Groceries,rule,0,0,0,hdfc_like
+fae170dc6dde8922,2025-12-19,2025-12,Friday,UPI-OLA-ola@icici-ICIC0000633-131340444022-Payment,OLA,350.00,debit,65159.00,Transport,rule,0,0,0,hdfc_like
+5c516b9b2d44c3f6,2025-12-20,2025-12,Saturday,UPI-DELHI METRO-delhimetro@icici-ICIC0000731-113936833889-Payment,DELHI METRO,99.00,debit,61185.00,Transport,rule,0,0,0,hdfc_like
+e68320151bd98f67,2025-12-20,2025-12,Saturday,UPI-RAPIDO-rapido@icici-ICIC0000887-659367425315-Payment,RAPIDO,224.00,debit,61284.00,Transport,rule,0,0,0,hdfc_like
+3f390c6725f68d3d,2025-12-21,2025-12,Sunday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000468-601345873192-Payment,CAFE COFFEE DAY,346.00,debit,60539.00,Food & Dining,rule,0,0,0,hdfc_like
+6764be9b41222238,2025-12-21,2025-12,Sunday,UPI-PAPA-papa@icici-ICIC0000438-592416406153-Family,PAPA,5000.00,debit,53539.00,Transfers,rule,1,0,0,hdfc_like
+94da12bdf4d4a55f,2025-12-21,2025-12,Sunday,UPI-DOMINOS-dominos@icici-ICIC0000304-722076278094-Payment,DOMINOS,300.00,debit,60885.00,Food & Dining,rule,0,0,0,hdfc_like
+eee459c194726cf4,2025-12-21,2025-12,Sunday,ATW-214675-NEW DELHI,ATM CASH,2000.00,debit,58539.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+c6797b2603c071a1,2025-12-23,2025-12,Tuesday,UPI-MYNTRA-myntra@icici-ICIC0000931-560763609637-Payment,MYNTRA,3826.00,debit,49093.00,Shopping,rule,0,0,0,hdfc_like
+d98c98cf07848053,2025-12-23,2025-12,Tuesday,UPI-STARBUCKS-starbucks@icici-ICIC0000212-144425648775-Payment,STARBUCKS,452.00,debit,53087.00,Food & Dining,rule,0,0,0,hdfc_like
+eceab00b6f9b636f,2025-12-23,2025-12,Tuesday,UPI-UBER-uber@icici-ICIC0000275-086399892965-Payment,UBER,168.00,debit,52919.00,Transport,rule,0,0,0,hdfc_like
+36f4c265825a58e1,2025-12-24,2025-12,Wednesday,ATW-355761-NEW DELHI,ATM CASH,2000.00,debit,45875.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+c01e69d137804caf,2025-12-24,2025-12,Wednesday,UPI-RAHUL-rahul@icici-ICIC0000216-386872601131-Dinner split,RAHUL,1010.00,credit,46885.00,Transfers,p2p,1,0,0,hdfc_like
+de74a095717a28a1,2025-12-24,2025-12,Wednesday,UPI-BLINKIT-blinkit@icici-ICIC0000872-426295735325-Payment,BLINKIT,1218.00,debit,47875.00,Groceries,rule,0,0,0,hdfc_like
+b98685828f018fe9,2025-12-25,2025-12,Thursday,UPI-UBER-uber@icici-ICIC0000733-220237133094-Payment,UBER,419.00,debit,46466.00,Transport,rule,0,0,0,hdfc_like
+20971cceeb4c4e81,2025-12-26,2025-12,Friday,UPI-ZEPTO-zepto@icici-ICIC0000574-959512269807-Payment,ZEPTO,590.00,debit,45876.00,Groceries,rule,0,0,0,hdfc_like
+58fc2b6781d6d985,2025-12-27,2025-12,Saturday,UPI-SWIGGY-swiggy@icici-ICIC0000506-717820269346-Payment,SWIGGY,625.00,debit,45251.00,Food & Dining,rule,0,0,0,hdfc_like
+40f608711d0afaaa,2025-12-28,2025-12,Sunday,UPI-ZOMATO-zomato@icici-ICIC0000616-411142177571-Payment,ZOMATO,535.00,debit,44716.00,Food & Dining,rule,0,0,0,hdfc_like
+a6375f8f78ce64bc,2025-12-28,2025-12,Sunday,UPI-DOMINOS-dominos@icici-ICIC0000486-366563155720-Payment,DOMINOS,143.00,debit,44573.00,Food & Dining,rule,0,0,0,hdfc_like
+0221029de9e4e274,2026-01-01,2026-01,Thursday,UPI-ZEPTO-zepto@icici-ICIC0000519-056603737329-Payment,ZEPTO,1059.00,debit,108364.00,Groceries,rule,0,0,0,hdfc_like
+2674c5c844189c26,2026-01-01,2026-01,Thursday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,109573.00,Income,rule,0,0,0,hdfc_like
+cd49642bf1d1d506,2026-01-01,2026-01,Thursday,UPI-SWIGGY-swiggy@icici-ICIC0000824-104358237871-Payment,SWIGGY,150.00,debit,109423.00,Food & Dining,rule,0,0,0,hdfc_like
+43bddb6b7195b341,2026-01-02,2026-01,Friday,UPI-DOMINOS-dominos@icici-ICIC0000383-818278764524-Payment,DOMINOS,582.00,debit,107782.00,Food & Dining,rule,0,0,0,hdfc_like
+c8c25a7e6d0a91be,2026-01-02,2026-01,Friday,UPI-DMART-dmart@icici-ICIC0000245-709857390018-Payment,DMART,353.00,debit,107429.00,Groceries,rule,0,0,0,hdfc_like
+1cf28270a6fa64e6,2026-01-03,2026-01,Saturday,UPI-BLINKIT-blinkit@icici-ICIC0000302-941983041583-Payment,BLINKIT,260.00,debit,104820.00,Groceries,rule,0,0,0,hdfc_like
+94b5ed54890f8456,2026-01-03,2026-01,Saturday,UPI-ZOMATO-zomato@icici-ICIC0000202-117347262672-Payment,ZOMATO,147.00,debit,105782.00,Food & Dining,rule,0,0,0,hdfc_like
+bf14389977d13a87,2026-01-03,2026-01,Saturday,UPI-BIGBASKET-bigbasket@icici-ICIC0000666-432772399775-Payment,BIGBASKET,702.00,debit,105080.00,Groceries,rule,0,0,0,hdfc_like
+ed79b50aa8a66783,2026-01-03,2026-01,Saturday,UPI-CULT FIT-cultfit@icici-ICIC0000244-541316669541-Gym,CULT FIT,1500.00,debit,105929.00,Health,rule,0,0,0,hdfc_like
+00d814cb68cecaf1,2026-01-04,2026-01,Sunday,UPI-OLA-ola@icici-ICIC0000150-354000864026-Payment,OLA,71.00,debit,103996.00,Transport,rule,0,0,0,hdfc_like
+528d11a9625529c3,2026-01-04,2026-01,Sunday,UPI-ZEPTO-zepto@icici-ICIC0000573-171072146905-Payment,ZEPTO,353.00,debit,104067.00,Groceries,rule,0,0,0,hdfc_like
+7e2862f890e03292,2026-01-04,2026-01,Sunday,UPI-SWIGGY-swiggy@icici-ICIC0000741-741840926161-Payment,SWIGGY,400.00,debit,104420.00,Food & Dining,rule,0,0,0,hdfc_like
+6ef67c8f100825fd,2026-01-05,2026-01,Monday,UPI-FLIPKART-flipkart@icici-ICIC0000143-494968299033-Payment,FLIPKART,2971.00,debit,81398.00,Shopping,rule,0,0,0,hdfc_like
+7b0c0475daa51d15,2026-01-05,2026-01,Monday,UPI-BLINKIT-blinkit@icici-ICIC0000208-144592321168-Payment,BLINKIT,1627.00,debit,84369.00,Groceries,rule,0,0,0,hdfc_like
+cd1209a6051f9744,2026-01-05,2026-01,Monday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,85996.00,Rent,rule,0,0,0,hdfc_like
+5175fe88c4124ad5,2026-01-06,2026-01,Tuesday,UPI-RAPIDO-rapido@icici-ICIC0000126-328709579916-Payment,RAPIDO,166.00,debit,81132.00,Transport,rule,0,0,0,hdfc_like
+dcaae226e3055bb6,2026-01-06,2026-01,Tuesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000462-212806224502-Payment,DELHI METRO,100.00,debit,81298.00,Transport,rule,0,0,0,hdfc_like
+e238519557962a80,2026-01-06,2026-01,Tuesday,UPI-OLA-ola@icici-ICIC0000562-082390137580-Payment,OLA,334.00,debit,80798.00,Transport,rule,0,0,0,hdfc_like
+a31d93abbe0d35cd,2026-01-07,2026-01,Wednesday,UPI-RAPIDO-rapido@icici-ICIC0000355-637704414833-Payment,RAPIDO,275.00,debit,73837.00,Transport,rule,0,0,0,hdfc_like
+b212f0cf2c7feb2e,2026-01-07,2026-01,Wednesday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,75798.00,Investments,rule,0,0,0,hdfc_like
+b825de4794c71f17,2026-01-07,2026-01,Wednesday,UPI-BLINKIT-blinkit@icici-ICIC0000955-817930281985-Payment,BLINKIT,1326.00,debit,74340.00,Groceries,rule,0,0,0,hdfc_like
+d4b36f5bb1de338f,2026-01-07,2026-01,Wednesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000758-856879735495-Payment,DELHI METRO,228.00,debit,74112.00,Transport,rule,0,0,0,hdfc_like
+e6dd54094de9ed48,2026-01-07,2026-01,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000630-613677232608-Payment,CAFE COFFEE DAY,132.00,debit,75666.00,Food & Dining,rule,0,0,0,hdfc_like
+892bbd7ff49d2e59,2026-01-08,2026-01,Thursday,UPI-STARBUCKS-starbucks@icici-ICIC0000631-606894103713-Payment,STARBUCKS,426.00,debit,73411.00,Food & Dining,rule,0,0,0,hdfc_like
+ca5142bd0f15bada,2026-01-08,2026-01,Thursday,UPI-TATA 1MG-1mg@icici-ICIC0000150-798083246081-Payment,TATA 1MG,1057.00,debit,71945.00,Health,rule,0,0,0,hdfc_like
+f6c85087dd91205d,2026-01-08,2026-01,Thursday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000526-938516025048-Payment,CAFE COFFEE DAY,409.00,debit,73002.00,Food & Dining,rule,0,0,0,hdfc_like
+3a9dfc1b336c4b3b,2026-01-10,2026-01,Saturday,UPI-STARBUCKS-starbucks@icici-ICIC0000743-774465100991-Payment,STARBUCKS,454.00,debit,70060.00,Food & Dining,rule,0,0,0,hdfc_like
+f0708e00ca9e978a,2026-01-10,2026-01,Saturday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1431.00,debit,70514.00,Bills & Utilities,rule,0,0,0,hdfc_like
+9a400c04c42790d3,2026-01-11,2026-01,Sunday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000235-384514905029-Payment,CAFE COFFEE DAY,527.00,debit,69533.00,Food & Dining,rule,0,0,0,hdfc_like
+fe712a1fcad6eaf0,2026-01-11,2026-01,Sunday,UPI-UBER-uber@icici-ICIC0000409-397464375863-Payment,UBER,370.00,debit,69163.00,Transport,rule,0,0,0,hdfc_like
+a22dd51c0ef4b77a,2026-01-12,2026-01,Monday,UPI-NETFLIX-netflix@icici-ICIC0000422-868941356447-Subscription,NETFLIX,649.00,debit,68514.00,Subscriptions,rule,0,0,0,hdfc_like
+6c1eaa8d6f668b42,2026-01-13,2026-01,Tuesday,UPI-RAHUL-rahul@icici-ICIC0000762-226589641182-Dinner split,RAHUL,922.00,credit,68520.00,Transfers,p2p,1,0,0,hdfc_like
+8ca702522ec29cc6,2026-01-13,2026-01,Tuesday,UPI-OLA-ola@icici-ICIC0000414-721075875138-Payment,OLA,343.00,debit,67598.00,Transport,rule,0,0,0,hdfc_like
+e31a5acf69fd0c2d,2026-01-13,2026-01,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000892-886605613279-Payment,ZOMATO,573.00,debit,67941.00,Food & Dining,rule,0,0,0,hdfc_like
+5022e1f7ba17d7e8,2026-01-14,2026-01,Wednesday,UPI-BLINKIT-blinkit@icici-ICIC0000778-922387732027-Payment,BLINKIT,1397.00,debit,67123.00,Groceries,rule,0,0,0,hdfc_like
+61eeb19f2c228957,2026-01-15,2026-01,Thursday,UPI-SPOTIFY-spotify@icici-ICIC0000554-400722514775-Subscription,SPOTIFY,119.00,debit,67004.00,Subscriptions,rule,0,0,0,hdfc_like
+b4aad910f041f7ea,2026-01-15,2026-01,Thursday,UPI-SWIGGY-swiggy@icici-ICIC0000369-384972853761-Payment,SWIGGY,262.00,debit,66742.00,Food & Dining,rule,0,0,0,hdfc_like
+39fb7413dfef3712,2026-01-17,2026-01,Saturday,ATW-516224-NEW DELHI,ATM CASH,1000.00,debit,64615.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+960d197a6146b594,2026-01-17,2026-01,Saturday,UPI-MYNTRA-myntra@icici-ICIC0000569-907571155911-Payment,MYNTRA,1127.00,debit,65615.00,Shopping,rule,0,0,0,hdfc_like
+7ea334f27773cb50,2026-01-18,2026-01,Sunday,UPI-JIO PREPAID-jio@icici-ICIC0000686-178380759187-Recharge,JIO PREPAID,299.00,debit,64316.00,Bills & Utilities,rule,0,0,0,hdfc_like
+3c0dbfd2e64a08a9,2026-01-19,2026-01,Monday,UPI-OLA-ola@icici-ICIC0000292-889510060436-Payment,OLA,96.00,debit,63921.00,Transport,rule,0,0,0,hdfc_like
+3ff05a2fd6ca315e,2026-01-19,2026-01,Monday,UPI-DOMINOS-dominos@icici-ICIC0000749-766349229160-Payment,DOMINOS,299.00,debit,64017.00,Food & Dining,rule,0,0,0,hdfc_like
+791b3a5262912659,2026-01-19,2026-01,Monday,UPI-RAPIDO-rapido@icici-ICIC0000163-160684720359-Payment,RAPIDO,381.00,debit,63540.00,Transport,rule,0,0,0,hdfc_like
+cf262b8449d0ec59,2026-01-19,2026-01,Monday,UPI-DELHI METRO-delhimetro@icici-ICIC0000341-409759866171-Payment,DELHI METRO,115.00,debit,63425.00,Transport,rule,0,0,0,hdfc_like
+12726cb328223686,2026-01-21,2026-01,Wednesday,UPI-OLA-ola@icici-ICIC0000679-143033698673-Payment,OLA,35.00,debit,62546.00,Transport,rule,0,0,0,hdfc_like
+7cfc214be663f1b4,2026-01-21,2026-01,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000469-239133626704-Payment,SWIGGY,255.00,debit,62581.00,Food & Dining,rule,0,0,0,hdfc_like
+f681be216b10873e,2026-01-21,2026-01,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000913-805293930777-Payment,SWIGGY,589.00,debit,62836.00,Food & Dining,rule,0,0,0,hdfc_like
+cadfc101a2dba60e,2026-01-22,2026-01,Thursday,ATW-132047-NEW DELHI,ATM CASH,2000.00,debit,60546.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+9dc862e10bfb5290,2026-01-23,2026-01,Friday,UPI-RAPIDO-rapido@icici-ICIC0000281-983059788939-Payment,RAPIDO,232.00,debit,60314.00,Transport,rule,0,0,0,hdfc_like
+c3a5dfd2d1a99442,2026-01-23,2026-01,Friday,UPI-DELHI METRO-delhimetro@icici-ICIC0000131-466403945956-Payment,DELHI METRO,182.00,debit,60132.00,Transport,rule,0,0,0,hdfc_like
+d6342efe4311b84c,2026-01-23,2026-01,Friday,UPI-BOOKMYSHOW-bms@icici-ICIC0000618-475518200031-Payment,BOOKMYSHOW,627.00,debit,59505.00,Entertainment,rule,0,0,0,hdfc_like
+284bb1f9b3543b94,2026-01-24,2026-01,Saturday,UPI-PAPA-papa@icici-ICIC0000600-518531876231-Family,PAPA,5000.00,debit,54156.00,Transfers,rule,1,0,0,hdfc_like
+2932758d98f856f8,2026-01-24,2026-01,Saturday,UPI-ZOMATO-zomato@icici-ICIC0000621-080039190876-Payment,ZOMATO,349.00,debit,59156.00,Food & Dining,rule,0,0,0,hdfc_like
+0c3a8e30a2dcb081,2026-01-25,2026-01,Sunday,UPI-UBER-uber@icici-ICIC0000324-593991237357-Payment,UBER,210.00,debit,53946.00,Transport,rule,0,0,0,hdfc_like
+898f1291fc8a1c68,2026-01-25,2026-01,Sunday,UPI-TATA 1MG-1mg@icici-ICIC0000945-376049445307-Payment,TATA 1MG,284.00,debit,53662.00,Health,rule,0,0,0,hdfc_like
+9d24ae2777e4d79d,2026-01-26,2026-01,Monday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000539-207504345321-Payment,CAFE COFFEE DAY,238.00,debit,53424.00,Food & Dining,rule,0,0,0,hdfc_like
+1a42d62cd9b03a15,2026-01-27,2026-01,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000311-855519259598-Payment,ZOMATO,258.00,debit,53166.00,Food & Dining,rule,0,0,0,hdfc_like
+4d2f429e6b4a405f,2026-01-28,2026-01,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000164-739843251878-Payment,CAFE COFFEE DAY,169.00,debit,52997.00,Food & Dining,rule,0,0,0,hdfc_like
+9d521f771eed1997,2026-01-28,2026-01,Wednesday,UPI-MYNTRA-myntra@icici-ICIC0000648-882654146643-Payment,MYNTRA,3015.00,debit,49837.00,Shopping,rule,0,0,0,hdfc_like
+d0d5d47061e96842,2026-01-28,2026-01,Wednesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000218-334605183424-Payment,DELHI METRO,145.00,debit,52852.00,Transport,rule,0,0,0,hdfc_like
+1544e1e8650b1050,2026-02-01,2026-02,Sunday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,114837.00,Income,rule,0,0,0,hdfc_like
+6031914bd76d0e8d,2026-02-01,2026-02,Sunday,UPI-OLA-ola@icici-ICIC0000570-700120894443-Payment,OLA,229.00,debit,114608.00,Transport,rule,0,0,0,hdfc_like
+ba6f341bdb512b14,2026-02-01,2026-02,Sunday,UPI-RAPIDO-rapido@icici-ICIC0000666-810535027729-Payment,RAPIDO,292.00,debit,114316.00,Transport,rule,0,0,0,hdfc_like
+098601bff38d19d1,2026-02-02,2026-02,Monday,UPI-SWIGGY-swiggy@icici-ICIC0000268-487421182813-Payment,SWIGGY,544.00,debit,113772.00,Food & Dining,rule,0,0,0,hdfc_like
+389176e80fc0e6c8,2026-02-03,2026-02,Tuesday,UPI-SWIGGY-swiggy@icici-ICIC0000367-608577298566-Payment,SWIGGY,563.00,debit,111709.00,Food & Dining,rule,0,0,0,hdfc_like
+4d32c9f22aa9cd27,2026-02-03,2026-02,Tuesday,UPI-CULT FIT-cultfit@icici-ICIC0000924-977288423565-Gym,CULT FIT,1500.00,debit,112272.00,Health,rule,0,0,0,hdfc_like
+630f4441cdba2796,2026-02-03,2026-02,Tuesday,UPI-RAPIDO-rapido@icici-ICIC0000902-759571543863-Payment,RAPIDO,180.00,debit,111529.00,Transport,rule,0,0,0,hdfc_like
+37612df12fb1539a,2026-02-04,2026-02,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000513-450066352693-Payment,SWIGGY,175.00,debit,111050.00,Food & Dining,rule,0,0,0,hdfc_like
+5708bec556c8b858,2026-02-04,2026-02,Wednesday,UPI-RAPIDO-rapido@icici-ICIC0000302-743161693463-Payment,RAPIDO,329.00,debit,110721.00,Transport,rule,0,0,0,hdfc_like
+cc4b88e831cf4c84,2026-02-04,2026-02,Wednesday,UPI-STARBUCKS-starbucks@icici-ICIC0000988-654819398918-Payment,STARBUCKS,304.00,debit,111225.00,Food & Dining,rule,0,0,0,hdfc_like
+028f91664c69af85,2026-02-05,2026-02,Thursday,UPI-ZEPTO-zepto@icici-ICIC0000522-685853752276-Payment,ZEPTO,1577.00,debit,90523.00,Groceries,rule,0,0,0,hdfc_like
+6e7d6b095055c82d,2026-02-05,2026-02,Thursday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000205-351822753893-Payment,CAFE COFFEE DAY,621.00,debit,92100.00,Food & Dining,rule,0,0,0,hdfc_like
+6f2f92a2baf6a21f,2026-02-05,2026-02,Thursday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,92721.00,Rent,rule,0,0,0,hdfc_like
+f9432d11dbfbb24c,2026-02-05,2026-02,Thursday,ATW-158627-NEW DELHI,ATM CASH,2000.00,debit,88523.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+9749b50993ea9935,2026-02-06,2026-02,Friday,UPI-OLA-ola@icici-ICIC0000698-804909576837-Payment,OLA,311.00,debit,88212.00,Transport,rule,0,0,0,hdfc_like
+bdd7c1447f464a0b,2026-02-06,2026-02,Friday,UPI-OLA-ola@icici-ICIC0000288-281178899452-Payment,OLA,64.00,debit,88148.00,Transport,rule,0,0,0,hdfc_like
+3a54c7b06ef69c6f,2026-02-07,2026-02,Saturday,UPI-STARBUCKS-starbucks@icici-ICIC0000466-720429306986-Payment,STARBUCKS,272.00,debit,82876.00,Food & Dining,rule,0,0,0,hdfc_like
+f71596fae57b8e71,2026-02-07,2026-02,Saturday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,83148.00,Investments,rule,0,0,0,hdfc_like
+c6fe7725b9b3deab,2026-02-08,2026-02,Sunday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000438-902642484841-Payment,CAFE COFFEE DAY,629.00,debit,82247.00,Food & Dining,rule,0,0,0,hdfc_like
+9452828e380256bb,2026-02-09,2026-02,Monday,ATW-288783-NEW DELHI,ATM CASH,5000.00,debit,77247.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+2f7c8f49f538e183,2026-02-10,2026-02,Tuesday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1252.00,debit,75995.00,Bills & Utilities,rule,0,0,0,hdfc_like
+42ec28d2fd93236e,2026-02-12,2026-02,Thursday,UPI-ZOMATO-zomato@icici-ICIC0000328-737322848590-Payment,ZOMATO,319.00,debit,75027.00,Food & Dining,rule,0,0,0,hdfc_like
+a23f72a715719858,2026-02-12,2026-02,Thursday,UPI-AJIO-ajio@icici-ICIC0000141-240302934409-Payment,AJIO,2954.00,debit,72034.00,Shopping,rule,0,0,0,hdfc_like
+b32245c7d04b2553,2026-02-12,2026-02,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000893-351688152800-Payment,DELHI METRO,39.00,debit,74988.00,Transport,rule,0,0,0,hdfc_like
+e4b91b683996420e,2026-02-12,2026-02,Thursday,UPI-NETFLIX-netflix@icici-ICIC0000107-568366210968-Subscription,NETFLIX,649.00,debit,75346.00,Subscriptions,rule,0,0,0,hdfc_like
+146a94190d7f4f9c,2026-02-13,2026-02,Friday,UPI-TATA 1MG-1mg@icici-ICIC0000461-837808425211-Payment,TATA 1MG,392.00,debit,69040.00,Health,rule,0,0,0,hdfc_like
+5d26cecac46b3139,2026-02-13,2026-02,Friday,UPI-SWIGGY-swiggy@icici-ICIC0000509-923876716091-Payment,SWIGGY,546.00,debit,71488.00,Food & Dining,rule,0,0,0,hdfc_like
+60ba7a49e4fcc8ab,2026-02-13,2026-02,Friday,UPI-DELHI METRO-delhimetro@icici-ICIC0000941-645137591697-Payment,DELHI METRO,403.00,debit,69432.00,Transport,rule,0,0,0,hdfc_like
+9030387178d3aec9,2026-02-13,2026-02,Friday,UPI-BLINKIT-blinkit@icici-ICIC0000496-476907288426-Payment,BLINKIT,1653.00,debit,69835.00,Groceries,rule,0,0,0,hdfc_like
+043783a12912cd5c,2026-02-14,2026-02,Saturday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000777-156748562746-Payment,CAFE COFFEE DAY,389.00,debit,68179.00,Food & Dining,rule,0,0,0,hdfc_like
+e2f89735529e7c1d,2026-02-14,2026-02,Saturday,UPI-DOMINOS-dominos@icici-ICIC0000588-301303816626-Payment,DOMINOS,472.00,debit,68568.00,Food & Dining,rule,0,0,0,hdfc_like
+1db6fe059d3fc8b4,2026-02-15,2026-02,Sunday,UPI-SPOTIFY-spotify@icici-ICIC0000367-696152088431-Subscription,SPOTIFY,119.00,debit,68060.00,Subscriptions,rule,0,0,0,hdfc_like
+c424d7fd72d56de9,2026-02-16,2026-02,Monday,UPI-STARBUCKS-starbucks@icici-ICIC0000921-546768878448-Payment,STARBUCKS,571.00,debit,66930.00,Food & Dining,rule,0,0,0,hdfc_like
+ca7bbbc99019640e,2026-02-16,2026-02,Monday,UPI-ZOMATO-zomato@icici-ICIC0000454-661886095441-Payment,ZOMATO,623.00,debit,66307.00,Food & Dining,rule,0,0,0,hdfc_like
+e13764e7e57990aa,2026-02-16,2026-02,Monday,UPI-SWIGGY-swiggy@icici-ICIC0000440-616027174706-Payment,SWIGGY,559.00,debit,67501.00,Food & Dining,rule,0,0,0,hdfc_like
+520a4ce20deff544,2026-02-17,2026-02,Tuesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000407-888101287163-Payment,CAFE COFFEE DAY,211.00,debit,66096.00,Food & Dining,rule,0,0,0,hdfc_like
+720471e3f2cf61dd,2026-02-17,2026-02,Tuesday,UPI-AJIO-ajio@icici-ICIC0000622-030299671155-Payment,AJIO,1497.00,debit,64599.00,Shopping,rule,0,0,0,hdfc_like
+3c5bcfcf9d893876,2026-02-18,2026-02,Wednesday,UPI-UBER-uber@icici-ICIC0000106-667570917307-Payment,UBER,254.00,debit,64046.00,Transport,rule,0,0,0,hdfc_like
+b3fdd34a080df30d,2026-02-18,2026-02,Wednesday,UPI-JIO PREPAID-jio@icici-ICIC0000771-429475983766-Recharge,JIO PREPAID,299.00,debit,64300.00,Bills & Utilities,rule,0,0,0,hdfc_like
+98923830f47085ab,2026-02-19,2026-02,Thursday,UPI-OLA-ola@icici-ICIC0000680-334022748178-Payment,OLA,266.00,debit,63780.00,Transport,rule,0,0,0,hdfc_like
+aa843592e7bca8fc,2026-02-20,2026-02,Friday,ATW-690982-NEW DELHI,ATM CASH,1000.00,debit,62780.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+e5e03b3a3d8ab831,2026-02-20,2026-02,Friday,UPI-AMAZON REFUND-amazon@icici-ICIC0000710-523128541046-Refund,AMAZON REFUND,379.00,credit,63159.00,Shopping,rule,0,1,0,hdfc_like
+c0a66af83d712d0c,2026-02-21,2026-02,Saturday,UPI-SWIGGY-swiggy@icici-ICIC0000957-618455907545-Payment,SWIGGY,640.00,debit,62519.00,Food & Dining,rule,0,0,0,hdfc_like
+f98b8f1dc4a06771,2026-02-22,2026-02,Sunday,UPI-TATA 1MG-1mg@icici-ICIC0000335-431645642151-Payment,TATA 1MG,1199.00,debit,61320.00,Health,rule,0,0,0,hdfc_like
+9614547508451a9d,2026-02-23,2026-02,Monday,UPI-ZEPTO-zepto@icici-ICIC0000765-915677559768-Payment,ZEPTO,1293.00,debit,60027.00,Groceries,rule,0,0,0,hdfc_like
+ddd790e0af2b3516,2026-02-23,2026-02,Monday,UPI-AMAZON-amazon@icici-ICIC0000633-627553358029-Payment,AMAZON,2125.00,debit,57902.00,Shopping,rule,0,0,0,hdfc_like
+f24e62a682513614,2026-02-23,2026-02,Monday,UPI-PAPA-papa@icici-ICIC0000187-264424157651-Family,PAPA,5000.00,debit,52902.00,Transfers,rule,1,0,0,hdfc_like
+b7a2afdb53d32e13,2026-02-24,2026-02,Tuesday,UPI-ZEPTO-zepto@icici-ICIC0000934-136853997299-Payment,ZEPTO,1127.00,debit,51468.00,Groceries,rule,0,0,0,hdfc_like
+c723c6471f18e65e,2026-02-24,2026-02,Tuesday,UPI-DOMINOS-dominos@icici-ICIC0000218-070861346808-Payment,DOMINOS,307.00,debit,52595.00,Food & Dining,rule,0,0,0,hdfc_like
+101f584baf69066b,2026-02-25,2026-02,Wednesday,UPI-BIGBASKET-bigbasket@icici-ICIC0000702-567921611534-Payment,BIGBASKET,1339.00,debit,47496.00,Groceries,rule,0,0,0,hdfc_like
+27bb8f852fb2d001,2026-02-25,2026-02,Wednesday,UPI-OLA-ola@icici-ICIC0000733-598906496696-Payment,OLA,194.00,debit,47302.00,Transport,rule,0,0,0,hdfc_like
+4cc37a586c56ed66,2026-02-25,2026-02,Wednesday,UPI-ZEPTO-zepto@icici-ICIC0000654-081878752772-Payment,ZEPTO,1560.00,debit,48835.00,Groceries,rule,0,0,0,hdfc_like
+4d1d477180c63a93,2026-02-25,2026-02,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000623-079649208883-Payment,SWIGGY,440.00,debit,50395.00,Food & Dining,rule,0,0,0,hdfc_like
+800aacfab72681b8,2026-02-25,2026-02,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000292-198029205177-Payment,CAFE COFFEE DAY,504.00,debit,50964.00,Food & Dining,rule,0,0,0,hdfc_like
+cfeece19cd313b4d,2026-02-25,2026-02,Wednesday,UPI-OLA-ola@icici-ICIC0000650-562626828874-Payment,OLA,66.00,debit,47236.00,Transport,rule,0,0,0,hdfc_like
+ea089c7f6759843a,2026-02-25,2026-02,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000647-650180141272-Payment,CAFE COFFEE DAY,129.00,debit,50835.00,Food & Dining,rule,0,0,0,hdfc_like
+1e36422c6c2ff753,2026-02-26,2026-02,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000216-352983840815-Payment,DELHI METRO,79.00,debit,47157.00,Transport,rule,0,0,0,hdfc_like
+40950a890a39e22a,2026-02-27,2026-02,Friday,UPI-UBER-uber@icici-ICIC0000695-572028561385-Payment,UBER,178.00,debit,46979.00,Transport,rule,0,0,0,hdfc_like
+0a64fb9912bc588f,2026-02-28,2026-02,Saturday,UPI-BIGBASKET-bigbasket@icici-ICIC0000532-850161712286-Payment,BIGBASKET,804.00,debit,45673.00,Groceries,rule,0,0,0,hdfc_like
+7ff3c95a12c6318d,2026-02-28,2026-02,Saturday,UPI-ZOMATO-zomato@icici-ICIC0000565-375734060367-Payment,ZOMATO,502.00,debit,46477.00,Food & Dining,rule,0,0,0,hdfc_like
+094c7c388d16fc66,2026-03-01,2026-03,Sunday,UPI-UBER-uber@icici-ICIC0000313-698463788706-Payment,UBER,300.00,debit,109867.00,Transport,rule,0,0,0,hdfc_like
+ab2bb009f55ff0ae,2026-03-01,2026-03,Sunday,UPI-STARBUCKS-starbucks@icici-ICIC0000367-155531525724-Payment,STARBUCKS,506.00,debit,110167.00,Food & Dining,rule,0,0,0,hdfc_like
+b547c837e2e28f35,2026-03-01,2026-03,Sunday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,110673.00,Income,rule,0,0,0,hdfc_like
+7e9a1071e4aa389a,2026-03-02,2026-03,Monday,UPI-UBER-uber@icici-ICIC0000955-910110634650-Payment,UBER,143.00,debit,109549.00,Transport,rule,0,0,0,hdfc_like
+90b5c6e0077438c7,2026-03-02,2026-03,Monday,UPI-STARBUCKS-starbucks@icici-ICIC0000968-464988499225-Payment,STARBUCKS,175.00,debit,109692.00,Food & Dining,rule,0,0,0,hdfc_like
+bb42bb9c2fc94a95,2026-03-02,2026-03,Monday,UPI-AMAZON-amazon@icici-ICIC0000571-313528039777-Payment,AMAZON,1716.00,debit,107833.00,Shopping,rule,0,0,0,hdfc_like
+3c6ae36c2a322c1b,2026-03-03,2026-03,Tuesday,UPI-CULT FIT-cultfit@icici-ICIC0000644-514168876530-Gym,CULT FIT,1500.00,debit,106333.00,Health,rule,0,0,0,hdfc_like
+1d5d1d75d3562c7e,2026-03-05,2026-03,Thursday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,88333.00,Rent,rule,0,0,0,hdfc_like
+2ba6f89f98e2ce6d,2026-03-05,2026-03,Thursday,UPI-DOMINOS-dominos@icici-ICIC0000969-653428001228-Payment,DOMINOS,218.00,debit,88115.00,Food & Dining,rule,0,0,0,hdfc_like
+d32f1ffb4d0bc463,2026-03-05,2026-03,Thursday,UPI-BLINKIT-blinkit@icici-ICIC0000845-227723094075-Payment,BLINKIT,370.00,debit,87745.00,Groceries,rule,0,0,0,hdfc_like
+f3d3911fdb9feaa7,2026-03-06,2026-03,Friday,UPI-BLINKIT-blinkit@icici-ICIC0000451-232262483594-Payment,BLINKIT,576.00,debit,87169.00,Groceries,rule,0,0,0,hdfc_like
+50ddf31f90509909,2026-03-07,2026-03,Saturday,UPI-STARBUCKS-starbucks@icici-ICIC0000630-079575538294-Payment,STARBUCKS,533.00,debit,81101.00,Food & Dining,rule,0,0,0,hdfc_like
+52428beb2e7b6b4d,2026-03-07,2026-03,Saturday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,82169.00,Investments,rule,0,0,0,hdfc_like
+a6c3939cb1f70da7,2026-03-07,2026-03,Saturday,UPI-RAHUL-rahul@icici-ICIC0000348-998806140252-Dinner split,RAHUL,835.00,credit,81566.00,Transfers,p2p,1,0,0,hdfc_like
+c8d12c64869774b9,2026-03-07,2026-03,Saturday,UPI-OLA-ola@icici-ICIC0000961-230973929170-Payment,OLA,370.00,debit,80731.00,Transport,rule,0,0,0,hdfc_like
+f50b5b0d976c5642,2026-03-07,2026-03,Saturday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000134-756663690236-Payment,CAFE COFFEE DAY,535.00,debit,81634.00,Food & Dining,rule,0,0,0,hdfc_like
+12592955f960446b,2026-03-08,2026-03,Sunday,UPI-UBER-uber@icici-ICIC0000748-407532956617-Payment,UBER,157.00,debit,81409.00,Transport,rule,0,0,0,hdfc_like
+3022811b67f24a45,2026-03-09,2026-03,Monday,UPI-DELHI METRO-delhimetro@icici-ICIC0000988-895012230631-Payment,DELHI METRO,39.00,debit,80504.00,Transport,rule,0,0,0,hdfc_like
+866d48d68d7628c9,2026-03-09,2026-03,Monday,UPI-BLINKIT-blinkit@icici-ICIC0000732-168322618068-Payment,BLINKIT,866.00,debit,80543.00,Groceries,rule,0,0,0,hdfc_like
+252091b4649dc490,2026-03-10,2026-03,Tuesday,UPI-DMART-dmart@icici-ICIC0000109-775751842768-Payment,DMART,651.00,debit,77816.00,Groceries,rule,0,0,0,hdfc_like
+4ce33efc92e16b94,2026-03-10,2026-03,Tuesday,UPI-AMAZON-amazon@icici-ICIC0000710-018092379895-Payment,AMAZON,1567.00,debit,76249.00,Shopping,rule,0,0,0,hdfc_like
+a5fb5b8e47e764bb,2026-03-10,2026-03,Tuesday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,2037.00,debit,78467.00,Bills & Utilities,rule,0,0,0,hdfc_like
+0b2d0229f2cc4188,2026-03-11,2026-03,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000789-574064986946-Payment,CAFE COFFEE DAY,534.00,debit,75715.00,Food & Dining,rule,0,0,0,hdfc_like
+61d5359f52c8a90d,2026-03-12,2026-03,Thursday,UPI-DOMINOS-dominos@icici-ICIC0000628-572237351325-Payment,DOMINOS,307.00,debit,74759.00,Food & Dining,rule,0,0,0,hdfc_like
+62ace8bdc6d82fa8,2026-03-12,2026-03,Thursday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000727-812293144734-Payment,CAFE COFFEE DAY,581.00,debit,74178.00,Food & Dining,rule,0,0,0,hdfc_like
+a6d2191505e283ce,2026-03-12,2026-03,Thursday,UPI-NETFLIX-netflix@icici-ICIC0000642-494738985427-Subscription,NETFLIX,649.00,debit,75066.00,Subscriptions,rule,0,0,0,hdfc_like
+7f49893cfbdb5869,2026-03-14,2026-03,Saturday,UPI-UBER-uber@icici-ICIC0000740-279862784812-Payment,UBER,356.00,debit,73822.00,Transport,rule,0,0,0,hdfc_like
+64c754617a232ece,2026-03-15,2026-03,Sunday,UPI-SPOTIFY-spotify@icici-ICIC0000979-055207055328-Subscription,SPOTIFY,119.00,debit,73703.00,Subscriptions,rule,0,0,0,hdfc_like
+c74bb61014bf9243,2026-03-15,2026-03,Sunday,UPI-BOOKMYSHOW-bms@icici-ICIC0000870-552231050305-Payment,BOOKMYSHOW,383.00,debit,72486.00,Entertainment,rule,0,0,0,hdfc_like
+e3d3a36884311e37,2026-03-15,2026-03,Sunday,UPI-DMART-dmart@icici-ICIC0000991-524961566556-Payment,DMART,834.00,debit,72869.00,Groceries,rule,0,0,0,hdfc_like
+0c23385282503546,2026-03-16,2026-03,Monday,UPI-OLA-ola@icici-ICIC0000498-633609526188-Payment,OLA,141.00,debit,70299.00,Transport,rule,0,0,0,hdfc_like
+265309ed79816972,2026-03-16,2026-03,Monday,UPI-BIGBASKET-bigbasket@icici-ICIC0000652-203410571256-Payment,BIGBASKET,1207.00,debit,70710.00,Groceries,rule,0,0,0,hdfc_like
+40ea18209c34ff91,2026-03-16,2026-03,Monday,UPI-ZOMATO-zomato@icici-ICIC0000854-178222611966-Payment,ZOMATO,126.00,debit,71917.00,Food & Dining,rule,0,0,0,hdfc_like
+75e16e03515f26b7,2026-03-16,2026-03,Monday,ATW-686464-NEW DELHI,ATM CASH,2000.00,debit,67939.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+a75d1e840ae407db,2026-03-16,2026-03,Monday,UPI-OLA-ola@icici-ICIC0000193-639703151435-Payment,OLA,360.00,debit,69939.00,Transport,rule,0,0,0,hdfc_like
+c22be3310a133419,2026-03-16,2026-03,Monday,UPI-UBER-uber@icici-ICIC0000322-337947389070-Payment,UBER,270.00,debit,70440.00,Transport,rule,0,0,0,hdfc_like
+ea30672268d4ed25,2026-03-16,2026-03,Monday,UPI-STARBUCKS-starbucks@icici-ICIC0000888-237688423727-Payment,STARBUCKS,443.00,debit,72043.00,Food & Dining,rule,0,0,0,hdfc_like
+16471ebe637e5e54,2026-03-17,2026-03,Tuesday,UPI-AMAZON REFUND-amazon@icici-ICIC0000708-671388649261-Refund,AMAZON REFUND,475.00,credit,68414.00,Shopping,rule,0,1,0,hdfc_like
+8aca414efcc48007,2026-03-18,2026-03,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000668-495731812791-Payment,CAFE COFFEE DAY,640.00,debit,67475.00,Food & Dining,rule,0,0,0,hdfc_like
+aff94cfade3399f4,2026-03-18,2026-03,Wednesday,UPI-JIO PREPAID-jio@icici-ICIC0000470-145255693255-Recharge,JIO PREPAID,299.00,debit,68115.00,Bills & Utilities,rule,0,0,0,hdfc_like
+bf1ab9c35970181c,2026-03-19,2026-03,Thursday,UPI-ZOMATO-zomato@icici-ICIC0000234-968785818740-Payment,ZOMATO,551.00,debit,66924.00,Food & Dining,rule,0,0,0,hdfc_like
+52e2934b192d1814,2026-03-20,2026-03,Friday,UPI-DELHI METRO-delhimetro@icici-ICIC0000563-261005112772-Payment,DELHI METRO,107.00,debit,66167.00,Transport,rule,0,0,0,hdfc_like
+d6490724768e0fc9,2026-03-20,2026-03,Friday,UPI-SWIGGY-swiggy@icici-ICIC0000138-794629071408-Payment,SWIGGY,650.00,debit,66274.00,Food & Dining,rule,0,0,0,hdfc_like
+94e48d9e23297260,2026-03-21,2026-03,Saturday,UPI-BOOKMYSHOW-bms@icici-ICIC0000969-607330515207-Payment,BOOKMYSHOW,652.00,debit,65515.00,Entertainment,rule,0,0,0,hdfc_like
+9cdecbf504898433,2026-03-24,2026-03,Tuesday,UPI-UBER-uber@icici-ICIC0000172-802512316595-Payment,UBER,315.00,debit,64789.00,Transport,rule,0,0,0,hdfc_like
+a4e25852b519e0a4,2026-03-24,2026-03,Tuesday,UPI-DOMINOS-dominos@icici-ICIC0000442-235834366565-Payment,DOMINOS,411.00,debit,65104.00,Food & Dining,rule,0,0,0,hdfc_like
+cc4a79d5736d4234,2026-03-24,2026-03,Tuesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000208-756741755655-Payment,DELHI METRO,210.00,debit,64579.00,Transport,rule,0,0,0,hdfc_like
+a907980886e425f1,2026-03-25,2026-03,Wednesday,UPI-RAPIDO-rapido@icici-ICIC0000735-276535456361-Payment,RAPIDO,297.00,debit,64282.00,Transport,rule,0,0,0,hdfc_like
+1c032ad73c1c336e,2026-03-26,2026-03,Thursday,UPI-DOMINOS-dominos@icici-ICIC0000446-866036884602-Payment,DOMINOS,499.00,debit,63783.00,Food & Dining,rule,0,0,0,hdfc_like
+4075fcf9c0464b89,2026-03-26,2026-03,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000549-703720755455-Payment,RAPIDO,195.00,debit,63365.00,Transport,rule,0,0,0,hdfc_like
+64b43ef5db5ea941,2026-03-26,2026-03,Thursday,UPI-PAPA-papa@icici-ICIC0000504-616720739064-Family,PAPA,3000.00,debit,60365.00,Transfers,rule,1,0,0,hdfc_like
+6aee905289c92c3e,2026-03-26,2026-03,Thursday,UPI-STARBUCKS-starbucks@icici-ICIC0000533-455361964602-Payment,STARBUCKS,223.00,debit,63560.00,Food & Dining,rule,0,0,0,hdfc_like
+79ccbdb52f2c0fb9,2026-03-27,2026-03,Friday,UPI-AJIO-ajio@icici-ICIC0000806-780608379384-Payment,AJIO,1287.00,debit,59078.00,Shopping,rule,0,0,0,hdfc_like
+ae279d9a0f3c8763,2026-03-28,2026-03,Saturday,UPI-MYNTRA-myntra@icici-ICIC0000480-468325357349-Payment,MYNTRA,301.00,debit,58777.00,Shopping,rule,0,0,0,hdfc_like
+7d4328d5c8c7c580,2026-04-01,2026-04,Wednesday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,123777.00,Income,rule,0,0,0,hdfc_like
+222a233d08afd294,2026-04-02,2026-04,Thursday,ATW-302472-NEW DELHI,ATM CASH,1000.00,debit,122777.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+3942f1cacf35b768,2026-04-03,2026-04,Friday,UPI-BOOKMYSHOW-bms@icici-ICIC0000961-476103168630-Payment,BOOKMYSHOW,897.00,debit,117134.00,Entertainment,rule,0,0,0,hdfc_like
+4d6025e4a4b3b50e,2026-04-03,2026-04,Friday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000670-571810399378-Payment,CAFE COFFEE DAY,400.00,debit,120877.00,Food & Dining,rule,0,0,0,hdfc_like
+92db68fcd2b64dd1,2026-04-03,2026-04,Friday,UPI-ZOMATO-zomato@icici-ICIC0000281-998434240733-Payment,ZOMATO,159.00,debit,120718.00,Food & Dining,rule,0,0,0,hdfc_like
+93769cbf63899434,2026-04-03,2026-04,Friday,UPI-CULT FIT-cultfit@icici-ICIC0000868-247160560127-Gym,CULT FIT,1500.00,debit,121277.00,Health,rule,0,0,0,hdfc_like
+a4986b9614f6a5ac,2026-04-03,2026-04,Friday,UPI-OLA-ola@icici-ICIC0000932-860367491823-Payment,OLA,123.00,debit,120595.00,Transport,rule,0,0,0,hdfc_like
+a74b23cda2decaf7,2026-04-03,2026-04,Friday,UPI-AMAZON-amazon@icici-ICIC0000976-637681112604-Payment,AMAZON,2564.00,debit,118031.00,Shopping,rule,0,0,0,hdfc_like
+4991b12664d4218f,2026-04-04,2026-04,Saturday,UPI-STARBUCKS-starbucks@icici-ICIC0000562-488259037914-Payment,STARBUCKS,431.00,debit,116703.00,Food & Dining,rule,0,0,0,hdfc_like
+4604cde599f4631d,2026-04-05,2026-04,Sunday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,98703.00,Rent,rule,0,0,0,hdfc_like
+5295c78ac7771bd2,2026-04-05,2026-04,Sunday,UPI-UBER-uber@icici-ICIC0000617-072622769763-Payment,UBER,119.00,debit,98584.00,Transport,rule,0,0,0,hdfc_like
+1ea5bf83f87a388e,2026-04-06,2026-04,Monday,UPI-SWIGGY-swiggy@icici-ICIC0000251-031056301912-Payment,SWIGGY,301.00,debit,97653.00,Food & Dining,rule,0,0,0,hdfc_like
+6d470d2e6fc7491d,2026-04-06,2026-04,Monday,UPI-ZOMATO-zomato@icici-ICIC0000887-743746112624-Payment,ZOMATO,630.00,debit,97954.00,Food & Dining,rule,0,0,0,hdfc_like
+ab4610537ba1423c,2026-04-06,2026-04,Monday,UPI-RAPIDO-rapido@icici-ICIC0000136-653726556270-Payment,RAPIDO,278.00,debit,97375.00,Transport,rule,0,0,0,hdfc_like
+f251ec02ef49d624,2026-04-07,2026-04,Tuesday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,92375.00,Investments,rule,0,0,0,hdfc_like
+6300c7b193e5e647,2026-04-08,2026-04,Wednesday,UPI-BOOKMYSHOW-bms@icici-ICIC0000103-367159330963-Payment,BOOKMYSHOW,598.00,debit,91777.00,Entertainment,rule,0,0,0,hdfc_like
+c60a64f9ca0d6ebc,2026-04-09,2026-04,Thursday,UPI-STARBUCKS-starbucks@icici-ICIC0000330-186039662219-Payment,STARBUCKS,457.00,debit,91320.00,Food & Dining,rule,0,0,0,hdfc_like
+e3645b0c4a1e90e0,2026-04-09,2026-04,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000244-985138500903-Payment,RAPIDO,74.00,debit,91246.00,Transport,rule,0,0,0,hdfc_like
+4aa8ea5765f09948,2026-04-10,2026-04,Friday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1824.00,debit,89422.00,Bills & Utilities,rule,0,0,0,hdfc_like
+ff0c1a1dde096075,2026-04-11,2026-04,Saturday,UPI-MYNTRA-myntra@icici-ICIC0000376-206377751361-Payment,MYNTRA,386.00,debit,89036.00,Shopping,rule,0,0,0,hdfc_like
+9f08fbd4130f790f,2026-04-12,2026-04,Sunday,UPI-NETFLIX-netflix@icici-ICIC0000732-249066931283-Subscription,NETFLIX,649.00,debit,88387.00,Subscriptions,rule,0,0,0,hdfc_like
+2b1617eb9f4dc1b0,2026-04-13,2026-04,Monday,UPI-RAPIDO-rapido@icici-ICIC0000730-516359394930-Payment,RAPIDO,34.00,debit,88085.00,Transport,rule,0,0,0,hdfc_like
+ae311c684a339382,2026-04-13,2026-04,Monday,UPI-DELHI METRO-delhimetro@icici-ICIC0000283-786643317809-Payment,DELHI METRO,268.00,debit,88119.00,Transport,rule,0,0,0,hdfc_like
+f9969640d84774cf,2026-04-13,2026-04,Monday,UPI-TATA 1MG-1mg@icici-ICIC0000282-615461420077-Payment,TATA 1MG,188.00,debit,87897.00,Health,rule,0,0,0,hdfc_like
+e9f653712fcdaef2,2026-04-14,2026-04,Tuesday,UPI-DOMINOS-dominos@icici-ICIC0000431-415724269771-Payment,DOMINOS,236.00,debit,87661.00,Food & Dining,rule,0,0,0,hdfc_like
+0d863a035f03f79e,2026-04-15,2026-04,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000270-460518471796-Payment,CAFE COFFEE DAY,258.00,debit,87284.00,Food & Dining,rule,0,0,0,hdfc_like
+bec1ddc11f81ed32,2026-04-15,2026-04,Wednesday,UPI-SPOTIFY-spotify@icici-ICIC0000489-579450195709-Subscription,SPOTIFY,119.00,debit,87542.00,Subscriptions,rule,0,0,0,hdfc_like
+d4c96cfc4fb11f5f,2026-04-15,2026-04,Wednesday,UPI-BLINKIT-blinkit@icici-ICIC0000496-750965040563-Payment,BLINKIT,1382.00,debit,85902.00,Groceries,rule,0,0,0,hdfc_like
+42d4b63173214825,2026-04-16,2026-04,Thursday,UPI-ZEPTO-zepto@icici-ICIC0000259-685374782735-Payment,ZEPTO,626.00,debit,84949.00,Groceries,rule,0,0,0,hdfc_like
+5f87673d66f74498,2026-04-16,2026-04,Thursday,UPI-TATA 1MG-1mg@icici-ICIC0000252-600313307744-Payment,TATA 1MG,293.00,debit,80819.00,Health,rule,0,0,0,hdfc_like
+7586f211e3d8102d,2026-04-16,2026-04,Thursday,UPI-STARBUCKS-starbucks@icici-ICIC0000829-613412499926-Payment,STARBUCKS,327.00,debit,85575.00,Food & Dining,rule,0,0,0,hdfc_like
+f7a09dcc14cb3d6f,2026-04-16,2026-04,Thursday,UPI-AJIO-ajio@icici-ICIC0000368-180946960969-Payment,AJIO,3837.00,debit,81112.00,Shopping,rule,0,0,0,hdfc_like
+1e73a83a2a6cf631,2026-04-17,2026-04,Friday,UPI-BIGBASKET-bigbasket@icici-ICIC0000663-306376013369-Payment,BIGBASKET,272.00,debit,79450.00,Groceries,rule,0,0,0,hdfc_like
+867d4dbf931d16ec,2026-04-17,2026-04,Friday,UPI-DMART-dmart@icici-ICIC0000314-661769469926-Payment,DMART,848.00,debit,79971.00,Groceries,rule,0,0,0,hdfc_like
+a344d40786f6e861,2026-04-17,2026-04,Friday,UPI-BIGBASKET-bigbasket@icici-ICIC0000688-931556416790-Payment,BIGBASKET,249.00,debit,79722.00,Groceries,rule,0,0,0,hdfc_like
+0bf21adf3be81ebe,2026-04-18,2026-04,Saturday,UPI-RAPIDO-rapido@icici-ICIC0000810-260954545819-Payment,RAPIDO,65.00,debit,78553.00,Transport,rule,0,0,0,hdfc_like
+0fbcc39caa26c9d6,2026-04-18,2026-04,Saturday,UPI-RAPIDO-rapido@icici-ICIC0000765-034522140264-Payment,RAPIDO,252.00,debit,78618.00,Transport,rule,0,0,0,hdfc_like
+14bab453962194ab,2026-04-18,2026-04,Saturday,UPI-DELHI METRO-delhimetro@icici-ICIC0000939-431658254539-Payment,DELHI METRO,320.00,debit,78233.00,Transport,rule,0,0,0,hdfc_like
+1b901096a383a389,2026-04-18,2026-04,Saturday,UPI-DOMINOS-dominos@icici-ICIC0000234-215883751991-Payment,DOMINOS,281.00,debit,78870.00,Food & Dining,rule,0,0,0,hdfc_like
+73a1da40e2c39b2b,2026-04-18,2026-04,Saturday,UPI-JIO PREPAID-jio@icici-ICIC0000441-470633992023-Recharge,JIO PREPAID,299.00,debit,79151.00,Bills & Utilities,rule,0,0,0,hdfc_like
+e3ad76ec51ca3299,2026-04-20,2026-04,Monday,UPI-RAHUL-rahul@icici-ICIC0000794-857207409626-Dinner split,RAHUL,314.00,credit,78547.00,Transfers,p2p,1,0,0,hdfc_like
+0f99cc5366e0a0cf,2026-04-21,2026-04,Tuesday,UPI-DOMINOS-dominos@icici-ICIC0000471-077961501388-Payment,DOMINOS,286.00,debit,78261.00,Food & Dining,rule,0,0,0,hdfc_like
+73d31129ee8a83fc,2026-04-21,2026-04,Tuesday,UPI-DMART-dmart@icici-ICIC0000915-187943560227-Payment,DMART,830.00,debit,77431.00,Groceries,rule,0,0,0,hdfc_like
+c25d875a65513822,2026-04-21,2026-04,Tuesday,UPI-UBER-uber@icici-ICIC0000116-186911888696-Payment,UBER,262.00,debit,76252.00,Transport,rule,0,0,0,hdfc_like
+c8a672fb39d3635d,2026-04-21,2026-04,Tuesday,UPI-BIGBASKET-bigbasket@icici-ICIC0000314-312341120652-Payment,BIGBASKET,917.00,debit,76514.00,Groceries,rule,0,0,0,hdfc_like
+a1fc5655d7fb328f,2026-04-22,2026-04,Wednesday,UPI-PAPA-papa@icici-ICIC0000600-376498903374-Family,PAPA,2000.00,debit,73811.00,Transfers,rule,1,0,0,hdfc_like
+fb153267ba0988b2,2026-04-22,2026-04,Wednesday,UPI-UBER-uber@icici-ICIC0000748-556950495339-Payment,UBER,180.00,debit,75811.00,Transport,rule,0,0,0,hdfc_like
+fce31474e0ce298b,2026-04-22,2026-04,Wednesday,UPI-UBER-uber@icici-ICIC0000933-583602157876-Payment,UBER,261.00,debit,75991.00,Transport,rule,0,0,0,hdfc_like
+59f16b6ca2b1e6f4,2026-04-23,2026-04,Thursday,UPI-BIGBASKET-bigbasket@icici-ICIC0000132-208383513020-Payment,BIGBASKET,1236.00,debit,72575.00,Groceries,rule,0,0,0,hdfc_like
+6cb811f945440718,2026-04-23,2026-04,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000477-146179974080-Payment,DELHI METRO,271.00,debit,72269.00,Transport,rule,0,0,0,hdfc_like
+bbeb2cb5a3ef8995,2026-04-23,2026-04,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000491-442115834281-Payment,RAPIDO,35.00,debit,72540.00,Transport,rule,0,0,0,hdfc_like
+d01a08dbeb8a45a4,2026-04-23,2026-04,Thursday,UPI-AJIO-ajio@icici-ICIC0000783-731073309244-Payment,AJIO,1943.00,debit,70326.00,Shopping,rule,0,0,0,hdfc_like
+0067644e6bbea095,2026-04-24,2026-04,Friday,UPI-DELHI METRO-delhimetro@icici-ICIC0000752-158028044499-Payment,DELHI METRO,149.00,debit,69720.00,Transport,rule,0,0,0,hdfc_like
+910dcd438368a942,2026-04-24,2026-04,Friday,ATW-298667-NEW DELHI,ATM CASH,2000.00,debit,67720.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+b17e7858196ab778,2026-04-24,2026-04,Friday,UPI-DOMINOS-dominos@icici-ICIC0000692-307388780418-Payment,DOMINOS,457.00,debit,69869.00,Food & Dining,rule,0,0,0,hdfc_like
+23f30c7be2d361bf,2026-04-25,2026-04,Saturday,UPI-ZOMATO-zomato@icici-ICIC0000292-117625226364-Payment,ZOMATO,634.00,debit,67086.00,Food & Dining,rule,0,0,0,hdfc_like
+25294e7e99ed584b,2026-04-26,2026-04,Sunday,UPI-RAPIDO-rapido@icici-ICIC0000817-215099588743-Payment,RAPIDO,368.00,debit,64038.00,Transport,rule,0,0,0,hdfc_like
+6db9db750e6f20e1,2026-04-26,2026-04,Sunday,UPI-BIGBASKET-bigbasket@icici-ICIC0000914-392096853587-Payment,BIGBASKET,1644.00,debit,65110.00,Groceries,rule,0,0,0,hdfc_like
+a22e4e58200f90c3,2026-04-26,2026-04,Sunday,UPI-STARBUCKS-starbucks@icici-ICIC0000105-642644608268-Payment,STARBUCKS,332.00,debit,66754.00,Food & Dining,rule,0,0,0,hdfc_like
+ccb9c647e8ff9cc2,2026-04-26,2026-04,Sunday,UPI-BLINKIT-blinkit@icici-ICIC0000594-913483370959-Payment,BLINKIT,620.00,debit,64490.00,Groceries,rule,0,0,0,hdfc_like
+f1780e84a64d0713,2026-04-26,2026-04,Sunday,UPI-RAPIDO-rapido@icici-ICIC0000981-840434176118-Payment,RAPIDO,84.00,debit,64406.00,Transport,rule,0,0,0,hdfc_like
+5feaf027600c84ca,2026-04-27,2026-04,Monday,UPI-AMAZON-amazon@icici-ICIC0000169-001422100968-Payment,AMAZON,1297.00,debit,62741.00,Shopping,rule,0,0,0,hdfc_like
+ebde12b7f9764451,2026-04-28,2026-04,Tuesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000230-809905912045-Payment,DELHI METRO,350.00,debit,62391.00,Transport,rule,0,0,0,hdfc_like
+331e4598ea4202e4,2026-05-01,2026-05,Friday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,127391.00,Income,rule,0,0,0,hdfc_like
+644736387676c6db,2026-05-01,2026-05,Friday,UPI-TATA 1MG-1mg@icici-ICIC0000812-403530462486-Payment,TATA 1MG,491.00,debit,126900.00,Health,rule,0,0,0,hdfc_like
+8a27e7ff6d289065,2026-05-03,2026-05,Sunday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000211-111129046944-Payment,CAFE COFFEE DAY,141.00,debit,125259.00,Food & Dining,rule,0,0,0,hdfc_like
+a4fdb0626c454f2d,2026-05-03,2026-05,Sunday,UPI-CULT FIT-cultfit@icici-ICIC0000276-698068081560-Gym,CULT FIT,1500.00,debit,125400.00,Health,rule,0,0,0,hdfc_like
+bac6e427290ac7e4,2026-05-04,2026-05,Monday,UPI-RAPIDO-rapido@icici-ICIC0000647-580534391121-Payment,RAPIDO,316.00,debit,124943.00,Transport,rule,0,0,0,hdfc_like
+44f53fa93383be5f,2026-05-05,2026-05,Tuesday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,106943.00,Rent,rule,0,0,0,hdfc_like
+0c7b4e4ea1842f72,2026-05-06,2026-05,Wednesday,UPI-RAPIDO-rapido@icici-ICIC0000113-941460145199-Payment,RAPIDO,63.00,debit,106358.00,Transport,rule,0,0,0,hdfc_like
+571033f518684b1b,2026-05-06,2026-05,Wednesday,UPI-UBER-uber@icici-ICIC0000954-332219111775-Payment,UBER,50.00,debit,106421.00,Transport,rule,0,0,0,hdfc_like
+861f0d37b386d16d,2026-05-06,2026-05,Wednesday,UPI-UBER-uber@icici-ICIC0000491-633676544245-Payment,UBER,307.00,debit,106051.00,Transport,rule,0,0,0,hdfc_like
+ba43ab54b9bf2131,2026-05-06,2026-05,Wednesday,UPI-ZOMATO-zomato@icici-ICIC0000959-797119543276-Payment,ZOMATO,472.00,debit,106471.00,Food & Dining,rule,0,0,0,hdfc_like
+20d9f7562d3b7e3b,2026-05-07,2026-05,Thursday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000164-088535674655-Payment,CAFE COFFEE DAY,588.00,debit,100463.00,Food & Dining,rule,0,0,0,hdfc_like
+2362562c52dd4bef,2026-05-07,2026-05,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000446-284244775789-Payment,RAPIDO,212.00,debit,97950.00,Transport,rule,0,0,0,hdfc_like
+2d2f678d8b3f0acb,2026-05-07,2026-05,Thursday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,101051.00,Investments,rule,0,0,0,hdfc_like
+38f3ee5dacf4682e,2026-05-07,2026-05,Thursday,UPI-DMART-dmart@icici-ICIC0000602-369931833239-Payment,DMART,1348.00,debit,99115.00,Groceries,rule,0,0,0,hdfc_like
+3c755f9661d4f25a,2026-05-07,2026-05,Thursday,UPI-BLINKIT-blinkit@icici-ICIC0000845-874417874851-Payment,BLINKIT,821.00,debit,98294.00,Groceries,rule,0,0,0,hdfc_like
+913e7dea9c966d24,2026-05-07,2026-05,Thursday,UPI-UBER-uber@icici-ICIC0000210-065490300165-Payment,UBER,132.00,debit,98162.00,Transport,rule,0,0,0,hdfc_like
+1a0463977961759a,2026-05-10,2026-05,Sunday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000344-604378704784-Payment,CAFE COFFEE DAY,499.00,debit,95928.00,Food & Dining,rule,0,0,0,hdfc_like
+59b7af1f26d53f04,2026-05-10,2026-05,Sunday,UPI-DMART-dmart@icici-ICIC0000667-483547271366-Payment,DMART,454.00,debit,94452.00,Groceries,rule,0,0,0,hdfc_like
+659714311f756ce9,2026-05-10,2026-05,Sunday,UPI-BOOKMYSHOW-bms@icici-ICIC0000472-926908222586-Payment,BOOKMYSHOW,344.00,debit,94108.00,Entertainment,rule,0,0,0,hdfc_like
+9829f178498fc77b,2026-05-10,2026-05,Sunday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1523.00,debit,96427.00,Bills & Utilities,rule,0,0,0,hdfc_like
+f1aef98d4a14e039,2026-05-10,2026-05,Sunday,UPI-DMART-dmart@icici-ICIC0000872-951594679153-Payment,DMART,1022.00,debit,94906.00,Groceries,rule,0,0,0,hdfc_like
+918a90680f43c26b,2026-05-11,2026-05,Monday,UPI-UBER-uber@icici-ICIC0000605-126394528108-Payment,UBER,273.00,debit,93835.00,Transport,rule,0,0,0,hdfc_like
+092a36601dd679e4,2026-05-12,2026-05,Tuesday,UPI-BLINKIT-blinkit@icici-ICIC0000624-702514630369-Payment,BLINKIT,299.00,debit,92264.00,Groceries,rule,0,0,0,hdfc_like
+128fc1ad4d2f96a2,2026-05-12,2026-05,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000559-513944143079-Payment,ZOMATO,459.00,debit,92563.00,Food & Dining,rule,0,0,0,hdfc_like
+4397d33bca7a4da7,2026-05-12,2026-05,Tuesday,UPI-NETFLIX-netflix@icici-ICIC0000307-489639518775-Subscription,NETFLIX,649.00,debit,93186.00,Subscriptions,rule,0,0,0,hdfc_like
+496707c6468b789f,2026-05-12,2026-05,Tuesday,UPI-STARBUCKS-starbucks@icici-ICIC0000983-752762176941-Payment,STARBUCKS,164.00,debit,93022.00,Food & Dining,rule,0,0,0,hdfc_like
+175db2b7e4dab473,2026-05-14,2026-05,Thursday,UPI-SWIGGY-swiggy@icici-ICIC0000248-261341323052-Payment,SWIGGY,233.00,debit,92031.00,Food & Dining,rule,0,0,0,hdfc_like
+70700164ec3baf8d,2026-05-14,2026-05,Thursday,UPI-UBER-uber@icici-ICIC0000571-911036149591-Payment,UBER,185.00,debit,90672.00,Transport,rule,0,0,0,hdfc_like
+b93722b30d761233,2026-05-14,2026-05,Thursday,ATW-521843-NEW DELHI,ATM CASH,3000.00,debit,84278.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+ccb11481beb75c83,2026-05-14,2026-05,Thursday,UPI-BIGBASKET-bigbasket@icici-ICIC0000283-462129075586-Payment,BIGBASKET,1174.00,debit,90857.00,Groceries,rule,0,0,0,hdfc_like
+fc600f06fbf945d8,2026-05-14,2026-05,Thursday,UPI-AJIO-ajio@icici-ICIC0000237-337545545102-Payment,AJIO,3394.00,debit,87278.00,Shopping,rule,0,0,0,hdfc_like
+1648c85f8e43cb2e,2026-05-15,2026-05,Friday,UPI-DOMINOS-dominos@icici-ICIC0000528-138676619808-Payment,DOMINOS,620.00,debit,83322.00,Food & Dining,rule,0,0,0,hdfc_like
+1c1505f9f3b9e0b9,2026-05-15,2026-05,Friday,UPI-STARBUCKS-starbucks@icici-ICIC0000521-216576083451-Payment,STARBUCKS,217.00,debit,83942.00,Food & Dining,rule,0,0,0,hdfc_like
+4f01b1e6645d05ad,2026-05-15,2026-05,Friday,UPI-SPOTIFY-spotify@icici-ICIC0000443-027131251763-Subscription,SPOTIFY,119.00,debit,84159.00,Subscriptions,rule,0,0,0,hdfc_like
+eb3b9016d2f94689,2026-05-15,2026-05,Friday,UPI-ZEPTO-zepto@icici-ICIC0000465-006529205460-Payment,ZEPTO,1248.00,debit,82074.00,Groceries,rule,0,0,0,hdfc_like
+a42eaec891076aa0,2026-05-16,2026-05,Saturday,UPI-SWIGGY-swiggy@icici-ICIC0000851-705478425079-Payment,SWIGGY,255.00,debit,81819.00,Food & Dining,rule,0,0,0,hdfc_like
+585caea8256fd135,2026-05-17,2026-05,Sunday,UPI-UBER-uber@icici-ICIC0000322-791707998461-Payment,UBER,374.00,debit,80827.00,Transport,rule,0,0,0,hdfc_like
+667a758220ae5812,2026-05-17,2026-05,Sunday,UPI-SWIGGY-swiggy@icici-ICIC0000790-303403675713-Payment,SWIGGY,236.00,debit,81583.00,Food & Dining,rule,0,0,0,hdfc_like
+c9a422945f0bb51e,2026-05-17,2026-05,Sunday,UPI-RAPIDO-rapido@icici-ICIC0000754-957107588636-Payment,RAPIDO,382.00,debit,81201.00,Transport,rule,0,0,0,hdfc_like
+98e5c504f604712b,2026-05-18,2026-05,Monday,UPI-JIO PREPAID-jio@icici-ICIC0000116-800975267411-Recharge,JIO PREPAID,299.00,debit,80528.00,Bills & Utilities,rule,0,0,0,hdfc_like
+228d6e23b482210f,2026-05-19,2026-05,Tuesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000235-837232812961-Payment,CAFE COFFEE DAY,412.00,debit,79335.00,Food & Dining,rule,0,0,0,hdfc_like
+3bdae0aa39e31c79,2026-05-19,2026-05,Tuesday,UPI-DOMINOS-dominos@icici-ICIC0000693-316373078324-Payment,DOMINOS,616.00,debit,79912.00,Food & Dining,rule,0,0,0,hdfc_like
+b6f86ead4a2a5886,2026-05-19,2026-05,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000584-827723585150-Payment,ZOMATO,165.00,debit,79747.00,Food & Dining,rule,0,0,0,hdfc_like
+262025087d7f570e,2026-05-21,2026-05,Thursday,UPI-SWIGGY-swiggy@icici-ICIC0000472-243870791741-Payment,SWIGGY,360.00,debit,78975.00,Food & Dining,rule,0,0,0,hdfc_like
+039b817cd02a23b1,2026-05-22,2026-05,Friday,UPI-AMAZON-amazon@icici-ICIC0000350-265903303485-Payment,AMAZON,3750.00,debit,74520.00,Shopping,rule,0,0,0,hdfc_like
+a733e6789423dd32,2026-05-22,2026-05,Friday,UPI-OLA-ola@icici-ICIC0000459-017253876508-Payment,OLA,420.00,debit,78555.00,Transport,rule,0,0,0,hdfc_like
+d7c72f2d9c4b602c,2026-05-22,2026-05,Friday,UPI-DELHI METRO-delhimetro@icici-ICIC0000717-995141429078-Payment,DELHI METRO,285.00,debit,78270.00,Transport,rule,0,0,0,hdfc_like
+3c7a9d25f956cb58,2026-05-23,2026-05,Saturday,UPI-DOMINOS-dominos@icici-ICIC0000748-063652766526-Payment,DOMINOS,463.00,debit,74057.00,Food & Dining,rule,0,0,0,hdfc_like
+70209b1dd9943fa9,2026-05-23,2026-05,Saturday,UPI-DOMINOS-dominos@icici-ICIC0000644-652679890840-Payment,DOMINOS,303.00,debit,73754.00,Food & Dining,rule,0,0,0,hdfc_like
+ab1a660090b36d77,2026-05-23,2026-05,Saturday,UPI-BOOKMYSHOW-bms@icici-ICIC0000964-552554308526-Payment,BOOKMYSHOW,570.00,debit,73184.00,Entertainment,rule,0,0,0,hdfc_like
+076079ec2f12cb8b,2026-05-24,2026-05,Sunday,UPI-UBER-uber@icici-ICIC0000934-116632947104-Payment,UBER,250.00,debit,72689.00,Transport,rule,0,0,0,hdfc_like
+b56db0416217da7d,2026-05-24,2026-05,Sunday,UPI-DOMINOS-dominos@icici-ICIC0000870-592723262034-Payment,DOMINOS,245.00,debit,72939.00,Food & Dining,rule,0,0,0,hdfc_like
+7c9f3419038359ee,2026-05-25,2026-05,Monday,UPI-MYNTRA-myntra@icici-ICIC0000391-300837083033-Payment,MYNTRA,3177.00,debit,69512.00,Shopping,rule,0,0,0,hdfc_like
+11482fe259f8f580,2026-05-26,2026-05,Tuesday,UPI-PAPA-papa@icici-ICIC0000787-710785297495-Family,PAPA,5000.00,debit,64327.00,Transfers,rule,1,0,0,hdfc_like
+e5a06dbee25cdf70,2026-05-26,2026-05,Tuesday,UPI-RAPIDO-rapido@icici-ICIC0000980-507981484016-Payment,RAPIDO,185.00,debit,69327.00,Transport,rule,0,0,0,hdfc_like
+61aafe4d526937ab,2026-05-28,2026-05,Thursday,UPI-DMART-dmart@icici-ICIC0000637-909704945771-Payment,DMART,580.00,debit,63747.00,Groceries,rule,0,0,0,hdfc_like
+6ae3f67f680f1a15,2026-06-01,2026-06,Monday,UPI-OLA-ola@icici-ICIC0000128-852834578251-Payment,OLA,417.00,debit,128330.00,Transport,rule,0,0,0,hdfc_like
+d20c0c1dba4d08b9,2026-06-01,2026-06,Monday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,128747.00,Income,rule,0,0,0,hdfc_like
+5f66c3549ad85728,2026-06-02,2026-06,Tuesday,UPI-BIGBASKET-bigbasket@icici-ICIC0000599-357998200552-Payment,BIGBASKET,1527.00,debit,126803.00,Groceries,rule,0,0,0,hdfc_like
+2f658aaa5f644e80,2026-06-03,2026-06,Wednesday,UPI-CULT FIT-cultfit@icici-ICIC0000679-702427784896-Gym,CULT FIT,1500.00,debit,125303.00,Health,rule,0,0,0,hdfc_like
+62c308b0d483480c,2026-06-03,2026-06,Wednesday,UPI-DOMINOS-dominos@icici-ICIC0000121-817276144836-Payment,DOMINOS,254.00,debit,125049.00,Food & Dining,rule,0,0,0,hdfc_like
+1d04f08dc365b688,2026-06-04,2026-06,Thursday,UPI-DOMINOS-dominos@icici-ICIC0000329-718724186926-Payment,DOMINOS,548.00,debit,124501.00,Food & Dining,rule,0,0,0,hdfc_like
+39d0a2bc4d19e368,2026-06-04,2026-06,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000606-664417445569-Payment,DELHI METRO,396.00,debit,123465.00,Transport,rule,0,0,0,hdfc_like
+cea5da0ec6a58301,2026-06-04,2026-06,Thursday,UPI-DOMINOS-dominos@icici-ICIC0000606-037448810811-Payment,DOMINOS,640.00,debit,123861.00,Food & Dining,rule,0,0,0,hdfc_like
+655a97bff7aca2bd,2026-06-05,2026-06,Friday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,105465.00,Rent,rule,0,0,0,hdfc_like
+7db12b5b7d823f06,2026-06-05,2026-06,Friday,UPI-DELHI METRO-delhimetro@icici-ICIC0000400-734963491260-Payment,DELHI METRO,277.00,debit,105188.00,Transport,rule,0,0,0,hdfc_like
+180fd400d270fe50,2026-06-06,2026-06,Saturday,UPI-ZEPTO-zepto@icici-ICIC0000180-768150114689-Payment,ZEPTO,1432.00,debit,102819.00,Groceries,rule,0,0,0,hdfc_like
+c0c892967d2cc88e,2026-06-06,2026-06,Saturday,UPI-FLIPKART-flipkart@icici-ICIC0000938-705004343388-Payment,FLIPKART,1387.00,debit,101145.00,Shopping,rule,0,0,0,hdfc_like
+cd4b06c3183201c8,2026-06-06,2026-06,Saturday,UPI-DMART-dmart@icici-ICIC0000905-130825466298-Payment,DMART,583.00,debit,104251.00,Groceries,rule,0,0,0,hdfc_like
+cf932870616c24fb,2026-06-06,2026-06,Saturday,UPI-OLA-ola@icici-ICIC0000304-147942593261-Payment,OLA,287.00,debit,102532.00,Transport,rule,0,0,0,hdfc_like
+e45c0e3aec9ef121,2026-06-06,2026-06,Saturday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000803-532033385005-Payment,CAFE COFFEE DAY,354.00,debit,104834.00,Food & Dining,rule,0,0,0,hdfc_like
+5692707bc288c40f,2026-06-07,2026-06,Sunday,UPI-RAHUL-rahul@icici-ICIC0000405-334338127547-Dinner split,RAHUL,694.00,credit,96435.00,Transfers,p2p,1,0,0,hdfc_like
+b158cd0e26bf1cf7,2026-06-07,2026-06,Sunday,UPI-DOMINOS-dominos@icici-ICIC0000247-122480561542-Payment,DOMINOS,404.00,debit,95741.00,Food & Dining,rule,0,0,0,hdfc_like
+d0c620bce8563dfd,2026-06-07,2026-06,Sunday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,96145.00,Investments,rule,0,0,0,hdfc_like
+e885782b3ee274cb,2026-06-08,2026-06,Monday,UPI-UBER-uber@icici-ICIC0000954-835037361742-Payment,UBER,249.00,debit,96186.00,Transport,rule,0,0,0,hdfc_like
+f48cbe8be31f3ffe,2026-06-09,2026-06,Tuesday,UPI-SWIGGY-swiggy@icici-ICIC0000616-633395525981-Payment,SWIGGY,444.00,debit,95742.00,Food & Dining,rule,0,0,0,hdfc_like
+83f8aca5b4b3eb63,2026-06-10,2026-06,Wednesday,UPI-DMART-dmart@icici-ICIC0000733-866968011861-Payment,DMART,254.00,debit,93742.00,Groceries,rule,0,0,0,hdfc_like
+b30fab6ec2298df7,2026-06-10,2026-06,Wednesday,UPI-DMART-dmart@icici-ICIC0000682-000140652205-Payment,DMART,433.00,debit,93996.00,Groceries,rule,0,0,0,hdfc_like
+d777da1083e38530,2026-06-10,2026-06,Wednesday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1313.00,debit,94429.00,Bills & Utilities,rule,0,0,0,hdfc_like
+510d0f5a24726107,2026-06-11,2026-06,Thursday,UPI-STARBUCKS-starbucks@icici-ICIC0000574-667956040839-Payment,STARBUCKS,427.00,debit,93315.00,Food & Dining,rule,0,0,0,hdfc_like
+03cc691f023c0f24,2026-06-12,2026-06,Friday,UPI-AMAZON-amazon@icici-ICIC0000685-251332017493-Payment,AMAZON,2622.00,debit,88663.00,Shopping,rule,0,0,0,hdfc_like
+5da1f0aee25f0ee9,2026-06-12,2026-06,Friday,UPI-ZOMATO-zomato@icici-ICIC0000586-780968696725-Payment,ZOMATO,436.00,debit,92230.00,Food & Dining,rule,0,0,0,hdfc_like
+643941acf9562486,2026-06-12,2026-06,Friday,UPI-RAPIDO-rapido@icici-ICIC0000108-896146866438-Payment,RAPIDO,362.00,debit,91285.00,Transport,rule,0,0,0,hdfc_like
+7ec74b5e6d513fdd,2026-06-12,2026-06,Friday,UPI-NETFLIX-netflix@icici-ICIC0000966-486264112845-Subscription,NETFLIX,649.00,debit,92666.00,Subscriptions,rule,0,0,0,hdfc_like
+bd8a54f9b3e385db,2026-06-12,2026-06,Friday,UPI-DOMINOS-dominos@icici-ICIC0000704-913047462630-Payment,DOMINOS,583.00,debit,91647.00,Food & Dining,rule,0,0,0,hdfc_like
+fd21a47e60009bae,2026-06-13,2026-06,Saturday,UPI-UBER-uber@icici-ICIC0000877-091599789487-Payment,UBER,185.00,debit,88478.00,Transport,rule,0,0,0,hdfc_like
+19d528f9ccad00df,2026-06-14,2026-06,Sunday,UPI-ZOMATO-zomato@icici-ICIC0000911-122693640136-Payment,ZOMATO,337.00,debit,88141.00,Food & Dining,rule,0,0,0,hdfc_like
+43bbc1af1a5259dc,2026-06-14,2026-06,Sunday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000268-397186701202-Payment,CAFE COFFEE DAY,598.00,debit,86894.00,Food & Dining,rule,0,0,0,hdfc_like
+5721a4868d3dfac9,2026-06-14,2026-06,Sunday,UPI-DELHI METRO-delhimetro@icici-ICIC0000569-956947750347-Payment,DELHI METRO,252.00,debit,86642.00,Transport,rule,0,0,0,hdfc_like
+f81f777803720851,2026-06-14,2026-06,Sunday,UPI-STARBUCKS-starbucks@icici-ICIC0000245-239492349289-Payment,STARBUCKS,649.00,debit,87492.00,Food & Dining,rule,0,0,0,hdfc_like
+325e024fcb30db27,2026-06-15,2026-06,Monday,UPI-SPOTIFY-spotify@icici-ICIC0000546-492207256077-Subscription,SPOTIFY,119.00,debit,86523.00,Subscriptions,rule,0,0,0,hdfc_like
+42f6bb30102688d5,2026-06-15,2026-06,Monday,UPI-SWIGGY-swiggy@icici-ICIC0000303-280661915057-Payment,SWIGGY,584.00,debit,85939.00,Food & Dining,rule,0,0,0,hdfc_like
+8f68003eb0460d02,2026-06-15,2026-06,Monday,UPI-UBER-uber@icici-ICIC0000405-503275796822-Payment,UBER,371.00,debit,85568.00,Transport,rule,0,0,0,hdfc_like
+a3a69b7b6db9093e,2026-06-15,2026-06,Monday,UPI-OLA-ola@icici-ICIC0000179-355532444949-Payment,OLA,113.00,debit,85455.00,Transport,rule,0,0,0,hdfc_like
+33dc411275155d9a,2026-06-16,2026-06,Tuesday,UPI-DMART-dmart@icici-ICIC0000120-852580067987-Payment,DMART,1420.00,debit,82924.00,Groceries,rule,0,0,0,hdfc_like
+997b1f97bf9b078e,2026-06-16,2026-06,Tuesday,UPI-ZEPTO-zepto@icici-ICIC0000764-128850714197-Payment,ZEPTO,1111.00,debit,84344.00,Groceries,rule,0,0,0,hdfc_like
+63af260e8f82b8c2,2026-06-17,2026-06,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000780-899282183537-Payment,SWIGGY,361.00,debit,82563.00,Food & Dining,rule,0,0,0,hdfc_like
+76a34d8da3873b20,2026-06-17,2026-06,Wednesday,ATW-298595-NEW DELHI,ATM CASH,5000.00,debit,77324.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+99ccd76d91f2878f,2026-06-17,2026-06,Wednesday,ATW-119570-NEW DELHI,ATM CASH,1000.00,debit,76324.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+a263f98ad158c61e,2026-06-17,2026-06,Wednesday,UPI-OLA-ola@icici-ICIC0000230-449556401591-Payment,OLA,239.00,debit,82324.00,Transport,rule,0,0,0,hdfc_like
+7180da872f96cd06,2026-06-18,2026-06,Thursday,UPI-JIO PREPAID-jio@icici-ICIC0000980-832098683882-Recharge,JIO PREPAID,299.00,debit,76025.00,Bills & Utilities,rule,0,0,0,hdfc_like
+522588d332d8805d,2026-06-19,2026-06,Friday,UPI-PAPA-papa@icici-ICIC0000381-727848640804-Family,PAPA,3000.00,debit,72781.00,Transfers,rule,1,0,0,hdfc_like
+8b0fe9ce0d2aa12d,2026-06-19,2026-06,Friday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000779-559554076806-Payment,CAFE COFFEE DAY,244.00,debit,75781.00,Food & Dining,rule,0,0,0,hdfc_like
+44cff644b1a2db73,2026-06-21,2026-06,Sunday,UPI-BOOKMYSHOW-bms@icici-ICIC0000571-761706639306-Payment,BOOKMYSHOW,703.00,debit,71600.00,Entertainment,rule,0,0,0,hdfc_like
+50bd5bbc55960105,2026-06-21,2026-06,Sunday,UPI-ZOMATO-zomato@icici-ICIC0000412-301598786734-Payment,ZOMATO,256.00,debit,72303.00,Food & Dining,rule,0,0,0,hdfc_like
+a7509bb0f8e8e9e6,2026-06-21,2026-06,Sunday,UPI-DOMINOS-dominos@icici-ICIC0000424-874088944878-Payment,DOMINOS,222.00,debit,72559.00,Food & Dining,rule,0,0,0,hdfc_like
+15c94ba666257ac5,2026-06-22,2026-06,Monday,ATW-657695-NEW DELHI,ATM CASH,2000.00,debit,69439.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+6eb0dd0d2fac5470,2026-06-22,2026-06,Monday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000198-854845478644-Payment,CAFE COFFEE DAY,161.00,debit,71439.00,Food & Dining,rule,0,0,0,hdfc_like
+fc62f73a342e720e,2026-06-22,2026-06,Monday,UPI-AMAZON REFUND-amazon@icici-ICIC0000424-309521719609-Refund,AMAZON REFUND,671.00,credit,70110.00,Shopping,rule,0,1,0,hdfc_like
+1118cfed734b4f06,2026-06-23,2026-06,Tuesday,UPI-DOMINOS-dominos@icici-ICIC0000533-720032999957-Payment,DOMINOS,166.00,debit,69414.00,Food & Dining,rule,0,0,0,hdfc_like
+d08391eb01ea9111,2026-06-23,2026-06,Tuesday,UPI-UBER-uber@icici-ICIC0000151-944811679801-Payment,UBER,352.00,debit,69062.00,Transport,rule,0,0,0,hdfc_like
+d6d6e11dc54b2c62,2026-06-23,2026-06,Tuesday,UPI-OLA-ola@icici-ICIC0000486-523583078008-Payment,OLA,273.00,debit,68789.00,Transport,rule,0,0,0,hdfc_like
+eb5220a3a72dec8a,2026-06-23,2026-06,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000367-536874006671-Payment,ZOMATO,530.00,debit,69580.00,Food & Dining,rule,0,0,0,hdfc_like
+3bba99976d1c36e2,2026-06-24,2026-06,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000851-971882775602-Payment,CAFE COFFEE DAY,365.00,debit,68424.00,Food & Dining,rule,0,0,0,hdfc_like
+8186e330ced0bef3,2026-06-24,2026-06,Wednesday,UPI-BOOKMYSHOW-bms@icici-ICIC0000384-687577515165-Payment,BOOKMYSHOW,304.00,debit,68120.00,Entertainment,rule,0,0,0,hdfc_like
+a1cfdcd4371d9619,2026-06-25,2026-06,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000302-805378552533-Payment,DELHI METRO,355.00,debit,67765.00,Transport,rule,0,0,0,hdfc_like
+997d31286cb6516f,2026-06-26,2026-06,Friday,UPI-UBER-uber@icici-ICIC0000165-312549777588-Payment,UBER,293.00,debit,67188.00,Transport,rule,0,0,0,hdfc_like
+acfffa0c49fdeb93,2026-06-26,2026-06,Friday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000801-188393920822-Payment,CAFE COFFEE DAY,284.00,debit,67481.00,Food & Dining,rule,0,0,0,hdfc_like
+fb8ea2f4ab56a7a3,2026-06-28,2026-06,Sunday,UPI-UBER-uber@icici-ICIC0000310-912457063184-Payment,UBER,242.00,debit,66946.00,Transport,rule,0,0,0,hdfc_like
+6d1830293f8fcc87,2026-07-01,2026-07,Wednesday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,131946.00,Income,rule,0,0,0,hdfc_like
+aa9dfda63c37673f,2026-07-01,2026-07,Wednesday,UPI-BIGBASKET-bigbasket@icici-ICIC0000888-287445645713-Payment,BIGBASKET,664.00,debit,131282.00,Groceries,rule,0,0,0,hdfc_like
+09b448b47c040ce9,2026-07-02,2026-07,Thursday,UPI-SWIGGY-swiggy@icici-ICIC0000230-349738713330-Payment,SWIGGY,268.00,debit,131014.00,Food & Dining,rule,0,0,0,hdfc_like
+b731065ee13c7f7e,2026-07-02,2026-07,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000477-518411540981-Payment,DELHI METRO,135.00,debit,130879.00,Transport,rule,0,0,0,hdfc_like
+3a1da2a144baf8fe,2026-07-03,2026-07,Friday,UPI-CULT FIT-cultfit@icici-ICIC0000217-235006905517-Gym,CULT FIT,1500.00,debit,129379.00,Health,rule,0,0,0,hdfc_like
+7dd27afdcaa5b601,2026-07-03,2026-07,Friday,UPI-ZOMATO-zomato@icici-ICIC0000935-637243297218-Payment,ZOMATO,525.00,debit,128854.00,Food & Dining,rule,0,0,0,hdfc_like
+9ecf25d36f450840,2026-07-03,2026-07,Friday,ATW-546944-NEW DELHI,ATM CASH,5000.00,debit,123854.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+2cba5c91fa444813,2026-07-04,2026-07,Saturday,UPI-BLINKIT-blinkit@icici-ICIC0000173-353627781618-Payment,BLINKIT,1666.00,debit,122188.00,Groceries,rule,0,0,0,hdfc_like
+32cac752ee19cc3b,2026-07-04,2026-07,Saturday,UPI-MYNTRA-myntra@icici-ICIC0000714-363971176960-Payment,MYNTRA,444.00,debit,121744.00,Shopping,rule,0,0,0,hdfc_like
+6a80c520605df3d6,2026-07-05,2026-07,Sunday,UPI-UBER-uber@icici-ICIC0000257-995795339034-Payment,UBER,198.00,debit,103546.00,Transport,rule,0,0,0,hdfc_like
+9c3c7c451a620cd8,2026-07-05,2026-07,Sunday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,103744.00,Rent,rule,0,0,0,hdfc_like
+81b666c1bf64c424,2026-07-06,2026-07,Monday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000324-873510890637-Payment,CAFE COFFEE DAY,233.00,debit,103313.00,Food & Dining,rule,0,0,0,hdfc_like
+355bea17684528ed,2026-07-07,2026-07,Tuesday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,98313.00,Investments,rule,0,0,0,hdfc_like
+3e00cc847b98c6eb,2026-07-07,2026-07,Tuesday,UPI-DOMINOS-dominos@icici-ICIC0000509-193001215700-Payment,DOMINOS,322.00,debit,97991.00,Food & Dining,rule,0,0,0,hdfc_like
+9d2e3e94490baafb,2026-07-07,2026-07,Tuesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000412-433157647181-Payment,CAFE COFFEE DAY,314.00,debit,97677.00,Food & Dining,rule,0,0,0,hdfc_like
+1b8448ff9c08afcf,2026-07-08,2026-07,Wednesday,ATW-544613-NEW DELHI,ATM CASH,2000.00,debit,93368.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+5b8d8d9b8f1c11d0,2026-07-08,2026-07,Wednesday,UPI-FLIPKART-flipkart@icici-ICIC0000483-910008609086-Payment,FLIPKART,1668.00,debit,95368.00,Shopping,rule,0,0,0,hdfc_like
+655944f5cb6d96f3,2026-07-08,2026-07,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000619-850396201464-Payment,SWIGGY,459.00,debit,97036.00,Food & Dining,rule,0,0,0,hdfc_like
+92272680d65ca2e4,2026-07-08,2026-07,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000210-498852054041-Payment,CAFE COFFEE DAY,182.00,debit,97495.00,Food & Dining,rule,0,0,0,hdfc_like
+1c7ecb2b1513a9e1,2026-07-10,2026-07,Friday,UPI-TATA 1MG-1mg@icici-ICIC0000306-120959732675-Payment,TATA 1MG,999.00,debit,90450.00,Health,rule,0,0,0,hdfc_like
+92e3adb1598fd6c0,2026-07-10,2026-07,Friday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1919.00,debit,91449.00,Bills & Utilities,rule,0,0,0,hdfc_like
+fe4b5e861741a8d1,2026-07-10,2026-07,Friday,ATW-272132-NEW DELHI,ATM CASH,2000.00,debit,88450.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+cb067e4a9d18bee5,2026-07-11,2026-07,Saturday,UPI-BOOKMYSHOW-bms@icici-ICIC0000287-408016120589-Payment,BOOKMYSHOW,491.00,debit,87959.00,Entertainment,rule,0,0,0,hdfc_like
+172b572a3d2c13e0,2026-07-12,2026-07,Sunday,UPI-NETFLIX-netflix@icici-ICIC0000767-734062939754-Subscription,NETFLIX,649.00,debit,87310.00,Subscriptions,rule,0,0,0,hdfc_like
+99c29a7666ca35d6,2026-07-12,2026-07,Sunday,UPI-SWIGGY-swiggy@icici-ICIC0000932-363889131077-Payment,SWIGGY,486.00,debit,86824.00,Food & Dining,rule,0,0,0,hdfc_like
+9ed08f3126df6edc,2026-07-12,2026-07,Sunday,UPI-BLINKIT-blinkit@icici-ICIC0000242-519088346475-Payment,BLINKIT,867.00,debit,85957.00,Groceries,rule,0,0,0,hdfc_like
+1b07cd5b3e23b556,2026-07-13,2026-07,Monday,UPI-AMAZON-amazon@icici-ICIC0000317-408630235915-Payment,AMAZON,1704.00,debit,83468.00,Shopping,rule,0,0,0,hdfc_like
+84f4ac352d2733df,2026-07-13,2026-07,Monday,UPI-AJIO-ajio@icici-ICIC0000623-625926837760-Payment,AJIO,3368.00,debit,80100.00,Shopping,rule,0,0,0,hdfc_like
+91245c5ced6a8899,2026-07-13,2026-07,Monday,UPI-DELHI METRO-delhimetro@icici-ICIC0000451-783019374052-Payment,DELHI METRO,254.00,debit,85172.00,Transport,rule,0,0,0,hdfc_like
+956f1d9b6c1ba157,2026-07-13,2026-07,Monday,UPI-SWIGGY-swiggy@icici-ICIC0000420-867080641008-Payment,SWIGGY,531.00,debit,85426.00,Food & Dining,rule,0,0,0,hdfc_like
+1808c011ef976618,2026-07-14,2026-07,Tuesday,UPI-DMART-dmart@icici-ICIC0000476-833126308567-Payment,DMART,666.00,debit,78277.00,Groceries,rule,0,0,0,hdfc_like
+321eed846811f53f,2026-07-14,2026-07,Tuesday,UPI-RAPIDO-rapido@icici-ICIC0000937-746955620103-Payment,RAPIDO,156.00,debit,78121.00,Transport,rule,0,0,0,hdfc_like
+3c533587ed107315,2026-07-14,2026-07,Tuesday,UPI-BIGBASKET-bigbasket@icici-ICIC0000486-593510435464-Payment,BIGBASKET,1157.00,debit,78943.00,Groceries,rule,0,0,0,hdfc_like
+68bb2a3b4fac8f2c,2026-07-14,2026-07,Tuesday,UPI-AMAZON-amazon@icici-ICIC0000624-135125912314-Payment,AMAZON,2890.00,debit,75231.00,Shopping,rule,0,0,0,hdfc_like
+579d04082016fbed,2026-07-15,2026-07,Wednesday,UPI-SPOTIFY-spotify@icici-ICIC0000668-404829094583-Subscription,SPOTIFY,119.00,debit,75112.00,Subscriptions,rule,0,0,0,hdfc_like
+d4ce9e55604240d3,2026-07-16,2026-07,Thursday,UPI-OLA-ola@icici-ICIC0000940-218611716024-Payment,OLA,121.00,debit,73263.00,Transport,rule,0,0,0,hdfc_like
+f3df49cb5241b416,2026-07-16,2026-07,Thursday,UPI-OLA-ola@icici-ICIC0000521-959017342540-Payment,OLA,385.00,debit,73384.00,Transport,rule,0,0,0,hdfc_like
+fbcc0c35fa40c7fa,2026-07-16,2026-07,Thursday,UPI-ZEPTO-zepto@icici-ICIC0000339-577747317624-Payment,ZEPTO,1343.00,debit,73769.00,Groceries,rule,0,0,0,hdfc_like
+8043c25030a319d4,2026-07-18,2026-07,Saturday,UPI-JIO PREPAID-jio@icici-ICIC0000962-655075331152-Recharge,JIO PREPAID,299.00,debit,72964.00,Bills & Utilities,rule,0,0,0,hdfc_like
+84e0cbed761c933a,2026-07-18,2026-07,Saturday,UPI-ZOMATO-zomato@icici-ICIC0000487-634697582126-Payment,ZOMATO,406.00,debit,72558.00,Food & Dining,rule,0,0,0,hdfc_like
+32ab7f23dde23bc8,2026-07-19,2026-07,Sunday,UPI-STARBUCKS-starbucks@icici-ICIC0000443-641470202262-Payment,STARBUCKS,459.00,debit,71839.00,Food & Dining,rule,0,0,0,hdfc_like
+beb981a9fee1d01b,2026-07-19,2026-07,Sunday,UPI-RAPIDO-rapido@icici-ICIC0000602-457284772681-Payment,RAPIDO,157.00,debit,71682.00,Transport,rule,0,0,0,hdfc_like
+d01a867d11b65cf7,2026-07-19,2026-07,Sunday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000297-107589153461-Payment,CAFE COFFEE DAY,260.00,debit,72298.00,Food & Dining,rule,0,0,0,hdfc_like
+03d6f2beb56ae4cb,2026-07-20,2026-07,Monday,UPI-SWIGGY-swiggy@icici-ICIC0000870-487644461660-Payment,SWIGGY,649.00,debit,70897.00,Food & Dining,rule,0,0,0,hdfc_like
+04f3734d9b19a6c9,2026-07-20,2026-07,Monday,UPI-OLA-ola@icici-ICIC0000850-436606081856-Payment,OLA,64.00,debit,70833.00,Transport,rule,0,0,0,hdfc_like
+a169079986d6f736,2026-07-20,2026-07,Monday,UPI-ZOMATO-zomato@icici-ICIC0000616-936327429345-Payment,ZOMATO,136.00,debit,71546.00,Food & Dining,rule,0,0,0,hdfc_like
+0cd0000e90d7ca6f,2026-07-21,2026-07,Tuesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000411-015064109226-Payment,DELHI METRO,65.00,debit,70193.00,Transport,rule,0,0,0,hdfc_like
+aa088f600b1789c4,2026-07-21,2026-07,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000102-600156430865-Payment,ZOMATO,575.00,debit,70258.00,Food & Dining,rule,0,0,0,hdfc_like
+ad3cd0ab38ce2006,2026-07-22,2026-07,Wednesday,UPI-PAPA-papa@icici-ICIC0000410-246270931457-Family,PAPA,2000.00,debit,68193.00,Transfers,rule,1,0,0,hdfc_like
+1a67aacd5d12d9de,2026-07-23,2026-07,Thursday,UPI-BIGBASKET-bigbasket@icici-ICIC0000482-549456762842-Payment,BIGBASKET,647.00,debit,67546.00,Groceries,rule,0,0,0,hdfc_like
+29be7f948ebe2524,2026-07-23,2026-07,Thursday,UPI-OLA-ola@icici-ICIC0000135-854065661645-Payment,OLA,54.00,debit,67492.00,Transport,rule,0,0,0,hdfc_like
+7cc77bd6d39fce85,2026-07-24,2026-07,Friday,UPI-STARBUCKS-starbucks@icici-ICIC0000901-280966680466-Payment,STARBUCKS,450.00,debit,67042.00,Food & Dining,rule,0,0,0,hdfc_like
+05e070b470ac251b,2026-07-26,2026-07,Sunday,UPI-STARBUCKS-starbucks@icici-ICIC0000125-926991306040-Payment,STARBUCKS,462.00,debit,66580.00,Food & Dining,rule,0,0,0,hdfc_like
+b226c9f71403d863,2026-07-27,2026-07,Monday,UPI-BOOKMYSHOW-bms@icici-ICIC0000395-727320998628-Payment,BOOKMYSHOW,783.00,debit,65797.00,Entertainment,rule,0,0,0,hdfc_like
+4d3edf817ac29b9d,2026-07-28,2026-07,Tuesday,UPI-DOMINOS-dominos@icici-ICIC0000516-264378224401-Payment,DOMINOS,203.00,debit,65241.00,Food & Dining,rule,0,0,0,hdfc_like
+6cdf5855cfbdf6fe,2026-07-28,2026-07,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000620-982046057654-Payment,ZOMATO,595.00,debit,64646.00,Food & Dining,rule,0,0,0,hdfc_like
+fd4fc4f75ecc606d,2026-07-28,2026-07,Tuesday,UPI-SWIGGY-swiggy@icici-ICIC0000384-545656501025-Payment,SWIGGY,353.00,debit,65444.00,Food & Dining,rule,0,0,0,hdfc_like
+70019ec916a28faf,2026-08-01,2026-08,Saturday,UPI-ZEPTO-zepto@icici-ICIC0000668-430560270129-Payment,ZEPTO,551.00,debit,129095.00,Groceries,rule,0,0,0,hdfc_like
+8beb048130aac8b0,2026-08-01,2026-08,Saturday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,129646.00,Income,rule,0,0,0,hdfc_like
+7df4544a7cb19afb,2026-08-03,2026-08,Monday,UPI-CULT FIT-cultfit@icici-ICIC0000120-740935513325-Gym,CULT FIT,1500.00,debit,127595.00,Health,rule,0,0,0,hdfc_like
+30fbf50635d2c747,2026-08-04,2026-08,Tuesday,UPI-DMART-dmart@icici-ICIC0000234-378093654482-Payment,DMART,1732.00,debit,125701.00,Groceries,rule,0,0,0,hdfc_like
+5c7abbffaace27fb,2026-08-04,2026-08,Tuesday,UPI-BLINKIT-blinkit@icici-ICIC0000627-659640246963-Payment,BLINKIT,1616.00,debit,124085.00,Groceries,rule,0,0,0,hdfc_like
+fde68e9d3415a8c0,2026-08-04,2026-08,Tuesday,UPI-STARBUCKS-starbucks@icici-ICIC0000989-600100247029-Payment,STARBUCKS,162.00,debit,127433.00,Food & Dining,rule,0,0,0,hdfc_like
+08b44cf8c49d2a5a,2026-08-05,2026-08,Wednesday,UPI-RAPIDO-rapido@icici-ICIC0000989-720929715858-Payment,RAPIDO,78.00,debit,106007.00,Transport,rule,0,0,0,hdfc_like
+2c4c38915722a2bf,2026-08-05,2026-08,Wednesday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,106085.00,Rent,rule,0,0,0,hdfc_like
+32cc6ff7f4f03fa1,2026-08-05,2026-08,Wednesday,UPI-FLIPKART-flipkart@icici-ICIC0000452-572639742472-Payment,FLIPKART,1549.00,debit,104458.00,Shopping,rule,0,0,0,hdfc_like
+0a26d9c8be4bae09,2026-08-06,2026-08,Thursday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000820-145152278198-Payment,CAFE COFFEE DAY,571.00,debit,103887.00,Food & Dining,rule,0,0,0,hdfc_like
+e7213297e1c1de8c,2026-08-06,2026-08,Thursday,UPI-DELHI METRO-delhimetro@icici-ICIC0000549-975249883894-Payment,DELHI METRO,190.00,debit,103697.00,Transport,rule,0,0,0,hdfc_like
+3c7712fad596d820,2026-08-07,2026-08,Friday,UPI-SWIGGY-swiggy@icici-ICIC0000634-735924763633-Payment,SWIGGY,365.00,debit,97860.00,Food & Dining,rule,0,0,0,hdfc_like
+50b81b87a52f0d95,2026-08-07,2026-08,Friday,UPI-STARBUCKS-starbucks@icici-ICIC0000997-482396334870-Payment,STARBUCKS,472.00,debit,98225.00,Food & Dining,rule,0,0,0,hdfc_like
+a2fa3efc0a0e6d70,2026-08-07,2026-08,Friday,UPI-ZOMATO-zomato@icici-ICIC0000274-760471997224-Payment,ZOMATO,246.00,debit,97614.00,Food & Dining,rule,0,0,0,hdfc_like
+c2de16be8ec496df,2026-08-07,2026-08,Friday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,98697.00,Investments,rule,0,0,0,hdfc_like
+3fdde4d555f75f6f,2026-08-08,2026-08,Saturday,UPI-DOMINOS-dominos@icici-ICIC0000721-477399466136-Payment,DOMINOS,266.00,debit,97348.00,Food & Dining,rule,0,0,0,hdfc_like
+96529cf512677668,2026-08-08,2026-08,Saturday,UPI-ZOMATO-zomato@icici-ICIC0000365-100797138950-Payment,ZOMATO,183.00,debit,97165.00,Food & Dining,rule,0,0,0,hdfc_like
+a894a0ae86ef12c5,2026-08-08,2026-08,Saturday,UPI-TATA 1MG-1mg@icici-ICIC0000223-109946004362-Payment,TATA 1MG,838.00,debit,96327.00,Health,rule,0,0,0,hdfc_like
+c2aaab33fcf52531,2026-08-09,2026-08,Sunday,UPI-DMART-dmart@icici-ICIC0000810-771464500971-Payment,DMART,1635.00,debit,94392.00,Groceries,rule,0,0,0,hdfc_like
+f27df17cc69bcbca,2026-08-09,2026-08,Sunday,UPI-ZOMATO-zomato@icici-ICIC0000866-276014074424-Payment,ZOMATO,300.00,debit,96027.00,Food & Dining,rule,0,0,0,hdfc_like
+4e348079108e08a3,2026-08-10,2026-08,Monday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1913.00,debit,92479.00,Bills & Utilities,rule,0,0,0,hdfc_like
+78205b58d596990b,2026-08-12,2026-08,Wednesday,UPI-ZOMATO-zomato@icici-ICIC0000562-664419980308-Payment,ZOMATO,453.00,debit,91377.00,Food & Dining,rule,0,0,0,hdfc_like
+7d7b562494daa10f,2026-08-12,2026-08,Wednesday,UPI-NETFLIX-netflix@icici-ICIC0000592-014110574999-Subscription,NETFLIX,649.00,debit,91830.00,Subscriptions,rule,0,0,0,hdfc_like
+d659eae8492b89ab,2026-08-12,2026-08,Wednesday,UPI-FLIPKART-flipkart@icici-ICIC0000865-438110379114-Payment,FLIPKART,2477.00,debit,88900.00,Shopping,rule,0,0,0,hdfc_like
+88e3d8ba00498aac,2026-08-13,2026-08,Thursday,UPI-BLINKIT-blinkit@icici-ICIC0000669-875085867261-Payment,BLINKIT,1426.00,debit,87474.00,Groceries,rule,0,0,0,hdfc_like
+075da0da30fb9eea,2026-08-14,2026-08,Friday,UPI-OLA-ola@icici-ICIC0000226-907243385296-Payment,OLA,254.00,debit,87020.00,Transport,rule,0,0,0,hdfc_like
+07dfe56b13404bc3,2026-08-14,2026-08,Friday,ATW-293818-NEW DELHI,ATM CASH,3000.00,debit,83547.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+137465d4080eb097,2026-08-14,2026-08,Friday,UPI-AMAZON-amazon@icici-ICIC0000600-577378598311-Payment,AMAZON,473.00,debit,86547.00,Shopping,rule,0,0,0,hdfc_like
+1fbd859119dd46f4,2026-08-14,2026-08,Friday,UPI-OLA-ola@icici-ICIC0000941-194060115063-Payment,OLA,200.00,debit,87274.00,Transport,rule,0,0,0,hdfc_like
+4cb3984c414e5919,2026-08-15,2026-08,Saturday,UPI-SPOTIFY-spotify@icici-ICIC0000482-339089191797-Subscription,SPOTIFY,119.00,debit,83428.00,Subscriptions,rule,0,0,0,hdfc_like
+711b5e235224bd79,2026-08-15,2026-08,Saturday,UPI-UBER-uber@icici-ICIC0000732-800421374041-Payment,UBER,300.00,debit,83128.00,Transport,rule,0,0,0,hdfc_like
+1856fd85e760841b,2026-08-16,2026-08,Sunday,UPI-ZOMATO-zomato@icici-ICIC0000398-739382787081-Payment,ZOMATO,619.00,debit,82509.00,Food & Dining,rule,0,0,0,hdfc_like
+912207ff71b2df60,2026-08-16,2026-08,Sunday,UPI-BOOKMYSHOW-bms@icici-ICIC0000162-563223430007-Payment,BOOKMYSHOW,467.00,debit,81674.00,Entertainment,rule,0,0,0,hdfc_like
+a93bfb7def0ee78b,2026-08-16,2026-08,Sunday,ATW-393768-NEW DELHI,ATM CASH,1000.00,debit,80674.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+ce2b07f31de8ed23,2026-08-16,2026-08,Sunday,UPI-DELHI METRO-delhimetro@icici-ICIC0000627-665101804539-Payment,DELHI METRO,368.00,debit,82141.00,Transport,rule,0,0,0,hdfc_like
+eba0d8817d602f30,2026-08-17,2026-08,Monday,UPI-TATA 1MG-1mg@icici-ICIC0000291-278928178751-Payment,TATA 1MG,454.00,debit,80220.00,Health,rule,0,0,0,hdfc_like
+2c758aa6aa991fd6,2026-08-18,2026-08,Tuesday,UPI-ZOMATO-zomato@icici-ICIC0000748-706897663773-Payment,ZOMATO,567.00,debit,79354.00,Food & Dining,rule,0,0,0,hdfc_like
+5b4e3fda207290d0,2026-08-18,2026-08,Tuesday,UPI-JIO PREPAID-jio@icici-ICIC0000621-763034249370-Recharge,JIO PREPAID,299.00,debit,79921.00,Bills & Utilities,rule,0,0,0,hdfc_like
+cb829d22fb7d0202,2026-08-18,2026-08,Tuesday,UPI-AMAZON REFUND-amazon@icici-ICIC0000189-817159617905-Refund,AMAZON REFUND,1002.00,credit,80088.00,Shopping,rule,0,1,0,hdfc_like
+e8ac1966d4d3edac,2026-08-18,2026-08,Tuesday,UPI-STARBUCKS-starbucks@icici-ICIC0000294-893367562354-Payment,STARBUCKS,268.00,debit,79086.00,Food & Dining,rule,0,0,0,hdfc_like
+b6f77da3664c2d2d,2026-08-19,2026-08,Wednesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000230-267615296376-Payment,DELHI METRO,244.00,debit,79478.00,Transport,rule,0,0,0,hdfc_like
+dcc42598027fbf39,2026-08-19,2026-08,Wednesday,UPI-STARBUCKS-starbucks@icici-ICIC0000903-851736581416-Payment,STARBUCKS,366.00,debit,79722.00,Food & Dining,rule,0,0,0,hdfc_like
+752d7372f8242373,2026-08-20,2026-08,Thursday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000566-912561107379-Payment,CAFE COFFEE DAY,202.00,debit,79276.00,Food & Dining,rule,0,0,0,hdfc_like
+e3f264bd656b043c,2026-08-20,2026-08,Thursday,UPI-UBER-uber@icici-ICIC0000559-968520859433-Payment,UBER,87.00,debit,79189.00,Transport,rule,0,0,0,hdfc_like
+3bd72bdedfa1af8f,2026-08-21,2026-08,Friday,UPI-RAHUL-rahul@icici-ICIC0000879-270152889984-Dinner split,RAHUL,1034.00,credit,79758.00,Transfers,p2p,1,0,0,hdfc_like
+56e4bfc16e589112,2026-08-21,2026-08,Friday,UPI-UBER-uber@icici-ICIC0000181-020502980969-Payment,UBER,99.00,debit,78724.00,Transport,rule,0,0,0,hdfc_like
+71e9a45f239dfc9f,2026-08-21,2026-08,Friday,UPI-DELHI METRO-delhimetro@icici-ICIC0000267-402465079613-Payment,DELHI METRO,366.00,debit,78823.00,Transport,rule,0,0,0,hdfc_like
+5e11a8fd5a12a08f,2026-08-22,2026-08,Saturday,UPI-DMART-dmart@icici-ICIC0000100-209925143996-Payment,DMART,1245.00,debit,78107.00,Groceries,rule,0,0,0,hdfc_like
+5e8ae4bdc22d2d3c,2026-08-22,2026-08,Saturday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000508-303314678168-Payment,CAFE COFFEE DAY,406.00,debit,79352.00,Food & Dining,rule,0,0,0,hdfc_like
+709fe88700b4c819,2026-08-22,2026-08,Saturday,UPI-RAPIDO-rapido@icici-ICIC0000355-888242063999-Payment,RAPIDO,293.00,debit,77651.00,Transport,rule,0,0,0,hdfc_like
+a30f936ef6fbf064,2026-08-22,2026-08,Saturday,UPI-UBER-uber@icici-ICIC0000939-001821552745-Payment,UBER,163.00,debit,77944.00,Transport,rule,0,0,0,hdfc_like
+e9262b8851f1dd51,2026-08-23,2026-08,Sunday,UPI-RAPIDO-rapido@icici-ICIC0000685-856819337955-Payment,RAPIDO,236.00,debit,77415.00,Transport,rule,0,0,0,hdfc_like
+5ee21956636f32de,2026-08-24,2026-08,Monday,UPI-ZEPTO-zepto@icici-ICIC0000766-075691948909-Payment,ZEPTO,567.00,debit,76848.00,Groceries,rule,0,0,0,hdfc_like
+43c7a2886fe27048,2026-08-25,2026-08,Tuesday,UPI-BLINKIT-blinkit@icici-ICIC0000574-862631046505-Payment,BLINKIT,1372.00,debit,75476.00,Groceries,rule,0,0,0,hdfc_like
+e31d3205c46f0d01,2026-08-26,2026-08,Wednesday,UPI-PAPA-papa@icici-ICIC0000472-316671387562-Family,PAPA,3000.00,debit,72476.00,Transfers,rule,1,0,0,hdfc_like
+2524592089cfed46,2026-08-27,2026-08,Thursday,UPI-BIGBASKET-bigbasket@icici-ICIC0000775-910344330729-Payment,BIGBASKET,1635.00,debit,70232.00,Groceries,rule,0,0,0,hdfc_like
+4dab60345c6f8f68,2026-08-27,2026-08,Thursday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000324-446168753919-Payment,CAFE COFFEE DAY,609.00,debit,71867.00,Food & Dining,rule,0,0,0,hdfc_like
+2d764c4e85b6442b,2026-09-01,2026-09,Tuesday,UPI-BOOKMYSHOW-bms@icici-ICIC0000282-668133950521-Payment,BOOKMYSHOW,870.00,debit,133906.00,Entertainment,rule,0,0,0,hdfc_like
+38bf5646ff6af094,2026-09-01,2026-09,Tuesday,UPI-ZEPTO-zepto@icici-ICIC0000505-868589574195-Payment,ZEPTO,456.00,debit,134776.00,Groceries,rule,0,0,0,hdfc_like
+faafb530573672a3,2026-09-01,2026-09,Tuesday,NEFT CR-ACME TECH PVT LTD-SALARY,ACME TECH PVT,65000.00,credit,135232.00,Income,rule,0,0,0,hdfc_like
+287b3a8831bc37a5,2026-09-03,2026-09,Thursday,UPI-DOMINOS-dominos@icici-ICIC0000694-757820328341-Payment,DOMINOS,232.00,debit,132174.00,Food & Dining,rule,0,0,0,hdfc_like
+75226a602330e97d,2026-09-03,2026-09,Thursday,UPI-UBER-uber@icici-ICIC0000765-091765658682-Payment,UBER,262.00,debit,131912.00,Transport,rule,0,0,0,hdfc_like
+9bc41f7fdcfdb0d8,2026-09-03,2026-09,Thursday,UPI-CULT FIT-cultfit@icici-ICIC0000220-904950561057-Gym,CULT FIT,1500.00,debit,132406.00,Health,rule,0,0,0,hdfc_like
+6ecd0f66cee0efcb,2026-09-04,2026-09,Friday,UPI-DELHI METRO-delhimetro@icici-ICIC0000300-893749673975-Payment,DELHI METRO,167.00,debit,131745.00,Transport,rule,0,0,0,hdfc_like
+75583232837c2100,2026-09-04,2026-09,Friday,UPI-OLA-ola@icici-ICIC0000827-856786259204-Payment,OLA,351.00,debit,131394.00,Transport,rule,0,0,0,hdfc_like
+1091de3ac0094f2e,2026-09-05,2026-09,Saturday,UPI-ZEPTO-zepto@icici-ICIC0000798-480788671957-Payment,ZEPTO,1534.00,debit,111860.00,Groceries,rule,0,0,0,hdfc_like
+4ee36809cfb7a04b,2026-09-05,2026-09,Saturday,UPI-UBER-uber@icici-ICIC0000170-208442810849-Payment,UBER,182.00,debit,111556.00,Transport,rule,0,0,0,hdfc_like
+8a1e79ae583b4d75,2026-09-05,2026-09,Saturday,UPI-UBER-uber@icici-ICIC0000973-135828634581-Payment,UBER,122.00,debit,111738.00,Transport,rule,0,0,0,hdfc_like
+8b2da10500a8a6c3,2026-09-05,2026-09,Saturday,NEFT DR-MR SHARMA-HOUSE RENT,MR SHARMA HOUSE,18000.00,debit,113394.00,Rent,rule,0,0,0,hdfc_like
+7ae8f1f24baf6799,2026-09-06,2026-09,Sunday,UPI-UBER-uber@icici-ICIC0000827-724286115084-Payment,UBER,347.00,debit,111087.00,Transport,rule,0,0,0,hdfc_like
+e4371bdaae29d343,2026-09-06,2026-09,Sunday,UPI-STARBUCKS-starbucks@icici-ICIC0000795-486628243297-Payment,STARBUCKS,122.00,debit,111434.00,Food & Dining,rule,0,0,0,hdfc_like
+ff06c282385c23d3,2026-09-06,2026-09,Sunday,UPI-UBER-uber@icici-ICIC0000569-415538642698-Payment,UBER,74.00,debit,111013.00,Transport,rule,0,0,0,hdfc_like
+1d3dbd4c0005621b,2026-09-07,2026-09,Monday,UPI-OLA-ola@icici-ICIC0000457-945794958581-Payment,OLA,400.00,debit,104106.00,Transport,rule,0,0,0,hdfc_like
+d9f76ce5fddfc631,2026-09-07,2026-09,Monday,ACH D- HDFC MUTUAL FUND-SIP,HDFC MUTUAL FUND,5000.00,debit,106013.00,Investments,rule,0,0,0,hdfc_like
+e96de47f03202f60,2026-09-07,2026-09,Monday,UPI-DMART-dmart@icici-ICIC0000376-106802505735-Payment,DMART,1507.00,debit,104506.00,Groceries,rule,0,0,0,hdfc_like
+709b9df2501601b3,2026-09-08,2026-09,Tuesday,UPI-DELHI METRO-delhimetro@icici-ICIC0000669-916885169195-Payment,DELHI METRO,253.00,debit,103009.00,Transport,rule,0,0,0,hdfc_like
+cf831577a9bf8100,2026-09-08,2026-09,Tuesday,UPI-BLINKIT-blinkit@icici-ICIC0000375-050940039795-Payment,BLINKIT,844.00,debit,103262.00,Groceries,rule,0,0,0,hdfc_like
+e8a339d84b7c60e1,2026-09-09,2026-09,Wednesday,UPI-ZOMATO-zomato@icici-ICIC0000116-597717368658-Payment,ZOMATO,345.00,debit,102664.00,Food & Dining,rule,0,0,0,hdfc_like
+f25f1543ad5ee805,2026-09-09,2026-09,Wednesday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000308-587127390118-Payment,CAFE COFFEE DAY,313.00,debit,102351.00,Food & Dining,rule,0,0,0,hdfc_like
+ae8392dcd7af3510,2026-09-10,2026-09,Thursday,BILLDESK-BSES RAJDHANI POWER,BSES RAJDHANI POWER,1550.00,debit,100801.00,Bills & Utilities,rule,0,0,0,hdfc_like
+f706c762e042bab8,2026-09-10,2026-09,Thursday,UPI-RAPIDO-rapido@icici-ICIC0000958-996090078573-Payment,RAPIDO,117.00,debit,100684.00,Transport,rule,0,0,0,hdfc_like
+2bd125ec95c2e07c,2026-09-11,2026-09,Friday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000606-464738624455-Payment,CAFE COFFEE DAY,355.00,debit,100329.00,Food & Dining,rule,0,0,0,hdfc_like
+837b28a7440a133d,2026-09-11,2026-09,Friday,UPI-OLA-ola@icici-ICIC0000780-997731418194-Payment,OLA,296.00,debit,100033.00,Transport,rule,0,0,0,hdfc_like
+23470f257d93b787,2026-09-12,2026-09,Saturday,UPI-UBER-uber@icici-ICIC0000933-333814943849-Payment,UBER,201.00,debit,98917.00,Transport,rule,0,0,0,hdfc_like
+52fff1dd4c1217bb,2026-09-12,2026-09,Saturday,UPI-NETFLIX-netflix@icici-ICIC0000810-184550455362-Subscription,NETFLIX,649.00,debit,99384.00,Subscriptions,rule,0,0,0,hdfc_like
+87c70f7dd11f464a,2026-09-12,2026-09,Saturday,UPI-SWIGGY-swiggy@icici-ICIC0000469-888218992801-Payment,SWIGGY,266.00,debit,99118.00,Food & Dining,rule,0,0,0,hdfc_like
+09363058e7ce20d8,2026-09-13,2026-09,Sunday,UPI-UBER-uber@icici-ICIC0000886-440362714591-Payment,UBER,139.00,debit,97818.00,Transport,rule,0,0,0,hdfc_like
+732d546dd77ea3d9,2026-09-13,2026-09,Sunday,UPI-ZEPTO-zepto@icici-ICIC0000733-038960646430-Payment,ZEPTO,960.00,debit,97957.00,Groceries,rule,0,0,0,hdfc_like
+18e26cf52d2da67a,2026-09-15,2026-09,Tuesday,UPI-UBER-uber@icici-ICIC0000952-866507167622-Payment,UBER,127.00,debit,96900.00,Transport,rule,0,0,0,hdfc_like
+42675916a3aef153,2026-09-15,2026-09,Tuesday,UPI-OLA-ola@icici-ICIC0000475-563044890907-Payment,OLA,388.00,debit,97027.00,Transport,rule,0,0,0,hdfc_like
+ba2321db6a1ae9d5,2026-09-15,2026-09,Tuesday,UPI-SPOTIFY-spotify@icici-ICIC0000103-126874753275-Subscription,SPOTIFY,119.00,debit,97699.00,Subscriptions,rule,0,0,0,hdfc_like
+ba81342d4aa14f34,2026-09-15,2026-09,Tuesday,UPI-RAPIDO-rapido@icici-ICIC0000904-126907629695-Payment,RAPIDO,284.00,debit,97415.00,Transport,rule,0,0,0,hdfc_like
+24857befd712f76d,2026-09-16,2026-09,Wednesday,UPI-STARBUCKS-starbucks@icici-ICIC0000846-123886114464-Payment,STARBUCKS,260.00,debit,96640.00,Food & Dining,rule,0,0,0,hdfc_like
+7a4638a74593a8e6,2026-09-16,2026-09,Wednesday,UPI-SWIGGY-swiggy@icici-ICIC0000273-929203390014-Payment,SWIGGY,462.00,debit,96178.00,Food & Dining,rule,0,0,0,hdfc_like
+d172925e46b69ccc,2026-09-16,2026-09,Wednesday,UPI-AMAZON-amazon@icici-ICIC0000964-383400906339-Payment,AMAZON,1619.00,debit,94004.00,Shopping,rule,0,0,0,hdfc_like
+e992964366ed1fbc,2026-09-16,2026-09,Wednesday,UPI-ZEPTO-zepto@icici-ICIC0000861-159474601066-Payment,ZEPTO,555.00,debit,95623.00,Groceries,rule,0,0,0,hdfc_like
+1a30546dd28c2a41,2026-09-18,2026-09,Friday,ATW-124157-NEW DELHI,ATM CASH,2000.00,debit,91705.00,Cash Withdrawal,rule,0,0,0,hdfc_like
+52c13a74ef68a01c,2026-09-18,2026-09,Friday,UPI-JIO PREPAID-jio@icici-ICIC0000329-020189276285-Recharge,JIO PREPAID,299.00,debit,93705.00,Bills & Utilities,rule,0,0,0,hdfc_like
+c2df7ee0d7f10995,2026-09-19,2026-09,Saturday,UPI-RAPIDO-rapido@icici-ICIC0000132-970879220742-Payment,RAPIDO,120.00,debit,91585.00,Transport,rule,0,0,0,hdfc_like
+3dd39ed1a580e177,2026-09-20,2026-09,Sunday,UPI-SWIGGY-swiggy@icici-ICIC0000202-308760201609-Payment,SWIGGY,228.00,debit,91357.00,Food & Dining,rule,0,0,0,hdfc_like
+d9564149ada841ec,2026-09-20,2026-09,Sunday,UPI-AMAZON-amazon@icici-ICIC0000824-595079671621-Payment,AMAZON,2309.00,debit,89048.00,Shopping,rule,0,0,0,hdfc_like
+51a532194e23cc0e,2026-09-21,2026-09,Monday,UPI-CAFE COFFEE DAY-cafecoffeeday@icici-ICIC0000719-939821829603-Payment,CAFE COFFEE DAY,406.00,debit,88642.00,Food & Dining,rule,0,0,0,hdfc_like
+10e7b43466ab1831,2026-09-22,2026-09,Tuesday,UPI-PAPA-papa@icici-ICIC0000987-380106121076-Family,PAPA,3000.00,debit,85642.00,Transfers,rule,1,0,0,hdfc_like
+132920d136bacb0e,2026-09-22,2026-09,Tuesday,UPI-RAHUL-rahul@icici-ICIC0000509-921879175127-Dinner split,RAHUL,743.00,credit,86385.00,Transfers,p2p,1,0,0,hdfc_like
+179e07877100e923,2026-09-24,2026-09,Thursday,UPI-DOMINOS-dominos@icici-ICIC0000126-640154511120-Payment,DOMINOS,546.00,debit,85593.00,Food & Dining,rule,0,0,0,hdfc_like
+32d6c6db25584dea,2026-09-24,2026-09,Thursday,UPI-STARBUCKS-starbucks@icici-ICIC0000937-372454131066-Payment,STARBUCKS,246.00,debit,86139.00,Food & Dining,rule,0,0,0,hdfc_like
+7bcc79347066b02d,2026-09-24,2026-09,Thursday,UPI-DMART-dmart@icici-ICIC0000464-970471815358-Payment,DMART,794.00,debit,84799.00,Groceries,rule,0,0,0,hdfc_like
+7ba0e62011fbd068,2026-09-25,2026-09,Friday,UPI-AJIO-ajio@icici-ICIC0000366-629665145128-Payment,AJIO,1060.00,debit,83225.00,Shopping,rule,0,0,0,hdfc_like
+e0b2a8129ad17036,2026-09-25,2026-09,Friday,UPI-ZOMATO-zomato@icici-ICIC0000771-114798147131-Payment,ZOMATO,514.00,debit,84285.00,Food & Dining,rule,0,0,0,hdfc_like
+0fa0fd14003c9a37,2026-09-26,2026-09,Saturday,UPI-UBER-uber@icici-ICIC0000115-185970039123-Payment,UBER,75.00,debit,83150.00,Transport,rule,0,0,0,hdfc_like
+33a28c805518557f,2026-09-27,2026-09,Sunday,UPI-SWIGGY-swiggy@icici-ICIC0000145-125819041628-Payment,SWIGGY,513.00,debit,82637.00,Food & Dining,rule,0,0,0,hdfc_like
