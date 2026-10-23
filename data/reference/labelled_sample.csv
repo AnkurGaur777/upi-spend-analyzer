@@ -1,0 +1,301 @@
+txn_id,true_category,split
+ee62da81bec2f3a5,Health,dev
+88f3ae7fc243ef7d,Food & Dining,dev
+334203bb8b3d24f9,Other,dev
+c486eacf7c99db18,Transfers,test
+59bf581a7023ebde,Shopping,dev
+0d6aacbbb7714886,Groceries,test
+acd913f3eda65ed7,Transport,test
+a82759a887422564,Groceries,test
+1c9732deeb18479f,Health,dev
+1048f9b9b5bf166c,Transfers,dev
+0c13136fbbbcb7cc,Entertainment,dev
+bc3c1ac16c58b2d6,Food & Dining,dev
+94dad64985f8f304,Health,dev
+7845581431355da7,Groceries,test
+e4f2029a5f649551,Subscriptions,test
+80f87ebf73b5db00,Food & Dining,test
+38afc69e3df724a4,Groceries,dev
+f7aa763b93c6e3bb,Health,test
+7496df729291c5a2,Transfers,dev
+76d4543ed95fd749,Transport,dev
+89bd8c52c8ec94a8,Food & Dining,dev
+b6065010aab1c197,Transport,test
+e2496e664bcef007,Groceries,dev
+43daa6b4c299e66a,Food & Dining,test
+ee38850a7886a3b8,Transfers,test
+906b20dc0a8a62ba,Other,dev
+17dfbfdab5be8e98,Food & Dining,dev
+d06b5479f9951c02,Rent,dev
+dd96800f457310d8,Subscriptions,test
+5d04c2ee52ce7485,Shopping,dev
+d4ac8b511ddeaba8,Rent,test
+015ddd6dcb443f3a,Entertainment,test
+596b61b7a6905924,Transport,dev
+ba348546f48a71b5,Food & Dining,test
+98f6416a73c03c06,Transfers,test
+104f5173c2884ddf,Food & Dining,dev
+8332c237d55045c9,Food & Dining,dev
+60ec727f84967e90,Shopping,test
+cae27c58d7852431,Food & Dining,test
+f7a6c8c3d42a88c6,Other,test
+e6ee8fb9d95a796a,Transfers,dev
+400b74e2f1df2d69,Bills & Utilities,dev
+8ef54d94427cfdb3,Shopping,test
+715dea0a05ad4c9d,Transport,test
+75e2cd800b4bf039,Food & Dining,test
+7b9ac5a60c23c3fb,Food & Dining,dev
+0775096c731ef804,Transfers,dev
+512cd5b42a00fa9a,Food & Dining,dev
+c8aaef57ea269677,Food & Dining,dev
+6246c0f993c2f62d,Shopping,test
+4f3fc8a1ae9de1a2,Transfers,test
+131579119ef0c319,Groceries,test
+8203e090e07579ee,Transport,test
+befd51b7cacade1a,Transport,test
+69821a61dbc39bd9,Food & Dining,dev
+eaabecf16335a15d,Transfers,dev
+c12e70dd374c2ef7,Health,dev
+6d3495092de4b5d8,Bills & Utilities,test
+94c7bb6b83d9093a,Transport,dev
+bbca836fab9b6616,Health,test
+7978f0264a3a3d33,Subscriptions,dev
+bf36cbbe99915054,Shopping,test
+e917cdf5cac90453,Food & Dining,dev
+bbbd07d6c5882ec5,Subscriptions,dev
+f42f1486637795f9,Health,test
+4fc95cfe45dd0280,Transfers,test
+2e42ad53f5a555c9,Entertainment,dev
+a885c466fd26e90d,Bills & Utilities,test
+d7abce6535d41958,Bills & Utilities,dev
+01599c3f3a28da40,Groceries,test
+4e5966fdbc63d152,Food & Dining,test
+7d0d3523c570a177,Subscriptions,dev
+f0b8e800849f4641,Shopping,test
+ac19f52e0e5d0c46,Food & Dining,test
+384c7e6d2a22e8e9,Transfers,dev
+2a2c33a0409863e5,Transport,dev
+e7b92c2a15d9f765,Transport,dev
+1758f12a47723dd0,Food & Dining,dev
+9c038f51d6206ea1,Food & Dining,test
+356425a819796282,Transport,dev
+2ee40030dd3faf38,Health,dev
+bf7f20873f1dc3a9,Transport,dev
+c409d4f87fc2122b,Other,test
+d2927505eedc229d,Transport,dev
+37c7b55b96f586ee,Transport,dev
+fd9349cceca8817a,Entertainment,dev
+efc98bc0af7c3736,Transfers,test
+fc48dffe36243d59,Other,test
+9296211784285719,Food & Dining,test
+6133117ddb62e2a1,Food & Dining,dev
+9861469824278557,Shopping,test
+6d0080b7d89a4929,Groceries,test
+dfec4f29035d6c43,Groceries,test
+6c7a51aa958c3451,Groceries,test
+7a8a7fa54ea2b99e,Transfers,dev
+a5769f69d906e565,Transport,dev
+a8f57729848ea695,Health,test
+f0e333eb54c8a666,Subscriptions,dev
+f3c0c1ee7fabffeb,Food & Dining,dev
+dcd1cdb5af0c9e6e,Food & Dining,test
+587ea12a4e3218c9,Other,dev
+5fd94b272d72068e,Transport,dev
+af50bf33a31868d9,Food & Dining,dev
+42c46a29874371c1,Transport,test
+5c5216e95f36ffc1,Transport,dev
+6a74e95aa49f7f29,Groceries,dev
+c98aa6e637d3cfe0,Groceries,dev
+1484efb6d7d4cf35,Food & Dining,test
+c29bac199cda83e8,Groceries,test
+d086d18d3c865ead,Shopping,dev
+0687a8e16d191dc0,Shopping,test
+6641d6f5c8a229bc,Transfers,dev
+02a34a3aa49b9c77,Transport,dev
+56ef8fefeef91890,Transport,dev
+2a2fb64a3def2241,Transport,dev
+984a272ee41d2f9c,Groceries,dev
+10e9a5e5236330a8,Food & Dining,dev
+732eb2d39bbea5f7,Groceries,test
+b7d144f4bdb8833a,Transfers,test
+c1e8709b05d6a9e9,Groceries,dev
+719b0f6867e79a3c,Groceries,test
+2679638ebdef9461,Bills & Utilities,dev
+f1a880707ec9dbed,Shopping,dev
+c5f2db0fb1d5cd23,Groceries,dev
+4b68b982827e0e95,Health,test
+48fc93981bc558ac,Food & Dining,dev
+8df30bb96bf89c32,Groceries,test
+8a42720ccf3429ea,Food & Dining,dev
+1d5dae31c810abda,Bills & Utilities,dev
+29adbed1839b5725,Shopping,test
+2634417c2080c206,Transfers,test
+41fbed3ac78b53fb,Health,test
+44f538823d3c13af,Shopping,test
+1efcba57f4bfd85d,Entertainment,test
+d42b8439012d40bd,Food & Dining,test
+ac2652e8315c4b26,Transport,dev
+fbefa98817668ea5,Food & Dining,test
+11cf1d8d23259dc1,Groceries,dev
+afa0a4d276e58a59,Other,dev
+ec2c89bf9034e028,Groceries,dev
+5c752fd6e23a4c09,Food & Dining,test
+c4c8b63063b484ba,Transport,dev
+449dfa5034d7d6fd,Transfers,test
+9b1a0570c84a3f25,Health,test
+d05418d3ccb4229d,Transfers,dev
+3cc39e13d1747b2a,Food & Dining,dev
+967af747bdfe7905,Groceries,dev
+dd1603ab4e287986,Health,dev
+7a43d65a3d050db4,Transfers,dev
+882d33b1516be9a8,Rent,dev
+6ff378fe17c77cd8,Groceries,dev
+efb6691ada8e0fe8,Health,dev
+68600ba75da565fd,Food & Dining,test
+ad672b446659cacd,Entertainment,test
+7c16a0a98e6eed30,Food & Dining,test
+5a3a1b761c395b61,Groceries,dev
+edd50f20d9e6090a,Food & Dining,dev
+4832c31e4e27e2a1,Groceries,dev
+9f9bee6e175a9d8a,Transport,test
+1febc35a32e2fc12,Health,dev
+4a13a0b200f0e847,Groceries,dev
+70cde1f7d2d818e7,Shopping,test
+78c6bd972679013b,Shopping,test
+9f32af7f30cdfe85,Groceries,dev
+ae3f58a5c67e44f7,Food & Dining,test
+2426cc4e65367624,Other,test
+c8ca5dd9d9d037f8,Subscriptions,test
+7875d40d2636435b,Food & Dining,dev
+617c6ab6f3cb6d50,Transport,test
+9753cd2018c426bc,Transport,dev
+c49a32147cd3a54d,Groceries,dev
+f6658abaeb799f45,Subscriptions,dev
+cd4a70f33e63a364,Groceries,dev
+7b37d218c8f8956a,Food & Dining,test
+45001434450005de,Shopping,test
+102c9e024c88fd45,Food & Dining,dev
+49e903582e07f2fd,Shopping,test
+4befe7757de970f0,Food & Dining,dev
+1bcd58bd249f617e,Groceries,dev
+41bf7ca41c161339,Entertainment,test
+cb9e4a4cdf2968bd,Entertainment,dev
+5e868ffc2818189c,Entertainment,test
+788f20440edfdc13,Transport,dev
+900c38e64e5bd18f,Shopping,test
+c070b76326741cc9,Food & Dining,dev
+34a472d053829c04,Transport,dev
+31080f4bd539af6d,Transfers,test
+c2bcd74318701ce1,Groceries,test
+6f9f99e345701236,Transport,dev
+6b9f8956377160d0,Health,test
+53178e7a19941c15,Other,test
+6b4a9201114398e2,Rent,dev
+d83d5ad3e9b31142,Groceries,test
+4788fdd9158aa4e4,Food & Dining,dev
+b820a94b8cbd8303,Groceries,test
+843fce6aa04f08da,Transport,dev
+cc1951923071f82a,Transport,test
+6094cc3c823e5cf0,Transfers,dev
+6742fa51d353049c,Other,test
+43f055a4d571a00f,Groceries,dev
+6a704dc2e90e642b,Health,test
+6fffa621931d5f8f,Transport,dev
+46c88fffb1130bd0,Other,test
+7d86afd634a4ec5f,Health,test
+09f5ae9bc7d26430,Groceries,test
+1f0df528f60185ce,Food & Dining,dev
+b821bef0eda1ad33,Food & Dining,test
+37934828fb882992,Subscriptions,dev
+9e9de5f341e72a3f,Food & Dining,test
+995fc0bb734c7672,Subscriptions,test
+fb7f455748c5ff65,Food & Dining,dev
+31f30d483d185972,Health,test
+d1dd502aa1d995f1,Subscriptions,test
+6d11980d98f2021c,Food & Dining,test
+d9e638dcd28fec2f,Groceries,test
+e1c24fbddefb4073,Food & Dining,test
+4eeb4f5bc5a30cee,Groceries,test
+80380a3d684663bb,Shopping,dev
+e0065bb74e44a7cc,Shopping,test
+b636bcd9c9df5ffb,Transfers,test
+fd70b790ee6df2e5,Subscriptions,test
+d2fef4dd16a2f563,Health,test
+caed77be2dd3819e,Food & Dining,dev
+bf32dd09e319d34e,Shopping,dev
+74a07e295b0219b0,Groceries,dev
+226ba8fb25e91459,Groceries,test
+3927e1ff0aa0b6b7,Transfers,test
+1fa663e9c0154392,Transfers,dev
+ea7b42f5cfa8d43c,Groceries,test
+ea5ebb345b8511cb,Groceries,test
+f57345e6ad21f469,Food & Dining,dev
+0dea9cbb5a1b9cf8,Subscriptions,test
+ee43b8e540f2b953,Other,dev
+ff9731f0ae4ab889,Food & Dining,test
+b3aa45c9c4e105db,Groceries,test
+eb5d4aa810376f1d,Transport,dev
+1617f49cd627db1a,Transfers,test
+72c5897d086a77c7,Health,test
+33205ee1cc5b24b4,Transport,test
+8c0ae13203cf0c76,Food & Dining,test
+8c0d93a2b63f43e7,Health,dev
+971812cc9af48623,Health,test
+86ed5a6a395f86ac,Transport,test
+7d6e17e5ffae9aa0,Groceries,dev
+4dcbd186a1cf1aa0,Transport,dev
+ae40133aedd8ecd3,Other,test
+301470b77208870e,Transport,dev
+39fe995748d74244,Shopping,dev
+d4979754c5fa8372,Food & Dining,dev
+ef21e23c909b08dc,Groceries,dev
+68d8af6b6c05aaee,Transfers,dev
+e1da7d795d1b2c3d,Food & Dining,test
+d3fd94f7daf0e569,Food & Dining,test
+769c21b32c804eb2,Shopping,test
+c0fa50de65e1bded,Bills & Utilities,test
+b9572de9f23a32b2,Other,dev
+053740f74b62b42e,Food & Dining,test
+eddd95e87d8bc279,Shopping,dev
+cb83b631ec529b68,Groceries,dev
+ff11df84795bbeca,Food & Dining,dev
+d93a188112752ae8,Subscriptions,test
+97e1eb7aa4dc9b81,Transfers,test
+32febc3828ce81fe,Food & Dining,test
+ded790049c4c8911,Shopping,dev
+6da370b4ee44e055,Transfers,dev
+c49ac9f3236b5377,Groceries,test
+846ca83c74ea19ee,Health,dev
+9a6f44e8cb694b14,Transfers,test
+ad231e31cc8485c0,Food & Dining,dev
+3f142d43a414f86f,Groceries,dev
+37c0814cc56d1799,Transfers,dev
+d00a9919df1b7428,Subscriptions,test
+60eec6a415afab8b,Food & Dining,test
+8ca58940f447c316,Groceries,test
+b006e96b5a1fd112,Groceries,test
+b6b85b50c1cbb574,Shopping,test
+e41b22cc61a2cd5b,Health,dev
+88acae1037cb7b72,Shopping,dev
+c77649f7fdc62e24,Subscriptions,test
+932ecd7ded45a12c,Groceries,test
+fbd6c38a175e2067,Transport,dev
+89d741e3d645c2c0,Subscriptions,dev
+2ff1e98020aa8c83,Entertainment,test
+50277202c531825a,Transport,test
+81fcb880f40e1d70,Food & Dining,test
+f4a0b61f20454a71,Health,test
+70fe2ce6d5129f65,Food & Dining,test
+b7f4edcd310e9fef,Food & Dining,dev
+8fbaed25376bdba1,Bills & Utilities,test
+3b00a873e347b3cf,Food & Dining,dev
+1a8ad7e55b9182e5,Food & Dining,test
+46b1157fa74583c1,Groceries,dev
+b137073d6f09bd5c,Groceries,test
+111f9131ba2a6a6a,Other,dev
+f88fc3c3defddf20,Subscriptions,dev
+0fb46a8ac30524cb,Rent,dev
+835eb0f88dab727a,Shopping,test
+1047f9b116a0f585,Subscriptions,dev
+9d0136091e0bc3fc,Shopping,test
+0c505319e1ab9a52,Shopping,test
