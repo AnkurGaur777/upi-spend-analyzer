@@ -1,0 +1,158 @@
+word,category
+KIRANA,Groceries
+PROVISION STORE,Groceries
+PROVISION,Groceries
+GENERAL STORE,Groceries
+SUPER MARKET,Groceries
+SUPERMARKET,Groceries
+HYPERMARKET,Groceries
+GROCERY,Groceries
+GROCERIES,Groceries
+DAIRY,Groceries
+DUDH,Groceries
+MILK,Groceries
+VEGETABLES,Groceries
+VEGETABLE,Groceries
+FRUITS,Groceries
+FRUIT,Groceries
+SABZI,Groceries
+SABJI,Groceries
+BAZAAR,Groceries
+BAZAR,Groceries
+RATION,Groceries
+MASALA,Groceries
+ORGANIC STORE,Groceries
+SWEETS,Food & Dining
+SWEET HOUSE,Food & Dining
+MITHAI,Food & Dining
+RESTAURANT,Food & Dining
+RESTRO,Food & Dining
+DHABA,Food & Dining
+CAFE,Food & Dining
+COFFEE SHOP,Food & Dining
+COFFEE,Food & Dining
+BAKERY,Food & Dining
+BAKEHOUSE,Food & Dining
+BIRYANI,Food & Dining
+KITCHEN,Food & Dining
+TEA STALL,Food & Dining
+CHAI POINT,Food & Dining
+CHAI,Food & Dining
+TEA,Food & Dining
+JUICE CENTER,Food & Dining
+JUICE,Food & Dining
+PIZZA,Food & Dining
+BURGER,Food & Dining
+MOMO,Food & Dining
+DOSA,Food & Dining
+CHAAT,Food & Dining
+CHAT,Food & Dining
+TIFFIN,Food & Dining
+CATERERS,Food & Dining
+EATERY,Food & Dining
+BHOJANALAYA,Food & Dining
+FOOD COURT,Food & Dining
+FAST FOOD,Food & Dining
+ICE CREAM,Food & Dining
+SHAKES,Food & Dining
+SNACKS,Food & Dining
+BARBEQUE,Food & Dining
+PHARMACY,Health
+MEDICAL STORE,Health
+MEDICAL HALL,Health
+MEDICALS,Health
+MEDICAL,Health
+MEDICOS,Health
+CHEMIST,Health
+DRUG STORE,Health
+CLINIC,Health
+HOSPITAL,Health
+DIAGNOSTICS,Health
+DIAGNOSTIC,Health
+PATHOLOGY,Health
+DENTAL,Health
+DENTIST,Health
+LABS,Health
+OPTICALS,Health
+EYE CARE,Health
+PHYSIOTHERAPY,Health
+DISPENSARY,Health
+NURSING HOME,Health
+HEALTHCARE,Health
+HEALTH CARE,Health
+AYURVEDA,Health
+AYURVEDIC,Health
+HOMEOPATHY,Health
+PETROL PUMP,Transport
+PETROL,Transport
+FUEL STATION,Transport
+FUEL,Transport
+DIESEL,Transport
+CAB SERVICE,Transport
+CABS,Transport
+CAB,Transport
+TAXI,Transport
+TRAVELS,Transport
+PARKING,Transport
+TOLLWAY,Transport
+TOLL,Transport
+FASTAG,Transport
+METRO,Transport
+BUS,Transport
+RAILWAY,Transport
+AUTO STAND,Transport
+CYCLE,Transport
+TYRES,Transport
+LOGISTICS,Transport
+GAS STATION,Transport
+CNG,Transport
+FASHION,Shopping
+GARMENTS,Shopping
+BOUTIQUE,Shopping
+FOOTWEAR,Shopping
+SHOES,Shopping
+ELECTRONICS,Shopping
+ELECTRICALS,Shopping
+BOOK DEPOT,Shopping
+BOOK STORE,Shopping
+BOOK SHOP,Shopping
+BOOKS,Shopping
+BOOK,Shopping
+STATIONERY,Shopping
+STATIONERS,Shopping
+JEWELLERS,Shopping
+JEWELRY,Shopping
+CLOTHING,Shopping
+APPAREL,Shopping
+HANDLOOM,Shopping
+TEXTILES,Shopping
+SAREE,Shopping
+HARDWARE,Shopping
+PAINTS,Shopping
+FURNITURE,Shopping
+MOBILE SHOP,Shopping
+WATCHES,Shopping
+OPTICAL,Shopping
+CINEMA,Entertainment
+CINEMAS,Entertainment
+MULTIPLEX,Entertainment
+THEATRE,Entertainment
+THEATER,Entertainment
+GAMING,Entertainment
+GAME ZONE,Entertainment
+AMUSEMENT,Entertainment
+BOWLING,Entertainment
+STADIUM,Entertainment
+RESORT,Entertainment
+WATER PARK,Entertainment
+ELECTRICITY,Bills & Utilities
+POWER,Bills & Utilities
+GAS,Bills & Utilities
+WATER,Bills & Utilities
+BROADBAND,Bills & Utilities
+INTERNET,Bills & Utilities
+RECHARGE,Bills & Utilities
+FIBERNET,Bills & Utilities
+TELECOM,Bills & Utilities
+DTH,Bills & Utilities
+CYBER CAFE,Bills & Utilities

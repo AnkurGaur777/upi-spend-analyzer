@@ -1,5 +1,8 @@
 import pandas as pd
-from spend_analyzer.categorize import rule_category, categorize, load_rules
+from spend_analyzer.categorize import (
+    rule_category, categorize, load_rules,
+    load_lexicon, lexicon_category, load_first_names, is_person_name
+)
 from spend_analyzer.parsers import parse_csv
 from spend_analyzer.cleaning import clean
 
@@ -56,7 +59,7 @@ def test_categorize_synthetic():
     df = categorize(cleaned, rules)
     assert len(df) == 704
     assert df["category"].notna().all()
-    assert set(df["cat_method"].unique()).issubset({"rule", "fuzzy", "none"})
+    assert set(df["cat_method"].unique()).issubset({"rule", "fuzzy", "lexicon", "p2p", "none"})
 
 
 def test_fuzzy_matching():
@@ -79,3 +82,71 @@ def test_fuzzy_matching():
     res = categorize(tiny_df, rules)
     assert res.loc[0, "category"] == "Subscriptions"
     assert res.loc[1, "category"] != "Transport"
+
+
+def test_lexicon_and_p2p_categorization():
+    lexicon = load_lexicon("data/reference/category_lexicon.csv")
+    names = load_first_names("data/reference/first_names.txt")
+    rules = load_rules("data/reference/category_rules.csv")
+
+    tiny_df = pd.DataFrame({
+        "txn_date": ["2026-02-01"] * 7,
+        "narration": [
+            "UPI-GUPTA-gupta@icici-123456789012-Payment",
+            "POS 416021XXXXXX1234 KUMAR MEDICAL HALL NEW DELHI",
+            "POS 416021XXXXXX1234 M/S RK TRADERS NEW DELHI",
+            "UPI-XYZ-xyz@icici-123456789012-Payment",
+            "UPI-AMIT-amit@icici-123456789012-Payment",
+            "UPI-AMIT-amit@icici-123456789012-Payment",
+            "UPI-AMIT-amit@icici-123456789012-Rent share",
+        ],
+        "amount": [500.0, 300.0, 1000.0, 2000.0, 1500.0, 700.0, 5000.0],
+        "direction": ["debit"] * 7,
+        "balance": [50000.0] * 7,
+        "source_bank": ["hdfc_like"] * 7,
+        "txn_id": [f"id{i}" for i in range(1, 8)],
+        "merchant": [
+            "GUPTA PROVISION STORE",
+            "KUMAR MEDICAL HALL",
+            "M/S RK TRADERS",
+            "XYZ ENTERPRISES",
+            "AMIT",
+            "AMIT KIRANA STORE",
+            "AMIT",
+        ],
+        "txn_month": ["2026-02"] * 7,
+        "weekday": ["Sunday"] * 7,
+        "is_transfer": [False] * 7,
+        "is_refund": [False] * 7,
+        "is_reversal": [False] * 7,
+    })
+
+    res = categorize(tiny_df, rules, lexicon=lexicon, names=names)
+
+    # 1. GUPTA PROVISION STORE -> Groceries via lexicon
+    assert res.loc[0, "category"] == "Groceries"
+    assert res.loc[0, "cat_method"] == "lexicon"
+
+    # 2. KUMAR MEDICAL HALL -> Health
+    assert res.loc[1, "category"] == "Health"
+    assert res.loc[1, "cat_method"] == "lexicon"
+
+    # 3. M/S RK TRADERS -> Other
+    assert res.loc[2, "category"] == "Other"
+    assert res.loc[2, "cat_method"] == "none"
+
+    # 4. XYZ ENTERPRISES -> Other
+    assert res.loc[3, "category"] == "Other"
+    assert res.loc[3, "cat_method"] == "none"
+
+    # 5. merchant AMIT -> Transfers (p2p)
+    assert res.loc[4, "category"] == "Transfers"
+    assert res.loc[4, "cat_method"] == "p2p"
+
+    # 6. AMIT KIRANA STORE -> Groceries (lexicon wins over p2p)
+    assert res.loc[5, "category"] == "Groceries"
+    assert res.loc[5, "cat_method"] == "lexicon"
+
+    # 7. Note "Rent share" does not change AMIT from Transfers to Rent
+    assert res.loc[6, "category"] == "Transfers"
+    assert res.loc[6, "cat_method"] == "p2p"

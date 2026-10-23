@@ -23,6 +23,11 @@ def test_billdesk_merchant():
     assert extract_merchant("BILLDESK-BSES RAJDHANI POWER").startswith("BSES")
 
 
+def test_pos_card_mask_and_city():
+    assert extract_merchant("POS 416021XXXXXX1234 CITY PETROL PUMP NEW DELHI") == "CITY PETROL PUMP"
+    assert extract_merchant("POS 416021XXXXXX1234 DOMINOS PIZZA").startswith("DOMINOS PIZZA")
+
+
 def test_is_transfer():
     df = pd.DataFrame({
         "txn_date": ["2025-10-01"] * 4,

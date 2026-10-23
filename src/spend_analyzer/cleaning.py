@@ -10,6 +10,17 @@ PREFIX_RE = re.compile(r"^(NEFT DR|NEFT CR|NEFT|IMPS|RTGS|ACH D|ACH C|BILLDESK|A
 NOISE_RE = re.compile(r"\b\d{6,}\b|\b[A-Z]{4}0\w{6}\b")
 
 
+CARD_MASK_RE = re.compile(r"\b\w*X{4,}\w*\b", re.I)
+CITIES = (
+    "NEW DELHI", "DELHI", "MUMBAI", "BANGALORE", "BENGALURU",
+    "GURGAON", "GURUGRAM", "NOIDA", "PUNE", "HYDERABAD", "CHENNAI", "KOLKATA"
+)
+CITY_SUFFIX_RE = re.compile(
+    r"\b(?:" + "|".join(re.escape(c) for c in sorted(CITIES, key=len, reverse=True)) + r")$",
+    re.I
+)
+
+
 def extract_merchant(narration: str) -> str:
     s = (narration or "").upper().strip()
     if s.startswith("ATW") or s.startswith("NWD"):
@@ -18,8 +29,15 @@ def extract_merchant(narration: str) -> str:
     if m:
         return " ".join(m.group("name").split())
     s = PREFIX_RE.sub("", s)
-    s = NOISE_RE.sub("", s)
+    s = CARD_MASK_RE.sub(" ", s)
+    s = NOISE_RE.sub(" ", s)
     s = re.sub(r"[^A-Z ]", " ", s)
+    s = " ".join(s.split())
+    m_city = CITY_SUFFIX_RE.search(s)
+    if m_city:
+        candidate = s[:m_city.start()].strip()
+        if candidate:
+            s = candidate
     return " ".join(s.split()[:3])
 
 

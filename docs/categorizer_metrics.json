@@ -1,0 +1,97 @@
+{
+  "all": {
+    "n": 300,
+    "accuracy": 1.0,
+    "coverage": 0.95
+  },
+  "dev": {
+    "n": 150,
+    "accuracy": 1.0,
+    "coverage": 0.9533,
+    "per_category": {
+      "Bills & Utilities": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 4
+      },
+      "Entertainment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 4
+      },
+      "Food & Dining": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 34
+      },
+      "Groceries": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 25
+      },
+      "Health": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 11
+      },
+      "Other": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 7
+      },
+      "Rent": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 4
+      },
+      "Shopping": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 10
+      },
+      "Subscriptions": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 9
+      },
+      "Transfers": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 15
+      },
+      "Transport": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 27
+      }
+    },
+    "by_cat_method": {
+      "rule": {
+        "total": 81,
+        "correct": 81,
+        "accuracy": 1.0
+      },
+      "lexicon": {
+        "total": 43,
+        "correct": 43,
+        "accuracy": 1.0
+      },
+      "p2p": {
+        "total": 15,
+        "correct": 15,
+        "accuracy": 1.0
+      },
+      "none": {
+        "total": 7,
+        "correct": 7,
+        "accuracy": 1.0
+      },
+      "fuzzy": {
+        "total": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      }
+    },
+    "error_count": 0
+  }
+}
