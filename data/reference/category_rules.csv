@@ -1,0 +1,130 @@
+keyword,category,priority
+SWIGGY,Food & Dining,10
+ZOMATO,Food & Dining,10
+CAFE COFFEE DAY,Food & Dining,10
+DOMINOS,Food & Dining,10
+STARBUCKS,Food & Dining,10
+BLINKIT,Groceries,10
+ZEPTO,Groceries,10
+BIGBASKET,Groceries,10
+DMART,Groceries,10
+UBER,Transport,10
+OLA,Transport,10
+RAPIDO,Transport,10
+DELHI METRO,Transport,10
+AMAZON REFUND,Shopping,20
+AMAZON,Shopping,10
+FLIPKART,Shopping,10
+MYNTRA,Shopping,10
+AJIO,Shopping,10
+NETFLIX,Subscriptions,10
+SPOTIFY,Subscriptions,10
+CULT FIT,Health,10
+TATA 1MG,Health,10
+BOOKMYSHOW,Entertainment,10
+JIO PREPAID,Bills & Utilities,10
+BSES,Bills & Utilities,10
+HOUSE RENT,Rent,10
+MUTUAL FUND,Investments,10
+SIP,Investments,5
+ATW,Cash Withdrawal,10
+SALARY,Income,10
+SELF,Transfers,10
+PAPA,Transfers,10
+MCDONALD,Food & Dining,10
+KFC,Food & Dining,10
+BURGER KING,Food & Dining,10
+PIZZA HUT,Food & Dining,10
+SUBWAY,Food & Dining,10
+HALDIRAM,Food & Dining,10
+CHAAYOS,Food & Dining,10
+CHAI POINT,Food & Dining,10
+BARBEQUE NATION,Food & Dining,10
+WOW MOMO,Food & Dining,10
+BEHROUZ,Food & Dining,10
+FAASOS,Food & Dining,10
+BIKANERVALA,Food & Dining,10
+THEOBROMA,Food & Dining,10
+BASKIN ROBBINS,Food & Dining,10
+SWIGGY INSTAMART,Groceries,20
+JIOMART,Groceries,10
+RELIANCE FRESH,Groceries,10
+RELIANCE SMART,Groceries,10
+NATURES BASKET,Groceries,10
+MORE RETAIL,Groceries,10
+SPENCERS,Groceries,10
+COUNTRY DELIGHT,Groceries,10
+IRCTC,Transport,10
+REDBUS,Transport,10
+INDIGO,Transport,10
+FASTAG,Transport,10
+IOCL,Transport,10
+BPCL,Transport,10
+HPCL,Transport,10
+NAMMA YATRI,Transport,10
+AIR INDIA,Transport,10
+MAKEMYTRIP,Transport,10
+GOIBIBO,Transport,10
+SHELL,Transport,10
+NYKAA,Shopping,10
+MEESHO,Shopping,10
+DECATHLON,Shopping,10
+CROMA,Shopping,10
+RELIANCE DIGITAL,Shopping,10
+TATA CLIQ,Shopping,10
+ZUDIO,Shopping,10
+WESTSIDE,Shopping,10
+PANTALOONS,Shopping,10
+SHOPPERS STOP,Shopping,10
+UNIQLO,Shopping,10
+ZARA,Shopping,10
+HOTSTAR,Subscriptions,10
+PRIME VIDEO,Subscriptions,10
+YOUTUBE PREMIUM,Subscriptions,10
+GOOGLE ONE,Subscriptions,10
+APPLE,Subscriptions,10
+LINKEDIN,Subscriptions,10
+ADOBE,Subscriptions,10
+MICROSOFT,Subscriptions,10
+CANVA,Subscriptions,10
+CHATGPT,Subscriptions,10
+SONYLIV,Subscriptions,10
+ZEE5,Subscriptions,10
+APOLLO,Health,10
+PHARMEASY,Health,10
+NETMEDS,Health,10
+PRACTO,Health,10
+MEDPLUS,Health,10
+DR LAL PATHLABS,Health,10
+THYROCARE,Health,10
+MAX HEALTHCARE,Health,10
+PVR,Entertainment,10
+INOX,Entertainment,10
+CINEPOLIS,Entertainment,10
+STEAM,Entertainment,10
+AIRTEL,Bills & Utilities,10
+VODAFONE,Bills & Utilities,10
+TATA POWER,Bills & Utilities,10
+ADANI ELECTRICITY,Bills & Utilities,10
+BESCOM,Bills & Utilities,10
+MAHANAGAR GAS,Bills & Utilities,10
+ACT FIBERNET,Bills & Utilities,10
+IGL,Bills & Utilities,10
+TORRENT POWER,Bills & Utilities,10
+TATA SKY,Bills & Utilities,10
+ZERODHA,Investments,10
+GROWW,Investments,10
+UPSTOX,Investments,10
+ANGEL ONE,Investments,10
+KITE,Investments,10
+INDMONEY,Investments,10
+NPS,Investments,10
+PPF,Investments,10
+NWD,Cash Withdrawal,10
+CASH WDL,Cash Withdrawal,10
+INTEREST CREDIT,Income,10
+DIVIDEND,Income,10
+CASHBACK,Income,10
+BONUS,Income,10
+NOBROKER,Rent,10
+FLAT RENT,Rent,10
