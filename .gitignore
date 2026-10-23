@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/raw/private/*
+!data/raw/private/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+~$*.pbix
+*.pbix.tmp
+.DS_Store
+.idea/
+.vscode/
