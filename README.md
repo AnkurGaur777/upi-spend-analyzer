@@ -28,7 +28,7 @@
 
 ### Page 2: Where It Goes · Category Breakdown & Merchant Concentration
 ![Page 2 Where It Goes](powerbi/screenshots/02_where_it_goes.png)
-*Horizontal distribution across 10 classified living spend categories (led by Rent at 33.4%, Groceries at 14.4%, Shopping at 14.0%, and Food & Dining at 12.9%), Top 10 merchant concentration, and month-over-month category spend heat matrix.*
+*Horizontal distribution across 10 classified living spend categories (led by Rent at 33.4%, Groceries at 14.4%, Shopping at 14.0%, and Food & Dining at 12.9%), Top 10 merchant concentration, and a 10-category by 12-month spend heat map.*
 
 ### Page 3: Leaks & Subscriptions · Micro-Spends & Recurring Payees
 ![Page 3 Leaks and Subscriptions](powerbi/screenshots/03_leaks_subscriptions.png)
@@ -36,13 +36,13 @@
 
 ### Page 4: Strategic Insights & Quantified Recommendations
 ![Page 4 Insights](powerbi/screenshots/04_insights.png)
-*Empirical findings grounded in real data and 3 prioritized zero-overlap recommendations delivering **+₹3,839.04 / month** in retained capital, elevating the baseline savings rate from **17.1% to 23.0% (+5.9 percentage points)**.*
+*Empirical findings grounded in the project data (synthetic) and 3 prioritized zero-overlap recommendations delivering **+₹3,839.04 / month** in retained capital, elevating the baseline savings rate from **17.1% to 23.0% (+5.9 percentage points)**.*
 
 ---
 
 ## System Architecture
 
-The pipeline follows a modular extract-clean-classify-detect-load pattern designed for extensibility and zero-dependency execution:
+The pipeline follows a modular extract-clean-classify-detect-load pattern designed for extensibility and an automatic SQLite fallback when MySQL isn't running:
 
 ![Architecture Diagram](docs/architecture.png)
 
