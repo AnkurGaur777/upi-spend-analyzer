@@ -1,6 +1,6 @@
 # UPI / Bank Statement Spend Analyzer
 
-[![CI](https://github.com/YOUR_USERNAME/spend-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/spend-analyzer/actions) *(Replace `YOUR_USERNAME` with your GitHub username)*
+[![CI](https://github.com/AnkurGaur777/upi-spend-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/AnkurGaur777/upi-spend-analyzer/actions)
 ![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.13-blue.svg)
 ![Database](https://img.shields.io/badge/Database-MySQL%208.0%20%7C%20SQLite-teal.svg)
 ![BI](https://img.shields.io/badge/Analytics-Power%20BI%20Desktop-F2C811.svg)
