@@ -150,3 +150,12 @@ def test_lexicon_and_p2p_categorization():
     # 7. Note "Rent share" does not change AMIT from Transfers to Rent
     assert res.loc[6, "category"] == "Transfers"
     assert res.loc[6, "cat_method"] == "p2p"
+
+
+def test_amazon_rule_order():
+    rules = load_rules("data/reference/category_rules.csv")
+    # AMAZON PRIME must match Subscriptions before AMAZON matches Shopping
+    assert rule_category("UPI-AMAZON PRIME-amznprime@hdfc-Sub", rules) == "Subscriptions"
+    assert rule_category("UPI-AMAZON-RETAIL ORDER", rules) == "Shopping"
+    assert rule_category("UPI-AMAZON PAY-RETAIL", rules) == "Shopping"
+

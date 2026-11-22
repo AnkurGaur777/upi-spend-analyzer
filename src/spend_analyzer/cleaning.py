@@ -9,7 +9,6 @@ UPI_RE = re.compile(r"^UPI[-/](?P<name>[^-/@]+)", re.I)
 PREFIX_RE = re.compile(r"^(NEFT DR|NEFT CR|NEFT|IMPS|RTGS|ACH D|ACH C|BILLDESK|ATW|NWD|POS)[\s\-/]*", re.I)
 NOISE_RE = re.compile(r"\b\d{6,}\b|\b[A-Z]{4}0\w{6}\b")
 
-
 CARD_MASK_RE = re.compile(r"\b\w*X{4,}\w*\b", re.I)
 CITIES = (
     "NEW DELHI", "DELHI", "MUMBAI", "BANGALORE", "BENGALURU",
@@ -25,9 +24,39 @@ def extract_merchant(narration: str) -> str:
     s = (narration or "").upper().strip()
     if s.startswith("ATW") or s.startswith("NWD"):
         return "ATM CASH"
+
+    # Multi-format slash-separated UPI variants (e.g. UPI/<ref>/<name>/... or UPI/CR/<ref>/<name>/...)
+    if s.startswith("UPI/") or s.startswith("UPI-"):
+        if "/" in s:
+            parts = [p.strip() for p in s.split("/") if p.strip()]
+            for p in parts[1:]:
+                if p in ("CR", "DR", "P2A", "P2P", "P2M", "UPI"):
+                    continue
+                if re.fullmatch(r"\d+", p):  # RRN or numerical reference
+                    continue
+                if "@" in p:
+                    p = p.split("@")[0]
+                cleaned_p = re.sub(r"[^A-Z ]", " ", p).strip()
+                if cleaned_p and len(cleaned_p) >= 2:
+                    return " ".join(cleaned_p.split()[:3])
+
+    # Standard UPI-NAME-... format
     m = UPI_RE.match(s)
     if m:
         return " ".join(m.group("name").split())
+
+    # IMPS or NEFT slash variants (e.g. IMPS/P2A/<ref>/<name>)
+    if s.startswith("IMPS/") or s.startswith("NEFT/"):
+        parts = [p.strip() for p in s.split("/") if p.strip()]
+        for p in parts[1:]:
+            if p in ("P2A", "P2P", "P2M", "CR", "DR"):
+                continue
+            if re.fullmatch(r"\d+", p):
+                continue
+            cleaned_p = re.sub(r"[^A-Z ]", " ", p).strip()
+            if cleaned_p and len(cleaned_p) >= 2:
+                return " ".join(cleaned_p.split()[:3])
+
     s = PREFIX_RE.sub("", s)
     s = CARD_MASK_RE.sub(" ", s)
     s = NOISE_RE.sub(" ", s)
@@ -73,5 +102,5 @@ def clean(df: pd.DataFrame) -> pd.DataFrame:
                 used_pos.add(r_credit.orig_pos)
                 break
 
-    df["is_reversal"] = [i in used_pos for i in range(len(df))]
+    df["is_reversal"] = df.index.isin(used_pos)
     return df

@@ -1,25 +1,22 @@
-﻿cffi==2.1.1
-charset-normalizer==3.5.2
-colorama==0.4.6
-cryptography==50.0.2
-Faker==40.43.0
-iniconfig==2.3.1
-numpy==2.5.4
-packaging==26.3
-pandas==3.1.0
-pdfminer.six==20260107
-pdfplumber==0.11.10
-pillow==13.0.0
-pluggy==1.7.0
-pycparser==3.12
-Pygments==2.21.0
-PyMySQL==1.2.3
-pypdfium2==5.14.0
-pytest==9.1.1
-python-dateutil==3.0.0
-python-dotenv==1.2.4
-RapidFuzz==3.14.6
-six==1.17.0
-SQLAlchemy==2.1.6
-typing_extensions==4.16.0
-tzdata==2026.5
+# Core data analysis & pipeline
+pandas>=2.0.0
+numpy>=1.24.0
+python-dateutil>=2.8.0
+RapidFuzz>=3.0.0
+
+# Database connectivity
+SQLAlchemy>=2.0.0
+PyMySQL>=1.1.0
+cryptography>=41.0.0
+python-dotenv>=1.0.0
+
+# Visuals, PDF generation & inspection
+Pillow>=10.0.0
+reportlab>=4.0.0
+pdfplumber>=0.10.0
+pypdfium2>=4.0.0
+PyYAML>=6.0.0
+
+# Testing & synthetic data generation
+Faker>=20.0.0
+pytest>=7.4.0

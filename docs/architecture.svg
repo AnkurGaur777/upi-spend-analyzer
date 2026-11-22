@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 28px; font-weight: 700; fill: #0F172A; }
+      .subtitle { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 16px; font-weight: 400; fill: #64748B; }
+      .node-title { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 17px; font-weight: 700; fill: #0F172A; }
+      .node-desc { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 13px; font-weight: 400; fill: #475569; }
+      .node-pill { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 11px; font-weight: 600; fill: #0F766E; }
+      .arrow { stroke: #0F766E; stroke-width: 2.5; fill: none; }
+      .arrow-head { fill: #0F766E; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" class="arrow-head" />
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#F8FAFC"/>
+  
+  <!-- Top Accent Bar -->
+  <rect width="1600" height="8" fill="#0F766E"/>
+
+  <!-- Header -->
+  <text x="80" y="65" class="title">UPI / Bank Statement Spend Analyzer · Architecture</text>
+  <text x="80" y="95" class="subtitle">End-to-End Modular Pipeline: Statement Ingestion → Data Cleaning → Classification → Detection → Relational Analytics → Reporting</text>
+
+  <!-- Pipeline Flow Nodes (2 Rows x 4 Columns) -->
+  
+  <!-- Row 1: Left to Right -->
+  
+  <!-- Node 1: Raw Statement Sources -->
+  <g transform="translate(80, 150)" filter="url(#shadow)">
+    <rect width="310" height="180" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+    <rect x="0" y="0" width="310" height="38" rx="12" fill="#CCFBF1"/>
+    <rect x="0" y="24" width="310" height="14" fill="#CCFBF1"/>
+    <text x="20" y="25" class="node-pill">01 · INGESTION SOURCES</text>
+    <text x="20" y="70" class="node-title">Bank Statements</text>
+    <text x="20" y="95" class="node-desc">• Formats: CSV (2 bank layouts)</text>
+    <text x="20" y="118" class="node-desc">• HDFC layout (DD/MM/YY)</text>
+    <text x="20" y="141" class="node-desc">• ICICI layout (DD-MM-YYYY)</text>
+    <text x="20" y="164" class="node-desc">• Synthetic &amp; private inputs</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M 390 240 L 450 240" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Node 2: parsers.py -->
+  <g transform="translate(460, 150)" filter="url(#shadow)">
+    <rect width="310" height="180" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+    <rect x="0" y="0" width="310" height="38" rx="12" fill="#CCFBF1"/>
+    <rect x="0" y="24" width="310" height="14" fill="#CCFBF1"/>
+    <text x="20" y="25" class="node-pill">02 · STATEMENT PARSING</text>
+    <text x="20" y="70" class="node-title">parsers.py</text>
+    <text x="20" y="95" class="node-desc">• Format auto-detection</text>
+    <text x="20" y="118" class="node-desc">• BANK_FORMATS config registry</text>
+    <text x="20" y="141" class="node-desc">• SHA-1 deterministic txn_id</text>
+    <text x="20" y="164" class="node-desc">• Output: Unified DataFrame</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M 770 240 L 830 240" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Node 3: cleaning.py -->
+  <g transform="translate(840, 150)" filter="url(#shadow)">
+    <rect width="310" height="180" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+    <rect x="0" y="0" width="310" height="38" rx="12" fill="#CCFBF1"/>
+    <rect x="0" y="24" width="310" height="14" fill="#CCFBF1"/>
+    <text x="20" y="25" class="node-pill">03 · DATA NORMALIZATION</text>
+    <text x="20" y="70" class="node-title">cleaning.py</text>
+    <text x="20" y="95" class="node-desc">• Strip UPI/NEFT/IMPS noise</text>
+    <text x="20" y="118" class="node-desc">• Merchant entity extraction</text>
+    <text x="20" y="141" class="node-desc">• Tag self-transfers &amp; refunds</text>
+    <text x="20" y="164" class="node-desc">• Date parsing &amp; calendar features</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <path d="M 1150 240 L 1210 240" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Node 4: categorize.py -->
+  <g transform="translate(1220, 150)" filter="url(#shadow)">
+    <rect width="300" height="180" rx="12" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="300" height="38" rx="12" fill="#0F766E"/>
+    <rect x="0" y="24" width="300" height="14" fill="#0F766E"/>
+    <text x="20" y="25" class="node-pill" style="fill: #FFFFFF;">04 · CLASSIFICATION ENGINE</text>
+    <text x="20" y="70" class="node-title">categorize.py</text>
+    <text x="20" y="95" class="node-desc">• Layer 1: Priority keyword rules</text>
+    <text x="20" y="118" class="node-desc">• Layer 2: Entity lexicon &amp; P2P</text>
+    <text x="20" y="141" class="node-desc">• Layer 3: Fuzzy token-set ratio</text>
+    <text x="20" y="164" class="node-desc">• Clean: 100% | Holdout: 78.33%</text>
+  </g>
+
+  <!-- Connecting Pipe Down from Node 4 to Node 5 -->
+  <path d="M 1370 330 L 1370 470 L 1310 470" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Row 2: Right to Left -->
+
+  <!-- Node 5: recurring.py -->
+  <g transform="translate(990, 380)" filter="url(#shadow)">
+    <rect width="310" height="180" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+    <rect x="0" y="0" width="310" height="38" rx="12" fill="#CCFBF1"/>
+    <rect x="0" y="24" width="310" height="14" fill="#CCFBF1"/>
+    <text x="20" y="25" class="node-pill">05 · SUBSCRIPTION DETECTOR</text>
+    <text x="20" y="70" class="node-title">recurring.py</text>
+    <text x="20" y="95" class="node-desc">• Detect repeating subscriptions</text>
+    <text x="20" y="118" class="node-desc">• Amount tolerance (±5% median)</text>
+    <text x="20" y="141" class="node-desc">• Cadence: Monthly, Annual, Weekly</text>
+    <text x="20" y="164" class="node-desc">• Output: recurring_payments</text>
+  </g>
+
+  <!-- Arrow 5 -> 6 -->
+  <path d="M 990 470 L 930 470" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Node 6: load.py / Database -->
+  <g transform="translate(610, 380)" filter="url(#shadow)">
+    <rect width="310" height="180" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+    <rect x="0" y="0" width="310" height="38" rx="12" fill="#CCFBF1"/>
+    <rect x="0" y="24" width="310" height="14" fill="#CCFBF1"/>
+    <text x="20" y="25" class="node-pill">06 · PERSISTENCE LAYER</text>
+    <text x="20" y="70" class="node-title">MySQL 8.0 / SQLite</text>
+    <text x="20" y="95" class="node-desc">• load.py idempotent loader</text>
+    <text x="20" y="118" class="node-desc">• Re-runs insert 0 duplicates</text>
+    <text x="20" y="141" class="node-desc">• docker-compose.yml setup</text>
+    <text x="20" y="164" class="node-desc">• Zero-config SQLite fallback</text>
+  </g>
+
+  <!-- Arrow 6 -> 7 -->
+  <path d="M 610 470 L 550 470" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Node 7: SQL Views -->
+  <g transform="translate(230, 380)" filter="url(#shadow)">
+    <rect width="310" height="180" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+    <rect x="0" y="0" width="310" height="38" rx="12" fill="#CCFBF1"/>
+    <rect x="0" y="24" width="310" height="14" fill="#CCFBF1"/>
+    <text x="20" y="25" class="node-pill">07 · ANALYTICAL VIEWS</text>
+    <text x="20" y="70" class="node-title">SQL Views &amp; Queries</text>
+    <text x="20" y="95" class="node-desc">• v_spend (excludes transfers/invest)</text>
+    <text x="20" y="118" class="node-desc">• v_income (earned salary)</text>
+    <text x="20" y="141" class="node-desc">• v_monthly_summary (savings %)</text>
+    <text x="20" y="164" class="node-desc">• 11 analytical portfolio queries</text>
+  </g>
+
+  <!-- Connecting Pipe Down from Node 7 to Row 3 (Node 8) -->
+  <path d="M 385 560 L 385 640" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Row 3: Final Consumption Layer -->
+  <g transform="translate(80, 650)" filter="url(#shadow)">
+    <rect width="1440" height="180" rx="14" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="1440" height="42" rx="14" fill="#0F766E"/>
+    <rect x="0" y="28" width="1440" height="14" fill="#0F766E"/>
+    <text x="24" y="28" class="node-pill" style="fill: #FFFFFF; font-size: 13px;">08 · PRESENTATION, BUSINESS INSIGHTS &amp; INTERACTIVE CONSUMPTION</text>
+    
+    <g transform="translate(30, 65)">
+      <text x="0" y="20" class="node-title" style="font-size: 19px; fill: #0F766E;">Power BI Desktop (.pbix)</text>
+      <text x="0" y="48" class="node-desc">Interactive 4-page dashboard connected to relational tables</text>
+      <text x="0" y="70" class="node-desc">DAX measures: Savings Rate, MoM %, Spend 3M Rolling Avg</text>
+      <text x="0" y="92" class="node-desc">Pages: Overview, Where It Goes, Leaks &amp; Subscriptions, Insights</text>
+    </g>
+
+    <g transform="translate(520, 65)">
+      <text x="0" y="20" class="node-title" style="font-size: 19px; fill: #0F766E;">Executive Insights Memo</text>
+      <text x="0" y="48" class="node-desc">One-page executive PDF memo (docs/insights_memo.pdf)</text>
+      <text x="0" y="70" class="node-desc">5 quantified empirical findings with exact rupee impacts</text>
+      <text x="0" y="92" class="node-desc">• 3 prioritized recommendations saving +₹3,839 / month</text>
+    </g>
+
+    <g transform="translate(1010, 65)">
+      <text x="0" y="20" class="node-title" style="font-size: 19px; fill: #0F766E;">Data Previews &amp; Demo</text>
+      <text x="0" y="48" class="node-desc">Data-rendered 1080p dashboard previews</text>
+      <text x="0" y="70" class="node-desc">Animated demo GIF cycling through all report pages</text>
+      <text x="0" y="92" class="node-desc">Narration script for walkthrough video presentations</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="80" y="870" class="subtitle" style="font-size: 13px;">Modular Data Pipeline Architecture · Built with Python, pandas, SQLAlchemy, MySQL & Power BI</text>
+</svg>

@@ -1,0 +1,617 @@
+{
+  "note": "Based on synthetic data; findings are illustrative.",
+  "context": {
+    "start_date": "2025-10-01",
+    "end_date": "2026-09-27",
+    "calendar_days": 362,
+    "months_count": 12,
+    "is_september_partial": true,
+    "september_days": 27,
+    "total_transactions": 704,
+    "spend_transactions": 652,
+    "total_income": 780000.0,
+    "total_spend": 646319.0,
+    "total_savings": 133681.0,
+    "savings_rate_pct": 17.1,
+    "avg_monthly_spend": 53859.92,
+    "avg_ticket": 991.29
+  },
+  "partition_reconciliation": {
+    "spend_rows": 652,
+    "income_rows": 12,
+    "self_transfer_rows": 21,
+    "refund_reversal_rows": 7,
+    "investment_rows": 12,
+    "other_rows": 0,
+    "total_rows": 704
+  },
+  "discretionary_definition": {
+    "categories": [
+      "Shopping",
+      "Food & Dining",
+      "Entertainment"
+    ],
+    "discretionary_spend_total": 183607.0,
+    "pct_of_living_spend": 28.4,
+    "variable_spend_total": 399515.0,
+    "pct_variable_of_living_spend": 61.8
+  },
+  "findings": {
+    "f1_subscriptions": {
+      "count": 2,
+      "annual_cost": 9216.0,
+      "savable_monthly": 768.0,
+      "savable_annual": 9216.0,
+      "services": [
+        "NETFLIX (\u20b97,788/yr)",
+        "SPOTIFY (\u20b91,428/yr)"
+      ],
+      "recurring_living_spend": 246804.0,
+      "recurring_living_services_count": 5,
+      "pct_of_living_spend": 38.2,
+      "total_recurring_commitments_with_sip": 306804.0,
+      "total_recurring_services_count": 6,
+      "total_cash_outflows_with_sip": 706319.0,
+      "pct_of_total_outflow": 43.4,
+      "non_rent_recurring_cost": 30804.0,
+      "non_rent_recurring_count": 4,
+      "rent_plus_sip": 276000.0,
+      "rent_plus_sip_pct": 39.1
+    },
+    "f2_food_delivery": {
+      "merchants_included": [
+        "SWIGGY",
+        "ZOMATO",
+        "DOMINOS"
+      ],
+      "orders_count": 129,
+      "total_spend": 51565.0,
+      "avg_ticket": 399.73,
+      "avg_monthly_spend": 4297.08,
+      "discretionary_spend_total": 183607.0,
+      "pct_of_discretionary": 28.1,
+      "food_dining_total": 83599.0,
+      "pct_of_food_dining": 61.7
+    },
+    "f3_small_ticket_leaks": {
+      "threshold": 300,
+      "all_sub300_count": 229,
+      "all_sub300_total": 43887.0,
+      "discretionary_sub300_count": 205,
+      "discretionary_sub300_total": 38871.0,
+      "discretionary_sub300_avg": 189.61,
+      "discretionary_sub300_monthly": 3239.25,
+      "category_split": {
+        "Food & Dining": {
+          "txns": 71,
+          "total": 14722.0,
+          "avg_ticket": 207.35
+        },
+        "Groceries": {
+          "txns": 6,
+          "total": 1613.0,
+          "avg_ticket": 268.83
+        },
+        "Health": {
+          "txns": 3,
+          "total": 765.0,
+          "avg_ticket": 255.0
+        },
+        "Transport": {
+          "txns": 125,
+          "total": 21771.0,
+          "avg_ticket": 174.17
+        }
+      },
+      "excluded_recurring_payees": {
+        "JIO PREPAID": {
+          "txns": 12,
+          "total": 3588.0
+        },
+        "SPOTIFY": {
+          "txns": 12,
+          "total": 1428.0
+        }
+      },
+      "cafes_details": {
+        "merchants": [
+          "CAFE COFFEE DAY",
+          "STARBUCKS"
+        ],
+        "count": 30,
+        "total_amount": 5893.0,
+        "breakdown": {
+          "CAFE COFFEE DAY": {
+            "txns": 16,
+            "total": 3114.0,
+            "avg_ticket": 194.62
+          },
+          "STARBUCKS": {
+            "txns": 14,
+            "total": 2779.0,
+            "avg_ticket": 198.5
+          }
+        }
+      },
+      "delivery_under_300": {
+        "count": 41,
+        "total_amount": 8829.0
+      },
+      "transport_total": 21771.0,
+      "cab_pool": {
+        "merchants": [
+          "UBER",
+          "RAPIDO",
+          "OLA"
+        ],
+        "count": 93,
+        "total_amount": 16247.0
+      },
+      "cab_pool_total": 16247.0,
+      "cafes_total": 5893.0,
+      "non_overlap_pool": 22140.0
+    },
+    "f4_weekend_vs_weekday": {
+      "calendar_days": 362,
+      "weekend_days": 104,
+      "weekday_days": 258,
+      "version_a_all_living_spend": {
+        "weekend_total": 172326.0,
+        "weekday_total": 473993.0,
+        "weekend_per_day": 1656.98,
+        "weekday_per_day": 1837.18,
+        "weekday_higher_pct": 10.9
+      },
+      "version_b_variable_spend_excluding_fixed": {
+        "weekend_total": 93058.0,
+        "weekday_total": 306457.0,
+        "weekend_per_day": 894.79,
+        "weekday_per_day": 1187.82,
+        "weekday_higher_pct": 32.7,
+        "category_breakdown": {
+          "Bills & Utilities": {
+            "weekday_total": 17995.0,
+            "weekend_total": 2954.0,
+            "weekday_per_day": 69.75,
+            "weekend_per_day": 28.4,
+            "per_day_gap": 41.34
+          },
+          "Cash Withdrawal": {
+            "weekday_total": 47000.0,
+            "weekend_total": 7000.0,
+            "weekday_per_day": 182.17,
+            "weekend_per_day": 67.31,
+            "per_day_gap": 114.86
+          },
+          "Entertainment": {
+            "weekday_total": 5765.0,
+            "weekend_total": 3610.0,
+            "weekday_per_day": 22.34,
+            "weekend_per_day": 34.71,
+            "per_day_gap": -12.37
+          },
+          "Food & Dining": {
+            "weekday_total": 60396.0,
+            "weekend_total": 23203.0,
+            "weekday_per_day": 234.09,
+            "weekend_per_day": 223.11,
+            "per_day_gap": 10.99
+          },
+          "Groceries": {
+            "weekday_total": 70226.0,
+            "weekend_total": 22753.0,
+            "weekday_per_day": 272.19,
+            "weekend_per_day": 218.78,
+            "per_day_gap": 53.41
+          },
+          "Health": {
+            "weekday_total": 4744.0,
+            "weekend_total": 3470.0,
+            "weekday_per_day": 18.39,
+            "weekend_per_day": 33.37,
+            "per_day_gap": -14.98
+          },
+          "Shopping": {
+            "weekday_total": 70936.0,
+            "weekend_total": 19697.0,
+            "weekday_per_day": 274.95,
+            "weekend_per_day": 189.39,
+            "per_day_gap": 85.55
+          },
+          "Transport": {
+            "weekday_total": 29395.0,
+            "weekend_total": 10371.0,
+            "weekday_per_day": 113.93,
+            "weekend_per_day": 99.72,
+            "per_day_gap": 14.21
+          }
+        },
+        "robustness_check": {
+          "transactions_gt_5000": 0,
+          "weekday_per_day_excluding_ge_5000": 1129.68,
+          "weekend_per_day_excluding_ge_5000": 894.79,
+          "weekday_higher_pct_excluding_ge_5000": 26.3,
+          "weekday_per_day_excluding_cash": 1005.65,
+          "weekend_per_day_excluding_cash": 827.48,
+          "weekday_higher_pct_excluding_cash": 21.5
+        }
+      },
+      "empirical_wording": "Higher weekday spend density is driven by ATM Cash Withdrawals (+\u20b9114.86/day), Shopping (+\u20b985.55/day), and Groceries (+\u20b953.41/day), while Entertainment (-\u20b912.37/day) and Health (-\u20b914.98/day) are higher on weekends."
+    },
+    "f5_savings_rate_drop": {
+      "lowest_month": "2025-11",
+      "lowest_savings_rate_pct": 7.0,
+      "lowest_month_spend": 60480.0,
+      "lowest_month_income": 65000.0,
+      "lowest_month_savings": 4520.0,
+      "highest_month": "2026-03",
+      "highest_savings_rate_pct": 30.5,
+      "drivers_by_category": {
+        "Groceries": 10604.0,
+        "Shopping": 10960.0,
+        "Entertainment": 1354.0
+      },
+      "drivers_by_merchant": {
+        "AJIO": 7392.0,
+        "DMART": 5505.0,
+        "FLIPKART": 2639.0,
+        "ZEPTO": 2363.0
+      },
+      "explanation": "Festive-season spike (synthetic data): Nov spend rose to \u20b960,480 (savings rate 7.0%) driven by shopping (\u20b910,960) and groceries (\u20b910,604), led by AJIO (+\u20b97,392) and DMART (+\u20b94,487)."
+    }
+  },
+  "page_metrics": {
+    "page2_top4_share_pct": 74.8,
+    "page2_top4_sum": 483211.0,
+    "page3_rent_plus_sip_pct": 39.1,
+    "page3_rent_plus_sip_sum": 276000.0
+  },
+  "recommendations": [
+    {
+      "title": "Cut Online Food Delivery by 50%",
+      "assumption": "Halve food delivery orders from ~10.8 to ~5.4 orders/month (cooking at home / dining in).",
+      "formula": "\u20b951,565.00 \u00d7 50% \u00f7 12 months",
+      "expected_monthly_saving": 2148.54,
+      "expected_annual_saving": 25782.5
+    },
+    {
+      "title": "Review Streaming Subscriptions",
+      "assumption": "Pause or cancel detected streaming subscriptions (Netflix and Spotify) that you no longer need.",
+      "formula": "(Netflix \u20b97,788.00 + Spotify \u20b91,428.00) \u00f7 12 months",
+      "expected_monthly_saving": 768.0,
+      "expected_annual_saving": 9216.0
+    },
+    {
+      "title": "Plug Commute & Cafe Micro-Leaks (< \u20b9300)",
+      "assumption": "Switch 50% of short cab trips (Uber, Rapido, Ola) to public transit and reduce impulse cafe purchases (strictly non-overlapping with food delivery and Spotify).",
+      "formula": "(Cab rides \u20b916,247.00 + Cafes \u20b95,893.00 = \u20b922,140.00) \u00d7 50% \u00f7 12 months",
+      "expected_monthly_saving": 922.5,
+      "expected_annual_saving": 11070.0
+    }
+  ],
+  "total_savings_potential": {
+    "monthly": 3839.04,
+    "annual": 46068.5,
+    "baseline_savings_rate_pct": 17.1,
+    "projected_savings_rate_pct": 23.0,
+    "percentage_points_increase": 5.9
+  },
+  "method_and_limits": {
+    "synthetic_benchmark": "100.0% accuracy on synthetic clean statement; 95.0% coverage on synthetic messy benchmark (285/300 rows).",
+    "hard_holdout_benchmark": "78.33% accuracy, 78.33% coverage on 60 challenging synthetic holdout rows with unseen merchants, typos, and abbreviations (13 remaining unclassified misses).",
+    "exclusions": "Self-transfers (21 rows, \u20b950,123) and investments (12 rows, \u20b960,000 SIP) excluded from operational living spend. Refunds (7 rows, \u20b94,833) treated as credit reversals.",
+    "substitution_note": "Savings scenarios represent gross reductions and assume removed spend is not replaced by alternative expenditure (no substitution costs modeled)."
+  },
+  "categorizer_evaluation": {
+    "in_domain_synthetic_clean": {
+      "accuracy_pct": 100.0,
+      "coverage_pct": 95.0
+    },
+    "hard_holdout": {
+      "accuracy_pct": 78.33,
+      "coverage_pct": 78.33
+    }
+  },
+  "percentages_registry": {
+    "17.1%": {
+      "value_pct": 17.1,
+      "numerator": 133681.0,
+      "denominator": 780000.0,
+      "definition": "Annual baseline savings rate = Retained savings / Earned income"
+    },
+    "38.2%": {
+      "value_pct": 38.2,
+      "numerator": 246804.0,
+      "denominator": 646319.0,
+      "definition": "Fixed living commitments (Rent, Gym, Jio, subs) / Living spend"
+    },
+    "39.1%": {
+      "value_pct": 39.1,
+      "numerator": 276000.0,
+      "denominator": 706319.0,
+      "definition": "Fixed commitments (Rent + SIP) / Total cash outflows"
+    },
+    "43.4%": {
+      "value_pct": 43.4,
+      "numerator": 306804.0,
+      "denominator": 706319.0,
+      "definition": "Total recurring commitments (including SIP) / Total cash outflows"
+    },
+    "74.8%": {
+      "value_pct": 74.8,
+      "numerator": 483211.0,
+      "denominator": 646319.0,
+      "definition": "Top 4 categories (Rent, Groceries, Shopping, Dining) / Living spend"
+    },
+    "28.1%": {
+      "value_pct": 28.1,
+      "numerator": 51565.0,
+      "denominator": 183607.0,
+      "definition": "Food delivery / Discretionary spend (Shopping, Dining, Entertainment)"
+    },
+    "61.7%": {
+      "value_pct": 61.7,
+      "numerator": 51565.0,
+      "denominator": 83599.0,
+      "definition": "Food delivery / Food & Dining category spend"
+    },
+    "10.9%": {
+      "value_pct": 10.9,
+      "numerator": 180.2,
+      "denominator": 1656.98,
+      "definition": "Version A: Weekday higher per-day vs Weekend (all living spend)"
+    },
+    "32.7%": {
+      "value_pct": 32.7,
+      "numerator": 293.03,
+      "denominator": 894.79,
+      "definition": "Version B: Weekday higher per-day vs Weekend (variable living spend)"
+    },
+    "7.0%": {
+      "value_pct": 7.0,
+      "numerator": 4520.0,
+      "denominator": 65000.0,
+      "definition": "Lowest monthly savings rate (November 2025)"
+    },
+    "30.5%": {
+      "value_pct": 30.5,
+      "numerator": 19794.0,
+      "denominator": 65000.0,
+      "definition": "Highest monthly savings rate (March 2026)"
+    },
+    "23.0%": {
+      "value_pct": 23.0,
+      "numerator": 179749.5,
+      "denominator": 780000.0,
+      "definition": "Projected savings rate with all 3 optimization scenarios"
+    },
+    "5.9%": {
+      "value_pct": 5.9,
+      "numerator": 46068.5,
+      "denominator": 780000.0,
+      "definition": "Percentage point increase in savings rate (unrounded: 5.9062%)"
+    },
+    "28.4%": {
+      "value_pct": 28.4,
+      "numerator": 183607.0,
+      "denominator": 646319.0,
+      "definition": "Discretionary spend / Living spend"
+    },
+    "61.8%": {
+      "value_pct": 61.8,
+      "numerator": 399515.0,
+      "denominator": 646319.0,
+      "definition": "Variable spend / Living spend"
+    },
+    "33.4%": {
+      "value_pct": 33.4,
+      "numerator": 216000.0,
+      "denominator": 646319.0,
+      "definition": "Rent share of living spend"
+    },
+    "14.4%": {
+      "value_pct": 14.4,
+      "numerator": 92979.0,
+      "denominator": 646319.0,
+      "definition": "Groceries share of living spend"
+    },
+    "14.0%": {
+      "value_pct": 14.0,
+      "numerator": 90633.0,
+      "denominator": 646319.0,
+      "definition": "Shopping share of living spend"
+    },
+    "12.9%": {
+      "value_pct": 12.9,
+      "numerator": 83599.0,
+      "denominator": 646319.0,
+      "definition": "Food & Dining share of living spend"
+    },
+    "8.4%": {
+      "value_pct": 8.4,
+      "numerator": 5457.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for Feb 2026"
+    },
+    "6.1%": {
+      "value_pct": 6.1,
+      "numerator": 39766.0,
+      "denominator": 646319.0,
+      "definition": "Transport share of living spend (unrounded 6.15%)"
+    },
+    "6.2%": {
+      "value_pct": 6.2,
+      "numerator": 39766.0,
+      "denominator": 646319.0,
+      "definition": "Transport share of living spend (rounded 6.2%)"
+    },
+    "26.3%": {
+      "value_pct": 26.3,
+      "numerator": 234.89,
+      "denominator": 894.79,
+      "definition": "Version B: Weekday higher per-day excl >= 5000 txns"
+    },
+    "21.5%": {
+      "value_pct": 21.5,
+      "numerator": 178.17,
+      "denominator": 827.48,
+      "definition": "Version B: Weekday higher per-day excl cash withdrawals"
+    },
+    "100%": {
+      "value_pct": 100.0,
+      "numerator": 9216.0,
+      "denominator": 9216.0,
+      "definition": "100% of pure streaming outlays (Netflix + Spotify)"
+    },
+    "17.2%": {
+      "value_pct": 17.2,
+      "numerator": 11167.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for Oct 2025"
+    },
+    "16.9%": {
+      "value_pct": 16.9,
+      "numerator": 10999.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for Dec 2025"
+    },
+    "22.1%": {
+      "value_pct": 22.1,
+      "numerator": 14342.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for Jan 2026"
+    },
+    "15.8%": {
+      "value_pct": 15.8,
+      "numerator": 10300.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for Apr 2026"
+    },
+    "17.5%": {
+      "value_pct": 17.5,
+      "numerator": 11356.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for May 2026"
+    },
+    "15.1%": {
+      "value_pct": 15.1,
+      "numerator": 9834.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for Jun 2026"
+    },
+    "7.2%": {
+      "value_pct": 7.2,
+      "numerator": 4700.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for Jul 2026"
+    },
+    "17.8%": {
+      "value_pct": 17.8,
+      "numerator": 11550.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for Aug 2026"
+    },
+    "30.2%": {
+      "value_pct": 30.2,
+      "numerator": 19662.0,
+      "denominator": 65000.0,
+      "definition": "Monthly savings rate for Sep 2026"
+    },
+    "0%": {
+      "value_pct": 0.0,
+      "numerator": 0.0,
+      "denominator": 40.0,
+      "definition": "Chart Y-axis tick mark 0%"
+    },
+    "10%": {
+      "value_pct": 10.0,
+      "numerator": 10.0,
+      "denominator": 40.0,
+      "definition": "Chart Y-axis tick mark 10%"
+    },
+    "20%": {
+      "value_pct": 20.0,
+      "numerator": 20.0,
+      "denominator": 40.0,
+      "definition": "Chart Y-axis tick mark 20%"
+    },
+    "30%": {
+      "value_pct": 30.0,
+      "numerator": 30.0,
+      "denominator": 40.0,
+      "definition": "Chart Y-axis tick mark 30%"
+    },
+    "40%": {
+      "value_pct": 40.0,
+      "numerator": 40.0,
+      "denominator": 40.0,
+      "definition": "Chart Y-axis tick mark 40%"
+    },
+    "4.1%": {
+      "value_pct": 4.1,
+      "numerator": 26214.0,
+      "denominator": 646319.0,
+      "definition": "Health share of living spend"
+    },
+    "3.8%": {
+      "value_pct": 3.8,
+      "numerator": 24537.0,
+      "denominator": 646319.0,
+      "definition": "Bills & Utilities share of living spend"
+    },
+    "1.5%": {
+      "value_pct": 1.5,
+      "numerator": 9375.0,
+      "denominator": 646319.0,
+      "definition": "Entertainment share of living spend"
+    },
+    "1.4%": {
+      "value_pct": 1.4,
+      "numerator": 9216.0,
+      "denominator": 646319.0,
+      "definition": "Subscriptions share of living spend"
+    },
+    "100.0%": {
+      "value_pct": 100.0,
+      "numerator": 704.0,
+      "denominator": 704.0,
+      "definition": "Synthetic in-domain benchmark accuracy & coverage"
+    },
+    "95.0%": {
+      "value_pct": 95.0,
+      "numerator": 285.0,
+      "denominator": 300.0,
+      "definition": "Synthetic messy benchmark coverage"
+    },
+    "78.33%": {
+      "value_pct": 78.33,
+      "numerator": 47.0,
+      "denominator": 60.0,
+      "definition": "Hard holdout out-of-domain benchmark accuracy & coverage"
+    },
+    "17.14%": {
+      "value_pct": 17.14,
+      "numerator": 133681.0,
+      "denominator": 780000.0,
+      "definition": "Unrounded annual baseline savings rate (17.1386%)"
+    },
+    "23.04%": {
+      "value_pct": 23.04,
+      "numerator": 179749.5,
+      "denominator": 780000.0,
+      "definition": "Unrounded projected savings rate (23.0448%)"
+    },
+    "5%": {
+      "value_pct": 5.0,
+      "numerator": 5.0,
+      "denominator": 100.0,
+      "definition": "Pipeline amount tolerance parameter (\u00b15% median) for subscription detection"
+    },
+    "50%": {
+      "value_pct": 50.0,
+      "numerator": 1.0,
+      "denominator": 2.0,
+      "definition": "Target reduction ratio for scenario recommendations"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+* text=auto eol=lf
+*.csv text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sql text eol=lf
+*.txt text eol=lf
+*.ini text eol=lf
+*.toml text eol=lf
+Makefile text eol=lf
+*.png binary
+*.gif binary
+*.pdf binary
+*.pbix binary
+*.ttf binary
+*.db binary
+*.ico binary

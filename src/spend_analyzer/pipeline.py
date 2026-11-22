@@ -1,4 +1,5 @@
 # src/spend_analyzer/pipeline.py
+import argparse
 import re
 import sys
 import time
@@ -27,14 +28,19 @@ def _find_ref_path(filename: str) -> Path:
     return p
 
 
-def run(csv_path: str | Path, fmt: str = "hdfc_like", engine=None):
+def run(
+    csv_path: str | Path,
+    fmt: str = "auto",
+    bank: str | None = None,
+    engine=None,
+):
     t0 = time.perf_counter()
 
     if engine is None:
         engine = get_engine()
 
     # 1. Parse
-    raw_df = parse_csv(str(csv_path), fmt=fmt)
+    raw_df = parse_csv(str(csv_path), fmt=fmt, bank=bank)
 
     # 2. Clean
     cleaned_df = clean(raw_df)
@@ -76,9 +82,10 @@ def run(csv_path: str | Path, fmt: str = "hdfc_like", engine=None):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python -m spend_analyzer.pipeline <csv_path> [fmt]")
-        sys.exit(1)
-    csv_file = sys.argv[1]
-    format_name = sys.argv[2] if len(sys.argv) > 2 else "hdfc_like"
-    run(csv_file, fmt=format_name)
+    parser = argparse.ArgumentParser(description="Run spend analyzer pipeline")
+    parser.add_argument("csv_path", help="Path to statement CSV")
+    parser.add_argument("fmt", nargs="?", default="auto", help="Bank format layout (default: auto)")
+    parser.add_argument("--bank", "-b", dest="bank", default=None, help="Explicit bank format layout")
+    args = parser.parse_args()
+
+    run(args.csv_path, fmt=args.fmt, bank=args.bank)

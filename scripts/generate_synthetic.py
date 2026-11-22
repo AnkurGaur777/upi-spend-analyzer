@@ -10,6 +10,7 @@ random.seed(42)
 START = date(2025, 10, 1)
 N_MONTHS = 12
 OUT = Path("data/raw/synthetic/statement_synthetic.csv")
+OUT_ICICI = Path("data/raw/synthetic/statement_icici_like.csv")
 
 
 def month_first(i: int) -> date:
@@ -80,22 +81,48 @@ df = pd.DataFrame(rows, columns=["date", "narration", "amount", "direction"]).so
 
 balance = 40000.0
 out = []
+out_icici = []
 for r in df.itertuples():
     balance += r.amount if r.direction == "credit" else -r.amount
     if balance < 500:  # keep the account from going negative: top-up credit
         topup = 20000
         balance += topup
-        out.append({"Date": r.date.strftime("%d/%m/%y"), "Narration": "NEFT CR-SELF-TOPUP", "Chq./Ref.No.": ref(),
-                    "Withdrawal Amt.": "", "Deposit Amt.": topup, "Closing Balance": round(balance, 2)})
+        ref_topup = ref()
+        out.append({
+            "Date": r.date.strftime("%d/%m/%y"),
+            "Narration": "NEFT CR-SELF-TOPUP",
+            "Chq./Ref.No.": ref_topup,
+            "Withdrawal Amt.": "",
+            "Deposit Amt.": topup,
+            "Closing Balance": round(balance, 2)
+        })
+        out_icici.append({
+            "Transaction Date": r.date.strftime("%d-%m-%Y"),
+            "Transaction Details": "NEFT CR-SELF-TOPUP",
+            "Cheque Number": ref_topup,
+            "Debit Amount": "",
+            "Credit Amount": topup,
+            "Balance": round(balance, 2)
+        })
+    ref_main = ref()
     out.append({
         "Date": r.date.strftime("%d/%m/%y"),
         "Narration": r.narration,
-        "Chq./Ref.No.": ref(),
+        "Chq./Ref.No.": ref_main,
         "Withdrawal Amt.": r.amount if r.direction == "debit" else "",
         "Deposit Amt.": r.amount if r.direction == "credit" else "",
         "Closing Balance": round(balance, 2),
     })
+    out_icici.append({
+        "Transaction Date": r.date.strftime("%d-%m-%Y"),
+        "Transaction Details": r.narration,
+        "Cheque Number": ref_main,
+        "Debit Amount": r.amount if r.direction == "debit" else "",
+        "Credit Amount": r.amount if r.direction == "credit" else "",
+        "Balance": round(balance, 2),
+    })
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
 pd.DataFrame(out).to_csv(OUT, index=False)
-print(f"Wrote {len(out)} rows -> {OUT}")
+pd.DataFrame(out_icici).to_csv(OUT_ICICI, index=False)
+print(f"Wrote {len(out)} rows -> {OUT} and {OUT_ICICI}")

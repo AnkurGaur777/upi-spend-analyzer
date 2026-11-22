@@ -39,3 +39,43 @@ def test_pipeline_run_twice(tmp_path, capsys):
 
         sum_refund = conn.execute(text("SELECT SUM(is_refund) FROM transactions")).scalar()
         assert sum_refund == 7
+
+
+def test_partition_sums_to_total_rows(tmp_path):
+    db_file = tmp_path / "part.db"
+    engine = create_engine(f"sqlite:///{db_file}")
+    df, rec = run(CSV_PATH, engine=engine)
+
+    with engine.connect() as conn:
+        total_rows = conn.execute(text("SELECT COUNT(*) FROM transactions")).scalar()
+        assert total_rows == 704
+
+        spend_rows = conn.execute(
+            text(
+                "SELECT COUNT(*) FROM transactions "
+                "WHERE direction = 'debit' AND is_transfer = 0 AND is_reversal = 0 AND category <> 'Investments'"
+            )
+        ).scalar()
+        assert spend_rows == 652
+
+        income_rows = conn.execute(
+            text("SELECT COUNT(*) FROM transactions WHERE direction = 'credit' AND category = 'Income' AND is_transfer = 0")
+        ).scalar()
+        assert income_rows == 12
+
+        transfer_rows = conn.execute(text("SELECT COUNT(*) FROM transactions WHERE is_transfer = 1")).scalar()
+        assert transfer_rows == 21
+
+        refund_rows = conn.execute(
+            text("SELECT COUNT(*) FROM transactions WHERE is_refund = 1 OR is_reversal = 1")
+        ).scalar()
+        assert refund_rows == 7
+
+        invest_rows = conn.execute(
+            text("SELECT COUNT(*) FROM transactions WHERE direction = 'debit' AND category = 'Investments'")
+        ).scalar()
+        assert invest_rows == 12
+
+        # Assert mutual exclusivity and exact completeness
+        partition_sum = spend_rows + income_rows + transfer_rows + refund_rows + invest_rows
+        assert partition_sum == total_rows == 704

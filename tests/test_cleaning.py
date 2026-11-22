@@ -86,3 +86,18 @@ def test_clean_synthetic():
     for col in expected_added:
         assert col in df.columns
     assert list(df.columns) == list(raw_df.columns) + expected_added
+
+
+def test_bank_specific_narration_variants():
+    cases = [
+        ("UPI/412345678901/SWIGGY/ICICI/Payment", "SWIGGY"),
+        ("UPI/CR/412345678901/ZOMATO/HDFC", "ZOMATO"),
+        ("UPI/DR/123456789012/UBER RIDES/paytm", "UBER RIDES"),
+        ("IMPS/P2A/412345678901/BIGBASKET", "BIGBASKET"),
+        ("NWD-553014-NEW DELHI", "ATM CASH"),
+        ("POS 416021XXXXXX9999 STARBUCKS COFFEE NEW DELHI", "STARBUCKS COFFEE"),
+        ("NEFT DR-DELHI METRO-CARD RECHARGE", "DELHI METRO CARD"),
+        ("ACH D-MUTUAL FUND SIP-HDFC", "MUTUAL FUND SIP"),
+    ]
+    for narration, expected in cases:
+        assert extract_merchant(narration) == expected, f"Failed on {narration}: got {extract_merchant(narration)}, expected {expected}"

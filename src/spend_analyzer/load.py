@@ -1,14 +1,36 @@
 # src/spend_analyzer/load.py
 import os
+import re
+import sys
 from pathlib import Path
 import dotenv
 import pandas as pd
 from sqlalchemy import create_engine, inspect, text
 
 
-def get_engine():
+def mask_db_url(url: str) -> str:
+    """Mask credentials in database URL for safe logging."""
+    return re.sub(r"://([^:]+):([^@]+)@", r"://\1:***@", url)
+
+
+def get_engine(url: str | None = None):
     dotenv.load_dotenv()
-    return create_engine(os.getenv("DATABASE_URL", "sqlite:///spend.db"))
+    db_url = url or os.getenv("DATABASE_URL", "mysql+pymysql://spend:spendpass@localhost:3306/spend_db")
+    if db_url and "mysql" in db_url:
+        try:
+            eng = create_engine(db_url)
+            with eng.connect() as conn:
+                pass
+            masked = mask_db_url(db_url)
+            print(f"DATABASE INFO: Successfully connected to MySQL at {masked}")
+            return eng
+        except Exception as e:
+            masked = mask_db_url(db_url)
+            print(f"WARNING: MySQL at {masked} is unreachable. Active Database: SQLite fallback ('sqlite:///spend.db')")
+            return create_engine("sqlite:///spend.db")
+
+    print("WARNING: Using SQLite fallback engine ('sqlite:///spend.db')")
+    return create_engine(db_url or "sqlite:///spend.db")
 
 
 def load_transactions(df: pd.DataFrame, engine) -> int:

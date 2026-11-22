@@ -1,10 +1,12 @@
 .venv/
+.venv_clean/
 __pycache__/
 *.pyc
 .pytest_cache/
 .env
 data/raw/private/*
 !data/raw/private/.gitkeep
+data/raw/synthetic/*benchmark*.csv
 data/processed/*
 !data/processed/.gitkeep
 ~$*.pbix
@@ -12,3 +14,9 @@ data/processed/*
 .DS_Store
 .idea/
 .vscode/
+*.db
+*.egg-info/
+visual_showcase.md
+test_venv_temp/
+docs/gif_check/
+
